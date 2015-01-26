@@ -1,0 +1,5 @@
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%w"
+mousetrack on
+

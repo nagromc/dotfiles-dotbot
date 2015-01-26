@@ -1,3 +1,17 @@
-- clean: []
-- link: {}
-- shell: []
+- clean: ['~']
+
+- link:
+    ~/.aliases: .aliases
+    ~/.bash_profile: .bash_profile
+    ~/.bashrc: .bashrc
+    ~/.gitconfig: .gitconfig
+    ~/.screenrc: .screenrc
+    ~/.vimrc: .vimrc
+    ~/.exports: .exports
+    ~/.functions: .functions
+    ~/.path: .path
+
+- shell:
+    - [sudo apt-get install -y screen bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
+    - [echo 'Europe/Paris' | sudo tee /etc/timezone > /dev/null && sudo dpkg-reconfigure -f noninteractive tzdata, Configuring timezone]
+

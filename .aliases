@@ -1,0 +1,16 @@
+### general aliases
+# navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
+
+# ls
+alias ls='ls -CF --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+
+### specific aliases
+alias nload='nload venet0 -u M'
+
