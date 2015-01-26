@@ -10,6 +10,7 @@
     ~/.exports: .exports
     ~/.functions: .functions
     ~/.path: .path
+    ~/.tigrc: .tigrc
 
 - shell:
     - [sudo apt-get install -y screen bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]

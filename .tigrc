@@ -1,0 +1,3 @@
+# Apply the selected stash
+bind stash A !?git stash apply %(stash)
+
