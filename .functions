@@ -3,3 +3,8 @@ function mkd() {
     mkdir -p "$@" && cd "$@"
 }
 
+# quickly backup a file
+function backup() {
+    cp -bf --suffix=.bak.`date +%Y%m%d-%H%M%S` "$1" "$1"
+}
+
