@@ -11,6 +11,9 @@ alias ls='ls -CF --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
+# using user aliases when sudoing
+alias sudo='sudo '
+
 ### specific aliases
 alias nload='nload venet0 -u M'
 
