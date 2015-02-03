@@ -3,3 +3,5 @@
 	email = nagromc@users.noreply.github.com
 [credential]
 	helper = cache --timeout=28800
+[color]
+	ui = auto
