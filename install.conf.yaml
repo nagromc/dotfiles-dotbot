@@ -6,15 +6,16 @@ common:
         ~/.bash_profile: .bash_profile
         ~/.bashrc: .bashrc
         ~/.gitconfig: .gitconfig
-        ~/.screenrc: .screenrc
+        # ~/.screenrc: .screenrc
         ~/.vimrc: .vimrc
         ~/.exports: .exports
         ~/.functions: .functions
         ~/.path: .path
         ~/.tigrc: .tigrc
+        ~/.tmux.conf: .tmux.conf
 
     - shell:
-        - [sudo apt-get install -y screen bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
+        - [sudo apt-get install -y tmux bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
 
 server:
     - clean: ['~']
