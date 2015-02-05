@@ -1,7 +1,37 @@
 [user]
-	name = Morgan Courbet
-	email = nagromc@users.noreply.github.com
+    name = Morgan Courbet
+    email = nagromc@users.noreply.github.com
 [credential]
-	helper = cache --timeout=28800
+    helper = cache --timeout=28800
 [color]
-	ui = auto
+    ui = auto
+[color "status"]
+    added = green
+    updated = green
+    changed = blue
+    untracked = magenta
+[alias]
+    ci = commit
+    co = checkout
+    cb = checkout -b
+    cp = cherry-pick
+    st = status
+    ads = "!sh -c 'git add ${@} && git st' -"
+    a = add --patch
+    d = diff --word-diff=color
+    unstage = reset HEAD
+    uns = unstage
+    ss = stash save --include-untracked
+    sl = stash list
+    sdif = "!sh -c 'git stash show -p stash@{${1}}' -"
+    sdel = "!sh -c 'git stash drop stash@{${1}}' -"
+    sa = "!sh -c 'git stash apply --index stash@{${1}}' -"
+    amend = commit --amend
+    l = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)' --decorate
+[log]
+    date = relative
+[status]
+    short = true
+    branch = true
+[pager]
+    stash = false
