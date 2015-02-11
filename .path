@@ -1,0 +1,4 @@
+PATH=$PATH
+PATH=~/bin:$PATH
+
+export PATH
