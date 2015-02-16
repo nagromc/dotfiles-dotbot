@@ -37,3 +37,6 @@
     stash = false
 [push]
     default = simple
+[core]
+    pager = less -F -S -R -X
+
