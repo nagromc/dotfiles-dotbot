@@ -12,13 +12,17 @@ common:
         ~/.functions: .functions
         ~/.path: .path
         ~/.tigrc: .tigrc
-        ~/.tmux.conf: .tmux.conf
 
     - shell:
-        - [sudo apt-get install -y tmux bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
+        - [sudo apt-get install -y bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
 
 server:
     - clean: ['~']
-    - link: {}
+
+    - link:
+        ~/.tmux.conf: .tmux.conf
+
     - shell:
+        - [sudo apt-get install -y -t wheezy-backports tmux, Installing tmux (backport)]
+        - [sudo apt-get install -y python-pip && pip install powerline-status, Installing powerline]
         - [echo 'Europe/Paris' | sudo tee /etc/timezone > /dev/null && sudo dpkg-reconfigure -f noninteractive tzdata, Configuring timezone]
