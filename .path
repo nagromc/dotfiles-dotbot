@@ -1,4 +1,5 @@
 PATH=$PATH
 PATH=~/bin:$PATH
+PATH=/opt/bin:$PATH
 
 export PATH
