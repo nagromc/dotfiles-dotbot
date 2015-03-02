@@ -24,5 +24,5 @@ server:
 
     - shell:
         - [sudo apt-get install -y -t wheezy-backports tmux, Installing tmux (backport)]
-        - [sudo apt-get install -y python-pip && pip install powerline-status, Installing powerline]
+        - [sudo apt-get install -y python-pip && sudo pip install powerline-status, Installing powerline]
         - [echo 'Europe/Paris' | sudo tee /etc/timezone > /dev/null && sudo dpkg-reconfigure -f noninteractive tzdata, Configuring timezone]
