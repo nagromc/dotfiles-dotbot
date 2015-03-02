@@ -11,6 +11,7 @@
     changed = blue
     untracked = magenta
 [alias]
+    br = branch
     ci = commit
     co = checkout
     cb = checkout -b
@@ -28,6 +29,8 @@
     sa = "!sh -c 'git stash apply --index stash@{${1}}' -"
     amend = commit --amend
     l = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)' --decorate
+    # to use after `git reflog'
+    rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
 [log]
     date = relative
 [status]
