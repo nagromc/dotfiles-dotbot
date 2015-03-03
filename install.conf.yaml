@@ -15,6 +15,7 @@ common:
 
     - shell:
         - [sudo apt-get install -y bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
+        - [git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline, Installing vim-airline]
 
 server:
     - clean: ['~']
