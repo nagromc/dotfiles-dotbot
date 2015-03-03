@@ -12,10 +12,12 @@ common:
         ~/.functions: .functions
         ~/.path: .path
         ~/.tigrc: .tigrc
+        ~/.shell_prompt.sh: .shell_prompt.sh
 
     - shell:
         - [sudo apt-get install -y bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
         - [git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline, Installing vim-airline]
+        - [git clone https://github.com/edkolev/promptline.vim ~/.vim/bundle/promptline.vim, Installing promptline.vim]
 
 server:
     - clean: ['~']
