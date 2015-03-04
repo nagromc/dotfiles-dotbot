@@ -11,7 +11,7 @@ alias ls='ls -CF --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
 
-# using user aliases when sudoing
+# using user aliases when sudoing (does not work for functions; only aliases)
 alias sudo='sudo '
 
 alias shutdown='sudo shutdown -P now'
