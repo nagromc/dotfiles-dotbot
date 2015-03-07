@@ -14,7 +14,7 @@ alias la='ls -A'
 # using user aliases when sudoing (does not work for functions; only aliases)
 alias sudo='sudo '
 
-alias shutdown='sudo shutdown -P now'
+alias shutdown='sudo shutdown -h -P now'
 
 ### specific aliases
 alias nload='nload venet0 -u M'
