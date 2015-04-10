@@ -31,6 +31,7 @@
     l = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)' --decorate
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
+    restore-file = checkout --
 [log]
     date = relative
 [status]
