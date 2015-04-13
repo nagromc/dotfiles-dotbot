@@ -7,6 +7,9 @@ set tabstop=4
 " use spaces instead of tabs
 set expandtab
 
+" 256 colors terminal
+set t_Co=256
+
 filetype plugin indent on
 
 " pathogen VIM plugin manager
