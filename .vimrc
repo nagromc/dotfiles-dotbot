@@ -20,3 +20,34 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
 
+" tmuxline.vim
+" To see the updates, run ':w | :source ~/.vimrc | Tmuxline'.
+" Once finished, run ':TmuxlineSnapshot! ~/.tmuxline.vim.conf' to save the
+" changes.
+let g:tmuxline_theme = 'powerline'
+let g:tmuxline_preset = {
+        \'a'    : ['#H', '#(whoami)'],
+        \'b'    : '',
+        \'c'    : '',
+        \'win'  : ['#I', '#W'],
+        \'cwin' : ['#I', '#W', '#F'],
+        \'x'    : '',
+        \'y'    : '#(uptime | sed "s/.*load average: //")',
+        \'z'    : '%R'}
+" do not let Airline override Tmuxline conf
+let g:airline#extensions#tmuxline#enabled = 0
+
+" promptline.vim
+" To see the updates, run ':w | source ~/.vimrc | PromptlineSnapshot! ~/.shell_prompt.sh' in vim, then run 'source ~/.shell_prompt.sh' in a bash prompt
+let g:promptline_theme = 'powerlineclone'
+"let g:promptline_preset = 'full'
+"unlet g:promptline_preset
+let g:promptline_preset = {
+        \'a'    : [ promptline#slices#host(), promptline#slices#user() ],
+        \'b'    : [ promptline#slices#cwd() ],
+        \'c'    : [ ],
+        \'x'    : [ '\t' ],
+        \'y'    : [ promptline#slices#vcs_branch() ],
+        \'z'    : [ ],
+        \'warn' : [ promptline#slices#last_exit_code() ]}
+
