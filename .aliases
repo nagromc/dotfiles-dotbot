@@ -4,7 +4,8 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~"
+# not compatible with fish
+#alias ~="cd ~"
 
 # ls
 alias ls='ls -CF --color=auto'

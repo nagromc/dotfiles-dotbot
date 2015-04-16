@@ -46,7 +46,7 @@ let g:promptline_preset = {
         \'a'    : [ promptline#slices#host(), promptline#slices#user() ],
         \'b'    : [ promptline#slices#cwd() ],
         \'c'    : [ ],
-        \'x'    : [ '\t' ],
+        \'x'    : [ '$(date "+%H:%M:%S")' ],
         \'y'    : [ promptline#slices#vcs_branch() ],
         \'z'    : [ ],
         \'warn' : [ promptline#slices#last_exit_code() ]}

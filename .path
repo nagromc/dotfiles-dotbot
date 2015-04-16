@@ -1,5 +1,6 @@
-PATH=$PATH
-PATH=~/bin:$PATH
-PATH=/opt/bin:$PATH
+set PATH $PATH
+set PATH ~/bin $PATH
+set PATH /opt/bin $PATH
 
-export PATH
+set -x PATH $PATH
+

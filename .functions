@@ -1,14 +1,14 @@
 # Create a new directory and enter it
-function mkd() {
-    mkdir -p "$@" && cd "$@"
-}
+function mkd
+    mkdir -p $argv; and cd $argv
+end
 
 # quickly backup a file
-function backup() {
-    cp -bf --suffix=.bak.`date +%Y%m%d-%H%M%S` "$1" "$1"
-}
+function backup
+    cp -bf --suffix=.bak.`date +%Y%m%d-%H%M%S` $argv $argv
+end
 
-function aptinst() {
-    sudo apt-get install "$@"
-}
+function aptinst
+    sudo apt-get install $argv
+end
 

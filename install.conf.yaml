@@ -1,7 +1,6 @@
-common:
-    - clean: []
+- clean: []
 
-    - link:
+- link:
         ~/.aliases: .aliases
         ~/.bash_profile: .bash_profile
         ~/.bashrc: .bashrc
@@ -13,22 +12,7 @@ common:
         ~/.path: .path
         ~/.tigrc: .tigrc
         ~/.shell_prompt.sh: .shell_prompt.sh
-
-    - shell:
-        - [sudo apt-get install -y bash-completion dtrx manpages-fr manpages-fr-extra manpages-posix git tig ncdu source-highlight watch wfrench, Installing awesome tools]
-        - [mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim, Installing pathogen.vim]
-        - [git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline, Installing vim-airline]
-        - [git clone https://github.com/edkolev/tmuxline.vim ~/.vim/bundle/tmuxline.vim, Installing tmuxline.vim]
-        - [git clone https://github.com/edkolev/promptline.vim ~/.vim/bundle/promptline.vim, Installing promptline.vim]
-
-server:
-    - clean: ['~']
-
-    - link:
-        ~/.tmux.conf: .tmux.conf
         ~/.tmuxline.vim.conf: .tmuxline.vim.conf
+        ~/.config/fish/config.fish: config.fish
 
-    - shell:
-        - [sudo apt-get install -y -t wheezy-backports tmux, Installing tmux (backport)]
-        #- [sudo apt-get install -y python-pip && sudo pip install powerline-status, Installing powerline]
-        - [echo 'Europe/Paris' | sudo tee /etc/timezone > /dev/null && sudo dpkg-reconfigure -f noninteractive tzdata, Configuring timezone]
+- shell: []
