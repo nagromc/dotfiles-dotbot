@@ -15,6 +15,9 @@ filetype plugin indent on
 " pathogen VIM plugin manager
 execute pathogen#infect()
 
+" force shell because vim doesn't seem to work well with fishshell
+set shell=/bin/sh
+
 " vim-airline
 set laststatus=2
 let g:airline_powerline_fonts = 1
@@ -38,7 +41,7 @@ let g:tmuxline_preset = {
 let g:airline#extensions#tmuxline#enabled = 0
 
 " promptline.vim
-" To see the updates, run ':w | source ~/.vimrc | PromptlineSnapshot! ~/.shell_prompt.sh' in vim, then run 'source ~/.shell_prompt.sh' in a bash prompt
+" To see the updates, run ':w | source ~/.vimrc | PromptlineSnapshot! ~/.shell_prompt.sh' in vim, then run 'source ~/.shell_prompt.sh' in a bash prompt, or 'source .config/fish/config.fish' in a fish prompt
 let g:promptline_theme = 'powerlineclone'
 "let g:promptline_preset = 'full'
 "unlet g:promptline_preset
