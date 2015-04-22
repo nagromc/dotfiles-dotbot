@@ -14,5 +14,8 @@
         ~/.shell_prompt.sh: .shell_prompt.sh
         ~/.tmuxline.vim.conf: .tmuxline.vim.conf
         ~/.config/fish/config.fish: config.fish
+        ~/.ssh/authorized_keys: authorized_keys
+        ~/.ssh/config: ssh_config
 
 - shell: []
+
