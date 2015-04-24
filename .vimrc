@@ -7,6 +7,9 @@ set tabstop=4
 " use spaces instead of tabs
 set expandtab
 
+" view line number
+set number
+
 " 256 colors terminal
 set t_Co=256
 
@@ -22,6 +25,7 @@ set shell=/bin/sh
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
+let g:airline#extensions#tabline#enabled = 1
 
 " tmuxline.vim
 " To see the updates, run ':w | :source ~/.vimrc | Tmuxline'.
