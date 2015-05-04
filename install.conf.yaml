@@ -12,6 +12,7 @@
         ~/.path: .path
         ~/.tigrc: .tigrc
         ~/.shell_prompt.sh: .shell_prompt.sh
+        ~/.tmux.conf: .tmux.conf
         ~/.tmuxline.vim.conf: .tmuxline.vim.conf
         ~/.config/fish/config.fish: config.fish
         ~/.ssh/authorized_keys: authorized_keys
