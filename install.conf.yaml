@@ -19,4 +19,6 @@
         ~/.ssh/config: ssh_config
 
 - shell: []
+- shell:
+        - [git clone https://github.com/tmux-plugins/tmux-resurrect ~/clone/path, Installing tmux-resurrect]
 
