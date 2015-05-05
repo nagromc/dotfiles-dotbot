@@ -11,6 +11,7 @@ alias .....="cd ../../../.."
 alias ls='ls -CF --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
+alias lsa='la'
 alias lla='ls -lA'
 
 # using user aliases when sudoing (does not work for functions; only aliases)
