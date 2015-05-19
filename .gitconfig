@@ -16,6 +16,7 @@
     co = checkout
     cb = checkout -b
     cp = cherry-pick
+    cm = commit -m
     st = status
     ads = "!sh -c 'git add ${@} && git st' -"
     a = add --patch
