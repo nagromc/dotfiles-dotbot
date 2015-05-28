@@ -1,8 +1,6 @@
 Host h
-    Hostname hidden:_please_change
     Port 443
 
 Host s
-    Hostname hidden:_please_change
     Port 4222
 

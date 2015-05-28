@@ -24,3 +24,6 @@ alias nload='nload venet0 -u M'
 
 alias bak='backup'
 
+# concat public and private .ssh/config (as ssh doesn't provide an include feature)
+alias ssh='ssh -F (cat ~/.ssh/config ~/.ssh/config_local | psub)'
+
