@@ -2,22 +2,19 @@
 
 - link:
         ~/.aliases: .aliases
-        ~/.bash_profile: .bash_profile
-        ~/.bashrc: .bashrc
-        ~/.gitconfig: .gitconfig
-        # ~/.screenrc: .screenrc
-        ~/.vimrc: .vimrc
-        ~/.vim: vim/
+        ~/.config/fish/config.fish: config.fish
         ~/.exports: .exports
         ~/.functions: .functions
+        ~/.gitconfig: .gitconfig
         ~/.path: .path
-        ~/.tigrc: .tigrc
         ~/.shell_prompt.sh: .shell_prompt.sh
-        ~/.tmux.conf: .tmux.conf
-        ~/.tmuxline.vim.conf: .tmuxline.vim.conf
-        ~/.config/fish/config.fish: config.fish
         ~/.ssh/authorized_keys: authorized_keys
         ~/.ssh/config: ssh_config
+        ~/.tigrc: .tigrc
+        ~/.tmux.conf: .tmux.conf
+        ~/.tmuxline.vim.conf: .tmuxline.vim.conf
+        ~/.vim: vim/
+        ~/.vimrc: .vimrc
 
 - shell:
         - git submodule update --init --recursive
