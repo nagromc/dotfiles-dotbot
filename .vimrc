@@ -1,3 +1,16 @@
+" ### key mapping
+" remap leader key
+let mapleader = ","
+" go to the next buffer
+nmap <leader>l :bnext<cr>
+
+" go to the previous buffer
+nmap <leader>h :bprevious<cr>
+
+" close buffer
+nmap <leader>bq :bp <bar> bd #<cr>
+" ### end key mapping
+
 " syntax highlighting
 syntax on
 
