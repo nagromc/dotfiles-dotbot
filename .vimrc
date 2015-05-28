@@ -14,11 +14,12 @@ nmap <leader>bq :bp <bar> bd #<cr>
 " syntax highlighting
 syntax on
 
-" tab = 4 columns
+" indentation options
 set tabstop=4
-
-" use spaces instead of tabs
 set expandtab
+set shiftwidth=4
+set autoindent
+set smartindent
 
 " view line number
 set number
