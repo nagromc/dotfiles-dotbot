@@ -7,6 +7,7 @@
         ~/.gitconfig: .gitconfig
         # ~/.screenrc: .screenrc
         ~/.vimrc: .vimrc
+        ~/.vim: vim/
         ~/.exports: .exports
         ~/.functions: .functions
         ~/.path: .path
@@ -19,9 +20,5 @@
         ~/.ssh/config: ssh_config
 
 - shell:
-        - ["mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim", "Installing pathogen.vim"]
-        - ["git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline", "Installing vim-airline"]
-        - ["git clone https://github.com/edkolev/tmuxline.vim ~/.vim/bundle/tmuxline.vim", "Installing tmuxline.vim"]
-        - ["git clone https://github.com/edkolev/promptline.vim ~/.vim/bundle/promptline.vim", "Installing promptline.vim"]
-        - ["git clone https://github.com/tmux-plugins/tmux-resurrect ~/clone/path", "Installing tmux-resurrect"]
+        - git submodule update --init --recursive
 

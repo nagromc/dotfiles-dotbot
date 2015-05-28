@@ -16,7 +16,9 @@ set t_Co=256
 filetype plugin indent on
 
 " pathogen VIM plugin manager
+runtime bundle/pathogen.vim/autoload/pathogen.vim
 execute pathogen#infect()
+execute pathogen#helptags()
 
 " force shell because vim doesn't seem to work well with fishshell
 set shell=/bin/sh
