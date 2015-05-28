@@ -48,4 +48,7 @@
     default = simple
 [core]
     pager = less -F -S -R -X
+# local customization
+[include]
+    path = ~/.gitconfig_local
 
