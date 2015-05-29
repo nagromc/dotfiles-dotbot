@@ -1,24 +1,24 @@
 - clean:
-        - '~'
-        - '~/.config/fish'
-        - '~/.ssh'
+    - '~'
+    - '~/.config/fish'
+    - '~/.ssh'
 
 - link:
-        ~/.aliases: fish/aliases
-        ~/.config/fish/config.fish: fish/config.fish
-        ~/.exports: fish/exports
-        ~/.functions: fish/functions
-        ~/.gitconfig: git/gitconfig
-        ~/.path: fish/path
-        ~/.shell_prompt.sh: fish/shell_prompt.sh
-        ~/.ssh/authorized_keys: ssh/authorized_keys
-        ~/.ssh/config: ssh/config
-        ~/.tigrc: tig/tigrc
-        ~/.tmux.conf: tmux/tmux.conf
-        ~/.tmuxline.vim.conf: tmux/tmuxline.vim.conf
-        ~/.vim: vim/
-        ~/.vimrc: vim/vimrc
+    ~/.aliases: fish/aliases
+    ~/.config/fish/config.fish: fish/config.fish
+    ~/.exports: fish/exports
+    ~/.functions: fish/functions
+    ~/.gitconfig: git/gitconfig
+    ~/.path: fish/path
+    ~/.shell_prompt.sh: fish/shell_prompt.sh
+    ~/.ssh/authorized_keys: ssh/authorized_keys
+    ~/.ssh/config: ssh/config
+    ~/.tigrc: tig/tigrc
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmuxline.vim.conf: tmux/tmuxline.vim.conf
+    ~/.vim: vim/
+    ~/.vimrc: vim/vimrc
 
 - shell:
-        - git submodule update --init --recursive
+    - git submodule update --init --recursive
 
