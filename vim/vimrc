@@ -74,3 +74,7 @@ let g:promptline_preset = {
         \'z'    : [ ],
         \'warn' : [ promptline#slices#last_exit_code() ]}
 
+if filereadable(glob("~/.vimrc_local"))
+    source ~/.vimrc_local
+endif
+
