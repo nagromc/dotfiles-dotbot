@@ -36,7 +36,7 @@
     la = "!sh -c 'git l --branches --remotes --tags' -"
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
-    restore-file = checkout --
+    restore = checkout --
 [log]
     date = relative
 [status]
