@@ -1,4 +1,3 @@
-### general aliases
 # navigation
 alias ..="cd .."
 alias ...="cd ../.."
@@ -19,7 +18,6 @@ alias sudo='sudo '
 
 alias shutdown='sudo shutdown -h -P now'
 
-### specific aliases
 alias nload='nload venet0 -u M'
 
 alias bak='backup'
