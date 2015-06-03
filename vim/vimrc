@@ -21,6 +21,9 @@ set shiftwidth=4
 set autoindent
 set smartindent
 
+" show whitespace characters
+set list listchars=tab:»─,trail:•,nbsp:⍽
+
 " view line number
 set number
 
