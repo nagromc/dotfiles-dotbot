@@ -1,11 +1,13 @@
 - clean:
     - '~'
+    - '~/.config'
     - '~/.config/fish'
     - '~/.ssh'
 
 - link:
     ~/.aliases: fish/aliases
     ~/.config/fish/config.fish: fish/config.fish
+    ~/.config/dotfiles: ''
     ~/.exports: fish/exports
     ~/.functions: fish/functions
     ~/.gitconfig: git/gitconfig
