@@ -6,6 +6,8 @@ for file in ~/.{path,exports,aliases,functions,extra};
 end
 set -e file
 
+set -x TERM xterm-256color
+
 # TMUX
 tmux attach; or tmux new
 
