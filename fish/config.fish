@@ -2,7 +2,7 @@
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
 for file in ~/.{path,exports,aliases,functions,extra};
-    [ -r "$file" ] ; and [ -f "$file" ]; and source "$file"
+    [ -r "$file" ] ; and [ -f "$file" ]; and . "$file"
 end
 set -e file
 
