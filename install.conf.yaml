@@ -16,6 +16,7 @@
     ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.ssh/config: ssh/config
     ~/.tigrc: tig/tigrc
+    ~/.tmux: tmux/
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmuxline.vim.conf: tmux/tmuxline.vim.conf
     ~/.vim: vim/

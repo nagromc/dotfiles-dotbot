@@ -2,4 +2,5 @@
 ssh_config_local
 .extra
 .vimrc_local
+tmux/resurrect
 

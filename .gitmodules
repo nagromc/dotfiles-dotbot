@@ -4,6 +4,9 @@
 [submodule "fonts"]
     path = fonts
     url = https://github.com/powerline/fonts.git
+[submodule "tmux/plugins/tmux-resurrect"]
+    path = tmux/plugins/tmux-resurrect
+    url = https://github.com/tmux-plugins/tmux-resurrect.git
 [submodule "vim/bundle/promptline.vim"]
     path = vim/bundle/promptline.vim
     url = https://github.com/nagromc/promptline.vim.git
