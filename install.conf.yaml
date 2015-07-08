@@ -11,6 +11,7 @@
     ~/.exports: fish/exports
     ~/.functions: fish/functions
     ~/.gitconfig: git/gitconfig
+    ~/.minttyrc: mintty/minttyrc
     ~/.path: fish/path
     ~/.shell_prompt.sh: fish/shell_prompt.sh
     ~/.ssh/authorized_keys: ssh/authorized_keys
