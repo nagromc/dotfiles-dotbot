@@ -20,8 +20,6 @@ alias sudo='sudo '
 
 alias shutdown='sudo shutdown -h -P now'
 
-alias nload='nload venet0 -u M'
-
 alias bak='backup'
 
 alias g='git'
