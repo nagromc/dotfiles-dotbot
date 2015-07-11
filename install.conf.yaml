@@ -25,4 +25,5 @@
 
 - shell:
     - git submodule update --init --recursive
+    - ["./atom/install-packages.sh", Installing awesome packages for Atom]
 

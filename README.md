@@ -20,6 +20,7 @@ My dotfiles uses the following awesomeness:
 - [`tmuxline.vim`](https://github.com/edkolev/tmuxline.vim)
 - [`tmux-resurrect`](https://github.com/tmux-plugins/tmux-resurrect)
 - [`tig`](http://jonas.nitro.dk/tig/)
+- [`atom`](https://atom.io/)
 - [`mintty`](http://mintty.github.io/)
 - [`powerline`](https://github.com/powerline/powerline) [fonts](https://github.com/powerline/fonts)
 - [Solarized](http://ethanschoonover.com/solarized) color scheme
