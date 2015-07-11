@@ -13,6 +13,8 @@ alias la='ls -A'
 alias lsa='la'
 alias lla='ls -lA'
 
+alias rmrf='rm -rf'
+
 # using user aliases when sudoing (does not work for functions; only aliases)
 alias sudo='sudo '
 
