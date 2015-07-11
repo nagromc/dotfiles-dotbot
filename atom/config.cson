@@ -1,0 +1,21 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    autoIndent: true
+    fontSize: 10
+    invisibles:
+      space: "•"
+      tab: "─"
+    normalizeIndentOnPaste: true
+    showIndentGuide: true
+    showInvisibles: true
+    showLineNumbers: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: true
+    removeTrailingWhitespace: true

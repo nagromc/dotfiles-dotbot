@@ -6,6 +6,10 @@
 
 - link:
     ~/.aliases: fish/aliases
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/init.coffee: atom/init.coffee
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/dotfiles: ''
     ~/.exports: fish/exports
