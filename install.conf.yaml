@@ -6,11 +6,20 @@
 
 - link:
     ~/.aliases: fish/aliases
-    ~/.atom/config.cson: atom/config.cson
-    ~/.atom/init.coffee: atom/init.coffee
-    ~/.atom/keymap.cson: atom/keymap.cson
-    ~/.atom/snippets.cson: atom/snippets.cson
-    ~/.config/fish/config.fish: fish/config.fish
+    ~/.atom/config.cson:
+        create: true
+        path: atom/config.cson
+    ~/.atom/init.coffee:
+        create: true
+        path: atom/init.coffee
+    ~/.atom/keymap.cson:
+        create: true
+        path: atom/keymap.cson
+    ~/.atom/snippets.cson:
+        create: true
+        path: atom/snippets.cson
+    ~/.config/fish/config.fish:
+        path: fish/config.fish
     ~/.config/dotfiles: ''
     ~/.exports: fish/exports
     ~/.functions: fish/functions
@@ -18,8 +27,12 @@
     ~/.minttyrc: mintty/minttyrc
     ~/.path: fish/path
     ~/.shell_prompt.sh: fish/shell_prompt.sh
-    ~/.ssh/authorized_keys: ssh/authorized_keys
-    ~/.ssh/config: ssh/config
+    ~/.ssh/authorized_keys:
+        create: true
+        path: ssh/authorized_keys
+    ~/.ssh/config:
+        create: true
+        path: ssh/config
     ~/.tigrc: tig/tigrc
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux/tmux.conf
