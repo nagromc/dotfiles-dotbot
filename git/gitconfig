@@ -44,7 +44,7 @@
 [pager]
     stash = false
 [pull]
-    rebase = true
+    rebase = preserve
 [push]
     default = simple
 [status]
