@@ -32,5 +32,6 @@ alias scp='scp -F (concat_ssh_config)'
 # human readable size for several commands
 alias df='df --human-readable'
 alias du='du --human-readable'
+alias free='free --human'
 alias ls='ls --human-readable'
 
