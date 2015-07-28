@@ -1,58 +1,58 @@
-[user]
-    name = Morgan Courbet
-    email = nagromc@users.noreply.github.com
-[credential]
-    helper = cache --timeout=28800
-[credential "https://github.com"]
-    username = nagromc
-[color]
-    ui = auto
-[color "status"]
-    added = green
-    updated = green
-    changed = blue
-    untracked = magenta
 [alias]
-    br = branch
-    ci = commit
-    co = checkout
-    cb = checkout -b
-    cp = cherry-pick
-    cm = commit -m
-    st = status
-    ads = "!sh -c 'git add ${@} && git st' -"
     a = add --patch
+    amend = commit --amend
+    ads = "!sh -c 'git add ${@} && git st' -"
+    br = branch
+    cb = checkout -b
+    ci = commit
+    cm = commit -m
+    co = checkout
+    cp = cherry-pick
     d = diff --word-diff=color
-    unstage = reset HEAD
-    uns = unstage
-    ss = stash save --include-untracked
-    sl = stash list
+    l = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)' --decorate
+    la = "!sh -c 'git l --branches --remotes --tags' -"
+    restore = checkout --
+    # to use after `git reflog'
+    rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
+    sa = "!sh -c 'git stash apply --index stash@{${1}}' -"
+    sdel = "!sh -c 'git stash drop stash@{${1}}' -"
     # show stash diff for tracked files
     sdif = "!sh -c 'git stash show -p stash@{${1}}' -"
     # show stash diff for *UN*tracked files
     sdifu = "!sh -c 'git show -p stash@{${1}}^3' -"
-    sdel = "!sh -c 'git stash drop stash@{${1}}' -"
-    sa = "!sh -c 'git stash apply --index stash@{${1}}' -"
-    amend = commit --amend
-    l = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)' --decorate
-    la = "!sh -c 'git l --branches --remotes --tags' -"
-    # to use after `git reflog'
-    rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
-    restore = checkout --
+    sl = stash list
+    ss = stash save --include-untracked
+    st = status
+    unstage = reset HEAD
+    uns = unstage
+[color]
+    ui = auto
+[color "status"]
+    added = green
+    changed = blue
+    untracked = magenta
+    updated = green
+[core]
+    editor = vim
+    pager = less -F -S -R -X
+[credential]
+    helper = cache --timeout=28800
+[credential "https://github.com"]
+    username = nagromc
 [log]
     date = relative
-[status]
-    short = true
-    branch = true
 [pager]
     stash = false
-[push]
-    default = simple
-[core]
-    pager = less -F -S -R -X
-    editor = vim
 [pull]
     rebase = true
+[push]
+    default = simple
+[status]
+    branch = true
+    short = true
+[user]
+    name = Morgan Courbet
+    email = nagromc@users.noreply.github.com
 # local customization
 [include]
     path = ~/.gitconfig_local
