@@ -25,6 +25,7 @@
     ~/.functions: fish/functions
     ~/.gitconfig: git/gitconfig
     ~/.minttyrc: mintty/minttyrc
+    ~/.npmrc: npm/npmrc
     ~/.path: fish/path
     ~/.shell_prompt.sh: fish/shell_prompt.sh
     ~/.ssh/authorized_keys:
@@ -42,5 +43,6 @@
 
 - shell:
     - git submodule update --init --recursive
+    - ["mkdir -p ~/opt/ ~/opt/bin/ ~/opt/etc/ ~/opt/include/ ~/opt/lib/ ~/opt/share/", Creating ~/opt folder where you can install extra packages]
     - ["./atom/install-packages.sh", Installing awesome packages for Atom]
 

@@ -1,5 +1,5 @@
 set PATH $PATH
-set PATH ~/bin $PATH
+set PATH ~/opt/bin $PATH
 set PATH /opt/bin $PATH
 
 set -x PATH $PATH

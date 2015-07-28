@@ -1,0 +1,4 @@
+binroot = ~/opt/bin
+manroot = ~/opt/share/man
+root = ~/opt/lib/node_modules
+
