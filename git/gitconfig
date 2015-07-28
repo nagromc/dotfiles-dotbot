@@ -51,6 +51,8 @@
 [core]
     pager = less -F -S -R -X
     editor = vim
+[pull]
+    rebase = true
 # local customization
 [include]
     path = ~/.gitconfig_local
