@@ -21,6 +21,7 @@ My dotfiles uses the following awesomeness:
 - [`tmux-resurrect`](https://github.com/tmux-plugins/tmux-resurrect)
 - [`tig`](http://jonas.nitro.dk/tig/)
 - [`atom`](https://atom.io/)
+- [`npm`](https://www.npmjs.com/)
 - [`mintty`](http://mintty.github.io/)
 - [`powerline`](https://github.com/powerline/powerline) [fonts](https://github.com/powerline/fonts)
 - [Solarized](http://ethanschoonover.com/solarized) color scheme
@@ -33,6 +34,7 @@ Installation
 1. Install the [required softwares](#dependencies) that will not be installed by `dotbot`:
 
         $ sudo apt-get install fish tmux vim tig
+        $ mkdir -p ~/opt/ && wget https://nodejs.org/dist/v0.xx.x/node-v0.xx.x-linux-x64.tar.gz -O - | tar -xz -C ~/opt/ --strip-components=1
 
 2. Change the default shell:
 
