@@ -29,3 +29,8 @@ alias concat_ssh_config='cat ~/.ssh/config_local ~/.ssh/config | psub'
 alias ssh='ssh -F (concat_ssh_config)'
 alias scp='scp -F (concat_ssh_config)'
 
+# human readable size for several commands
+alias df='df --human-readable'
+alias du='du --human-readable'
+alias ls='ls --human-readable'
+
