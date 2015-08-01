@@ -14,8 +14,10 @@
     showIndentGuide: true
     showInvisibles: true
     showLineNumbers: true
+  linter: {}
   welcome:
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: true
     removeTrailingWhitespace: true
+

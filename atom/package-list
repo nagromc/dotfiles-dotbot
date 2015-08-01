@@ -1,4 +1,15 @@
 atom-beautify
+color-picker
+emmet
 linter
+linter-bootlint
+linter-csslint
+linter-htmlhint
+linter-jshint
+linter-jsonlint
+linter-shellcheck
+linter-xmllint
+merge-conflicts
 minimap
+tabs-to-spaces
 
