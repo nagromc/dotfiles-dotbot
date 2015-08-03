@@ -1,0 +1,9 @@
+@echo off
+
+SET PACKAGES_LIST_FILENAME=package-list
+SET BASEDIR=%~dp0
+SET PACKAGES_LIST_PATH=%BASEDIR%%PACKAGES_LIST_FILENAME%
+SET APM_CMD=apm
+
+apm install --packages-file %PACKAGES_LIST_PATH%
+
