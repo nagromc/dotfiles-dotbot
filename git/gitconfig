@@ -3,6 +3,7 @@
     amend = commit --amend
     ads = "!sh -c 'git add ${@} && git st' -"
     br = branch
+    bra = branch --all -vv
     cb = checkout -b
     ci = commit
     cm = commit -m
