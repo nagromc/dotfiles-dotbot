@@ -1,6 +1,9 @@
 # Apply the selected stash
 bind stash A !?git stash apply %(stash)
 
+# use utf-8 tablechart to draw the git tree
+set line-graphics = utf-8
+
 # Views based on /etc/tigrc
 set blame-view	= date:relative author:full file-name:auto id:yes,color line-number:no,interval=5 text
 set grep-view	= file-name:no line-number:yes,interval=1 text
