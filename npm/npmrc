@@ -2,3 +2,8 @@ binroot = ~/opt/bin
 manroot = ~/opt/share/man
 root = ~/opt/lib/node_modules
 
+; proxy settings
+;proxy=http://<domain>%5C<user>:<password>@<proxy-host>:<proxy-port>
+;strict-ssl = false
+;registry = http://registry.npmjs.org/
+
