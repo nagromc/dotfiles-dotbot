@@ -5,7 +5,6 @@
     - '~/.ssh'
 
 - link:
-    ~/.aliases: fish/aliases
     ~/.atom/config.cson:
         create: true
         path: atom/config.cson
@@ -18,16 +17,28 @@
     ~/.atom/snippets.cson:
         create: true
         path: atom/snippets.cson
+    ~/.config/fish/aliases:
+        create: true
+        path: fish/aliases
     ~/.config/fish/config.fish:
+        create: true
         path: fish/config.fish
+    ~/.config/fish/functions:
+        create: true
+        path: fish/functions
+    ~/.config/fish/exports:
+        create: true
+        path: fish/exports
+    ~/.config/fish/path:
+        create: true
+        path: fish/path
     ~/.config/dotfiles: ''
-    ~/.exports: fish/exports
-    ~/.functions: fish/functions
     ~/.gitconfig: git/gitconfig
     ~/.minttyrc: mintty/minttyrc
     ~/.npmrc: npm/npmrc
-    ~/.path: fish/path
-    ~/.shell_prompt.sh: fish/shell_prompt.sh
+    ~/.config/fish/shell_prompt.sh:
+        create: true
+        path: fish/shell_prompt.sh
     ~/.ssh/authorized_keys:
         create: true
         path: ssh/authorized_keys
