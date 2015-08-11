@@ -1,6 +1,7 @@
 atom-beautify
 color-picker
 emmet
+highlight-selected
 linter
 linter-bootlint
 linter-csslint
@@ -11,5 +12,8 @@ linter-shellcheck
 linter-xmllint
 merge-conflicts
 minimap
+minimap-find-and-replace
+minimap-git-diff
+minimap-highlight-selected
+project-manager
 tabs-to-spaces
-
