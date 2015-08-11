@@ -8,6 +8,7 @@
     autoIndent: true
     fontSize: 10
     invisibles:
+      cr: "␍"
       space: "•"
       tab: "─"
     normalizeIndentOnPaste: true
@@ -20,4 +21,3 @@
   whitespace:
     ensureSingleTrailingNewline: true
     removeTrailingWhitespace: true
-
