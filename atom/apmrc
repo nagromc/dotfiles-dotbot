@@ -1,0 +1,3 @@
+; proxy settings
+;proxy=http://<domain>%5C<user>:<password>@<proxy-host>:<proxy-port>
+

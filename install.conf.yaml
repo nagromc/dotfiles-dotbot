@@ -5,6 +5,9 @@
     - '~/.ssh'
 
 - link:
+    ~/.atom/.apmrc:
+        create: true
+        path: atom/apmrc
     ~/.atom/config.cson:
         create: true
         path: atom/config.cson
