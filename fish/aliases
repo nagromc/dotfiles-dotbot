@@ -6,13 +6,6 @@ alias .....="cd ../../../.."
 # not compatible with fish
 #alias ~="cd ~"
 
-# ls
-alias ls='ls -CF --color=auto'
-alias ll='ls -l'
-alias la='ls -A'
-alias lsa='la'
-alias lla='ls -lA'
-
 alias rmrf='rm -rf'
 
 # using user aliases when sudoing (does not work for functions; only aliases)
@@ -33,5 +26,11 @@ alias scp='scp -F (concat_ssh_config)'
 alias df='df --human-readable'
 alias du='du --human-readable'
 alias free='free --human'
-alias ls='ls --human-readable'
+
+# ls
+alias ls='ls -CF --human-readable --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+alias lsa='la'
+alias lla='ls -lA'
 
