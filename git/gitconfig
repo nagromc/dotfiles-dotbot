@@ -10,6 +10,7 @@
     co = checkout
     cp = cherry-pick
     d = diff --word-diff=color
+    fe = fetch
     l = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)' --decorate
     la = "!sh -c 'git l --branches --remotes --tags' -"
     restore = checkout --
