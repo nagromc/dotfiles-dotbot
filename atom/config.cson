@@ -15,7 +15,14 @@
     showIndentGuide: true
     showInvisibles: true
     showLineNumbers: true
+  file-icons:
+      coloured: false
   linter: {}
+  minimap:
+    plugins:
+      "git-diff": true
+      "highlight-selected": true
+      "find-and-replace": true
   welcome:
     showOnStartup: false
   whitespace:
