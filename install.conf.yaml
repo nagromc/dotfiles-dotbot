@@ -35,14 +35,14 @@
     ~/.config/fish/path:
         create: true
         path: fish/path
+    ~/.config/fish/shell_prompt.sh:
+        create: true
+        path: fish/shell_prompt.sh
     ~/.config/dotfiles: ''
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.minttyrc: mintty/minttyrc
     ~/.npmrc: npm/npmrc
-    ~/.config/fish/shell_prompt.sh:
-        create: true
-        path: fish/shell_prompt.sh
     ~/.ssh/authorized_keys:
         create: true
         path: ssh/authorized_keys
