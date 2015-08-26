@@ -36,6 +36,7 @@
     updated = green
 [core]
     editor = vim
+    excludesfile = ~/.gitignore_global
     pager = less -F -S -R -X
 [credential]
     helper = cache --timeout=28800
@@ -58,4 +59,3 @@
 # local customization
 [include]
     path = ~/.gitconfig_local
-
