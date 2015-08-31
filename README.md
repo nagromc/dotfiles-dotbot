@@ -22,6 +22,7 @@ My dotfiles uses the following awesomeness:
 - [OpenSSH](http://www.openssh.com/)
 - [Git](http://git-scm.com/)
 - [Tig](http://jonas.nitro.dk/tig/)
+- [`autojump`](https://github.com/wting/autojump)
 - [Atom](https://atom.io/)
 - [`npm`](https://www.npmjs.com/)
 - [Bower](http://bower.io/)
@@ -37,7 +38,7 @@ Installation
 
 1. Install the [required softwares](#dependencies) that will not be installed by `dotbot`:
 
-        $ sudo apt-get install fish tmux vim tig
+        $ sudo apt-get install fish tmux vim tig autojump
         $ mkdir -p ~/opt/ && wget https://nodejs.org/dist/v0.xx.x/node-v0.xx.x-linux-x64.tar.gz -O - | tar -xz -C ~/opt/ --strip-components=1
 
 2. Change the default shell:

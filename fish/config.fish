@@ -20,3 +20,5 @@ function fish_right_prompt
     env FISH_VERSION=$FISH_VERSION PROMPTLINE_LAST_EXIT_CODE=$status bash ~/.config/fish/shell_prompt.sh right
 end
 
+# load autojump
+if test -f /usr/share/autojump/autojump.fish; . /usr/share/autojump/autojump.fish; end
