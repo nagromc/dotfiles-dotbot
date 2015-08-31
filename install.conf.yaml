@@ -5,6 +5,9 @@
     - '~/.config/fish'
     - '~/.ssh'
 
+- shell:
+    - git submodule update --init --recursive
+
 - link:
     ~/.atom/.apmrc:
         create: true
@@ -58,7 +61,6 @@
     ~/.vimrc: vim/vimrc
 
 - shell:
-    - git submodule update --init --recursive
     - ["mkdir -p ~/opt/ ~/opt/bin/ ~/opt/etc/ ~/opt/include/ ~/opt/lib/ ~/opt/share/", Creating ~/opt folder where you can install extra packages]
     - ["./atom/install-packages.sh", Installing awesome packages for Atom]
     - ["mjson.js -f -s ~/.config/dotfiles/bower/bowerrc -o ~/.bowerrc", Minifying .bowerrc (mjson.js must be installed with `sudo npm install -g mjson`)]
