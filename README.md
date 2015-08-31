@@ -64,9 +64,9 @@ If you don't want to share private data, or if you have a specific environment y
 
 Those files can be added to extend the dotfiles:
 
-| File…                 | …will extend                 |
-| --------------------- | ---------------------------- |
-| `~/.vimrc_local`      | `~/.vimrc`                   |
-| `~/.ssh/config_local` | `~/.ssh/config`              |
-| `~/.gitconfig_local`  | `~/.gitconfig`               |
-| `~/.extra`            | `~/.config/fish/config.fish` |
+| File…                  | …will extend                 |
+| ---------------------- | ---------------------------- |
+| `~/.vimrc_local`       | `~/.vimrc`                   |
+| `~/.ssh/config_local`  | `~/.ssh/config`              |
+| `~/.gitconfig_local`   | `~/.gitconfig`               |
+| `~/.config/fish/extra` | `~/.config/fish/config.fish` |

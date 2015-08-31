@@ -36,6 +36,9 @@
     ~/.config/fish/exports:
         create: true
         path: fish/exports
+    ~/.config/fish/extra:
+        create: true
+        path: fish/extra
     ~/.config/fish/path:
         create: true
         path: fish/path

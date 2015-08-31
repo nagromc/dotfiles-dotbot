@@ -1,6 +1,6 @@
 .gitconfig_local
 ssh_config_local
-.extra
+fish/extra
 .vimrc_local
 tmux/resurrect
 
