@@ -3,6 +3,7 @@
     - '~/.atom'
     - '~/.config'
     - '~/.config/fish'
+    - '~/.config/fish/functions'
     - '~/.ssh'
 
 - shell:
@@ -30,7 +31,7 @@
     ~/.config/fish/config.fish:
         create: true
         path: fish/config.fish
-    ~/.config/fish/functions:
+    ~/.config/fish/functions/functions:
         create: true
         path: fish/functions
     ~/.config/fish/exports:
