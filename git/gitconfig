@@ -1,6 +1,6 @@
 [alias]
     a = add --patch
-    amend = commit --amend
+    amd = commit --amend
     ads = "!sh -c 'git add ${@} && git st' -"
     br = branch
     bra = branch --all -vv
