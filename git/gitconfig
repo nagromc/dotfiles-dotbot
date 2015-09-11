@@ -13,6 +13,7 @@
     fe = fetch
     l = log --graph --abbrev-commit --decorate
     la = "!sh -c 'git l --branches --remotes --tags' -"
+    resh = reset --hard
     restore = checkout --
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
