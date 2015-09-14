@@ -1,6 +1,8 @@
 .gitconfig_local
 ssh_config_local
 fish/extra
+fish/functions/fish_user_key_bindings.fish
+fish/functions/fzf_key_bindings.fish
 .vimrc_local
 tmux/resurrect
 
