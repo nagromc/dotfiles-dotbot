@@ -44,6 +44,9 @@ set shell=/bin/sh
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_show_hidden = 1
 
+" Ctrl+n to toggle to open/close NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
 " vim-airline
 set laststatus=2
 let g:airline_powerline_fonts = 1
