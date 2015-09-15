@@ -5,6 +5,7 @@
     - '~/.config/fish'
     - '~/.config/fish/functions'
     - '~/.ssh'
+    - '~/.vim'
 
 - shell:
     - git submodule update --init --recursive
@@ -59,7 +60,12 @@
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmuxline.vim.conf: tmux/tmuxline.vim.conf
-    ~/.vim: vim/
+    ~/.vim/bundle:
+        create: true
+        path: vim/bundle
+    ~/.vim/colors/molokai.vim:
+        create: true
+        path: vim/colors/molokai/colors/molokai.vim
     ~/.vimrc: vim/vimrc
 
 - shell:

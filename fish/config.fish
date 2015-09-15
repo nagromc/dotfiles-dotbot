@@ -6,7 +6,8 @@ for file in ~/.config/fish/{path,exports,aliases,extra};
 end
 set -e file
 
-set -x TERM xterm-256color
+# "xterm-256color" doesn't seem to be a friend of tmux
+set -x TERM screen-256color
 
 # TMUX
 tmux attach; or tmux new
