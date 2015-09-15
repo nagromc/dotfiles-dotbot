@@ -27,6 +27,24 @@ set list listchars=tab:»─,trail:•,nbsp:⍽
 " view line number
 set number
 
+" Relative line numbering
+set relativenumber
+
+" Use visual bell instead of beeping
+set visualbell
+
+" Split below, more natural
+set splitbelow
+
+" Split right, more natural
+set splitright
+
+" Highlight current line
+set cursorline
+
+" Show at least 4 lines above/below the cursor
+set scrolloff=4
+
 " 256 colors terminal
 set t_Co=256
 
