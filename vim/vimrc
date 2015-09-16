@@ -9,6 +9,9 @@ nmap <leader>h :bprevious<cr>
 
 " close buffer
 nmap <leader>bq :bp <bar> bd #<cr>
+
+" Toggle tagbar
+nmap <F8> :TagbarToggle<CR>
 " ### end key mapping
 
 " syntax highlighting
