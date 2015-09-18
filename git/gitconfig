@@ -49,6 +49,8 @@
     username = nagromc
 [format]
     pretty = %C(red)%h%C(reset) - %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)%C(auto)%d%C(reset) %s
+[http]
+    #proxy = http://<user>:<password>@<host_name>:<host_port>
 [log]
     date = relative
 [pager]
