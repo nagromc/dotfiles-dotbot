@@ -14,6 +14,7 @@
     fe = fetch
     l = log --graph --abbrev-commit --decorate
     la = "!sh -c 'git l --branches --remotes --tags' -"
+    patch = diff --patch --no-color
     resh = reset --hard
     restore = checkout --
     # to use after `git reflog'
