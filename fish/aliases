@@ -17,6 +17,8 @@ alias bak='backup'
 
 alias g='git'
 
+alias cpp='cp --parent'
+
 # concat public and private .ssh/config (as ssh doesn't provide an include feature)
 alias concat_ssh_config='cat ~/.ssh/config_local ~/.ssh/config | psub'
 alias ssh='ssh -F (concat_ssh_config)'
