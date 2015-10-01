@@ -17,6 +17,9 @@
     lsbra = branch --all -vv
     lsbrr = branch --remote -vv
     patch = diff --patch --no-color
+    pl = pull
+    ps = push
+    psf = push --force
     rb = rebase
     rba = rebase --abort
     rbc = rebase --continue
