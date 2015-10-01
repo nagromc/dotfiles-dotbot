@@ -3,7 +3,6 @@
     amd = commit --amend
     ads = "!sh -c 'git add ${@} && git st' -"
     br = branch
-    bra = branch --all -vv
     cb = checkout -b
     ci = commit
     cm = commit -m
@@ -14,6 +13,9 @@
     fe = fetch
     l = log --graph --abbrev-commit --decorate
     la = "!sh -c 'git l --branches --remotes --tags' -"
+    lsbr = branch -vv
+    lsbra = branch --all -vv
+    lsbrr = branch --remote -vv
     patch = diff --patch --no-color
     rb = rebase
     rba = rebase --abort
