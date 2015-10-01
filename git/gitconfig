@@ -32,18 +32,19 @@
     restore = checkout --
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
-    sa = "!sh -c 'git stash apply --index stash@{${1}}' -"
-    sdel = "!sh -c 'git stash drop stash@{${1}}' -"
-    # show stash diff for tracked files
-    sdif = "!sh -c 'git stash show -p stash@{${1}}' -"
-    # show stash diff for *UN*tracked files
-    sdifu = "!sh -c 'git show -p stash@{${1}}^3' -"
-    sl = stash list
     sm = submodule
     sms = submodule sync
     smu = submodule update --init --recursive
     smur = smu --remote
-    ss = stash save --include-untracked
+    ssa = "!sh -c 'git stash apply --index stash@{${1}}' -"
+    # show stash diff for tracked files
+    ssdif = "!sh -c 'git stash show -p stash@{${1}}' -"
+    # show stash diff for *UN*tracked files
+    ssdifu = "!sh -c 'git show -p stash@{${1}}^3' -"
+    ssls = stash list
+    sspop = stash pop
+    ssrm = "!sh -c 'git stash drop stash@{${1}}' -"
+    sss = stash save --include-untracked
     st = status
     # remove the deleted remote branches existing on the local repo
     syncrembr = remote prune origin
