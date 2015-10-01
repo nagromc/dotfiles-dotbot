@@ -20,6 +20,9 @@
     rbc = rebase --continue
     rbi = rebase --interactive
     rbs = rebase --skip
+    rem = remote
+    # delete a branch on the repo
+    remrmbr = push origin --delete
     resh = reset --hard
     restore = checkout --
     # to use after `git reflog'
@@ -37,6 +40,8 @@
     smur = smu --remote
     ss = stash save --include-untracked
     st = status
+    # remove the deleted remote branches existing on the local repo
+    syncrembr = remote prune origin
     unstage = reset HEAD
     uns = unstage
 [color]
