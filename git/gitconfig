@@ -1,5 +1,4 @@
 [alias]
-    a = add --patch
     amd = commit --amend
     ads = "!sh -c 'git add ${@} && git st' -"
     br = branch
@@ -8,11 +7,11 @@
     cm = commit -m
     co = checkout
     cp = cherry-pick
-    d = diff --word-diff=color
+    df = diff --word-diff=color
     confed = "! vim ~/.gitconfig"
     fe = fetch
-    l = log --graph --abbrev-commit --decorate
-    la = "!sh -c 'git l --branches --remotes --tags' -"
+    lg = log --graph --abbrev-commit --decorate
+    lga = "!sh -c 'git lg --branches --remotes --tags' -"
     lsbr = branch -vv
     lsbra = branch --all -vv
     lsbrr = branch --remote -vv
