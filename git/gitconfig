@@ -37,10 +37,11 @@
     rem = remote
     # delete a branch on the repo
     remrmbr = push origin --delete
-    resh = reset --hard
     restore = checkout --
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
+    rs = reset
+    rsh = reset --hard
     sm = submodule
     sms = submodule sync
     smu = submodule update --init --recursive
