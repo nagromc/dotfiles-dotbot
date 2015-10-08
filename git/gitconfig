@@ -10,6 +10,16 @@
     df = diff --word-diff=color
     confed = "! vim ~/.gitconfig"
     fe = fetch
+    fl = flow
+    flf = flow feature
+    flfs = flow feature start
+    flff = flow feature finish
+    flh = flow hotfix
+    flhs = flow hotfix start
+    flhf = flow hotfix finish
+    flr = flow release
+    flrs = flow release start
+    flrf = flow release finish
     lg = log --graph --abbrev-commit --decorate
     lga = "!sh -c 'git lg --branches --remotes --tags' -"
     lsbr = branch -vv
