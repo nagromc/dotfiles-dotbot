@@ -15,8 +15,8 @@
     showIndentGuide: true
     showInvisibles: true
     showLineNumbers: true
-  file-icons:
-      coloured: false
+  "file-icons":
+    coloured: false
   linter: {}
   minimap:
     plugins:
