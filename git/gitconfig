@@ -1,14 +1,14 @@
 [alias]
-    amd = commit --amend
     ads = "!sh -c 'git add ${@} && git st' -"
+    amd = commit --amend
     br = branch
     cb = checkout -b
     ci = commit
     cm = commit -m
     co = checkout
+    confed = "! vim ~/.gitconfig"
     cp = cherry-pick
     df = diff --word-diff=color
-    confed = "! vim ~/.gitconfig"
     fe = fetch
     fl = flow
     flf = flow feature
