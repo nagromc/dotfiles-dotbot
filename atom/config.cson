@@ -2,7 +2,7 @@
   core:
     themes: [
       "one-dark-ui"
-      "solarized-dark-syntax"
+      "monokai"
     ]
   editor:
     autoIndent: true
