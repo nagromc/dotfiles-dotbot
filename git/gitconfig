@@ -58,8 +58,8 @@
     st = status
     # remove the deleted remote branches existing on the local repo
     syncrembr = remote prune origin
-    unstage = reset HEAD
-    uns = unstage
+    # unstage changes
+    uns = reset HEAD
 [color]
     ui = auto
 [color "status"]
