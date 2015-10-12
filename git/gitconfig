@@ -4,6 +4,9 @@
     br = branch
     ci = commit
     cim = commit -m
+    cl = clean -d --dry-run
+    clf = clean -d --force
+    cli = clean -d --interactive
     co = checkout
     cob = checkout -b
     confed = "! vim ~/.gitconfig"
@@ -62,6 +65,9 @@
     syncrembr = remote prune origin
     # unstage changes
     uns = reset HEAD
+[clean]
+    # explicitly set requireForce to true to avoid accidents
+    requireForce = true
 [color]
     ui = auto
 [color "status"]
