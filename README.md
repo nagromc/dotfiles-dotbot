@@ -11,23 +11,32 @@ Dependencies
 My dotfiles uses the following awesomeness:
 
 - [`dotbot`](https://github.com/anishathalye/dotbot)
-- [`fish`](http://fishshell.com/)
-- [Vim](http://www.vim.org/)
-- [`pathogen.vim`](https://github.com/tpope/vim-pathogen)
-- [`promptline.vim`](https://github.com/edkolev/promptline.vim)
-- [`vim-airline`](https://github.com/bling/vim-airline)
-- [`tmux`](https://tmux.github.io/)
-- [`tmuxline.vim`](https://github.com/edkolev/tmuxline.vim)
-- [`tmux-resurrect`](https://github.com/tmux-plugins/tmux-resurrect)
+- [`fish`](http://fishshell.com/), and these great utilities:
+    - [`autojump`](https://github.com/wting/autojump)
+    - [`fzf`](https://github.com/junegunn/fzf)
+    - [`thefuck`](https://github.com/nvbn/thefuck)
+- [Vim](http://www.vim.org/), and these shiny plugins:
+    - [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
+    - [`ctrlp.vim`](https://github.com/ctrlpvim/ctrlp.vim)
+    - [NERD Commenter](https://github.com/scrooloose/nerdtree)
+    - [NERD Tree](https://github.com/scrooloose/nerdtree)
+    - [`pathogen.vim`](https://github.com/tpope/vim-pathogen)
+    - [`promptline.vim`](https://github.com/edkolev/promptline.vim)
+    - [`sensible.vim`](https://github.com/tpope/vim-sensible)
+    - [Tagbar](https://github.com/majutsushi/tagbar)
+    - [`tmuxline.vim`](https://github.com/edkolev/tmuxline.vim)
+    - [`vim-airline`](https://github.com/bling/vim-airline)
+    - [`vim-gitgutter`](https://github.com/airblade/vim-gitgutter)
+- [`tmux`](https://tmux.github.io/), and this brilliant plugin:
+    - [`tmux-resurrect`](https://github.com/tmux-plugins/tmux-resurrect)
 - [OpenSSH](http://www.openssh.com/)
-- [Git](http://git-scm.com/)
-- [Tig](http://jonas.nitro.dk/tig/)
-- [`autojump`](https://github.com/wting/autojump)
-- [`fzf`](https://github.com/junegunn/fzf)
-- [`thefuck`](https://github.com/nvbn/thefuck)
-- [Atom](https://atom.io/)
-- [`npm`](https://www.npmjs.com/)
-- [Bower](http://bower.io/)
+- [Git](http://git-scm.com/), and these impressive softs:
+    - [`git-flow` (AVH Edition)](https://github.com/petervanderdoes/gitflow-avh)
+    - [Tig](http://jonas.nitro.dk/tig/)
+- [Atom](https://atom.io/), and these [magnificent packages](https://raw.githubusercontent.com/nagromc/dotfiles/fish/atom/package-list)
+- [`npm`](https://www.npmjs.com/), and these amazing packages:
+    - [`apm`](https://github.com/atom/apm)
+    - [Bower](http://bower.io/)
 - [`mintty`](http://mintty.github.io/)
 - [Powerline](https://github.com/powerline/powerline) [fonts](https://github.com/powerline/fonts)
 - [Solarized](http://ethanschoonover.com/solarized) color scheme
