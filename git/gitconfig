@@ -28,7 +28,9 @@
     patch = diff --patch --no-color
     pl = pull
     ps = push
+    psa = push --all
     psf = push --force
+    pst = push --tags
     rb = rebase
     rba = rebase --abort
     rbc = rebase --continue
