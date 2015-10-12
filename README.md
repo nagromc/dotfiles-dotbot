@@ -41,7 +41,7 @@ Installation
 1. Install the [required softwares](#dependencies) that will not be installed by `dotbot`:
 
         $ sudo apt-get install fish tmux vim tig autojump
-        $ mkdir -p ~/opt/ && wget https://nodejs.org/dist/v0.xx.x/node-v0.xx.x-linux-x64.tar.gz -O - | tar -xz -C ~/opt/ --strip-components=1
+        $ mkdir -p ~/opt/ && wget https://nodejs.org/dist/latest/node-vx.x.x-linux-x64.tar.gz -O - | tar -xz -C ~/opt/ --strip-components=1
         $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf; and ~/dev/fzf
         $ sudo pip install thefuck
 
