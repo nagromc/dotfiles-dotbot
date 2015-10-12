@@ -2,6 +2,8 @@
     ads = "!sh -c 'git add ${@} && git st' -"
     amd = commit --amend
     br = branch
+    # useful for other aliases
+    branch-name = "!sh -c 'git rev-parse --abbrev-ref HEAD' -"
     ci = commit
     cim = commit -m
     cl = clean -d --dry-run
@@ -34,6 +36,7 @@
     psa = push --all
     psf = push --force
     pst = push --tags
+    psu = "!sh -c 'git push --set-upstream origin $(git branch-name)' -"
     rb = rebase
     rba = rebase --abort
     rbc = rebase --continue
