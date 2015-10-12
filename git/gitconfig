@@ -2,10 +2,10 @@
     ads = "!sh -c 'git add ${@} && git st' -"
     amd = commit --amend
     br = branch
-    cb = checkout -b
     ci = commit
-    cm = commit -m
+    cim = commit -m
     co = checkout
+    cob = checkout -b
     confed = "! vim ~/.gitconfig"
     cp = cherry-pick
     df = diff --word-diff=color
