@@ -53,7 +53,7 @@
     sm = submodule
     sms = submodule sync
     smu = submodule update --init --recursive
-    smur = smu --remote
+    smur = submodule update --init --recursive --remote
     ssa = "!sh -c 'git stash apply --index stash@{${1}}' -"
     # show stash diff for tracked files
     ssdif = "!sh -c 'git stash show -p stash@{${1}}' -"
