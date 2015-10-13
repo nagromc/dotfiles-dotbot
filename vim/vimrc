@@ -13,6 +13,18 @@ nmap <leader>bq :bp <bar> bd #<cr>
 " Toggle tagbar
 nmap <F8> :TagbarToggle<CR>
 
+" Disable Arrow keys in Escape mode
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Disable Arrow keys in Insert mode
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
 " next and previous buffer
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
