@@ -82,6 +82,7 @@
     editor = vim
     excludesfile = ~/.gitignore_global
     pager = less -F -S -R -X
+    whitespace = blank-at-eol,space-before-tab,tab-in-indent,blank-at-eof
 [credential]
     helper = cache --timeout=28800
 [credential "https://github.com"]
