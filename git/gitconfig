@@ -64,6 +64,7 @@
     ssrm = "!sh -c 'git stash drop stash@{${1}}' -"
     sss = stash save --include-untracked
     st = status
+    sti = status --ignored
     # remove the deleted remote branches existing on the local repo
     syncrembr = remote prune origin
     # unstage changes
