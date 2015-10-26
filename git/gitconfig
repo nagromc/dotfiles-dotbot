@@ -5,6 +5,8 @@
     # useful for other aliases
     branch-name = "!sh -c 'git rev-parse --abbrev-ref HEAD' -"
     ci = commit
+    cia = commmit --all
+    ciam = commit --all -m
     cim = commit -m
     cl = clean -d --dry-run
     clf = clean -d --force
