@@ -2,6 +2,9 @@
     ads = "!sh -c 'git add ${@} && git st' -"
     amd = commit --amend
     br = branch
+    brls = branch -vv
+    brlsa = branch --all -vv
+    brlsr = branch --remote -vv
     # useful for other aliases
     branch-name = "!sh -c 'git rev-parse --abbrev-ref HEAD' -"
     ci = commit
@@ -29,9 +32,6 @@
     flrf = flow release finish
     lg = log --graph --abbrev-commit --decorate
     lga = "!sh -c 'git lg --branches --remotes --tags' -"
-    lsbr = branch -vv
-    lsbra = branch --all -vv
-    lsbrr = branch --remote -vv
     patch = diff --patch --no-color
     pl = pull
     ps = push
