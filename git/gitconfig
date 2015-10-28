@@ -47,7 +47,9 @@
     rbs = rebase --skip
     rem = remote
     # delete a branch on the repo
-    remrmbr = push origin --delete
+    remdbr = push origin --delete
+    # remove the deleted remote branches existing on the local repo
+    remsyncbr = remote prune origin
     restore = checkout --
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
@@ -68,8 +70,6 @@
     sss = stash save --include-untracked
     st = status
     sti = status --ignored
-    # remove the deleted remote branches existing on the local repo
-    syncrembr = remote prune origin
     # unstage changes
     uns = reset HEAD
 [clean]
