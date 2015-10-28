@@ -33,6 +33,7 @@
     flrf = flow release finish
     lg = log --graph --abbrev-commit --decorate
     lga = "!sh -c 'git lg --branches --remotes --tags' -"
+    mt = mergetool
     patch = diff --patch --no-color
     pl = pull
     ps = push
