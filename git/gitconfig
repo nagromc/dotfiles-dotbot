@@ -2,6 +2,7 @@
     ads = "!sh -c 'git add ${@} && git st' -"
     amd = commit --amend
     br = branch
+    brd = branch -d
     brls = branch -vv
     brlsa = branch --all -vv
     brlsr = branch --remote -vv
