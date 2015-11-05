@@ -1,5 +1,5 @@
 set -x LESSOPEN "| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
-set -x LESS ' -R -F -X'
+set -x LESS ' -R -F -X --ignore-case --jump-target=5'
 
 # template to define http_proxy variable (do it in the extra file)
 #set -x http_proxy http://<domain>%5C<user>:<password>@<proxy-host>:<proxy-port>
