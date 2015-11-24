@@ -16,6 +16,8 @@ minimap
 minimap-find-and-replace
 minimap-git-diff
 minimap-highlight-selected
+minimap-split-diff
 monokai
 project-manager
+split-diff
 tabs-to-spaces
