@@ -2,6 +2,9 @@ atom-beautify
 color-picker
 emmet
 file-icons
+git-blame
+git-history
+git-plus
 highlight-selected
 linter
 linter-bootlint
