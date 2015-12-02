@@ -57,6 +57,7 @@
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
     rs = reset
     rsh = reset --hard
+    sh = show
     sm = submodule
     sms = submodule sync
     smu = submodule update --init --recursive
