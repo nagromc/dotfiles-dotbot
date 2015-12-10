@@ -17,6 +17,7 @@ My dotfiles uses the following awesomeness:
     - [`thefuck`](https://github.com/nvbn/thefuck)
 - [Vim](http://www.vim.org/), and these shiny plugins:
     - [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
+    - [`commentary.vim`](https://github.com/tpope/vim-commentary)
     - [`ctrlp.vim`](https://github.com/ctrlpvim/ctrlp.vim)
     - [NERD Commenter](https://github.com/scrooloose/nerdtree)
     - [NERD Tree](https://github.com/scrooloose/nerdtree)
