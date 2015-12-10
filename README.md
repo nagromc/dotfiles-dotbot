@@ -23,6 +23,7 @@ My dotfiles uses the following awesomeness:
     - [`pathogen.vim`](https://github.com/tpope/vim-pathogen)
     - [`promptline.vim`](https://github.com/edkolev/promptline.vim)
     - [`sensible.vim`](https://github.com/tpope/vim-sensible)
+    - [`surround.vim`](https://github.com/tpope/vim-surround)
     - [Tagbar](https://github.com/majutsushi/tagbar)
     - [`tmuxline.vim`](https://github.com/edkolev/tmuxline.vim)
     - [`vim-airline`](https://github.com/bling/vim-airline)
