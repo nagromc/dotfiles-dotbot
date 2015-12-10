@@ -74,6 +74,12 @@ set scrolloff=4
 " 256 colors terminal
 set t_Co=256
 
+" set a 'warning' to the column 80
+let &colorcolumn=join(range(81,999),",")
+
+" set a 'danger' zone to the column 120
+let &colorcolumn="80,".join(range(120,999),",")
+
 filetype plugin indent on
 
 " pathogen VIM plugin manager
