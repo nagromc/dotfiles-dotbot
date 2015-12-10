@@ -28,6 +28,7 @@ My dotfiles uses the following awesomeness:
     - [`tmuxline.vim`](https://github.com/edkolev/tmuxline.vim)
     - [`vim-airline`](https://github.com/bling/vim-airline)
     - [`vim-gitgutter`](https://github.com/airblade/vim-gitgutter)
+    - [`vim-joy`](https://github.com/rking/vim-joy)
 - [`tmux`](https://tmux.github.io/), and this brilliant plugin:
     - [`tmux-resurrect`](https://github.com/tmux-plugins/tmux-resurrect)
 - [OpenSSH](http://www.openssh.com/)
