@@ -1,112 +1,122 @@
-" ### key mapping
+" Colors {{{
+" molokai colorscheme
+colorscheme molokai
+" syntax highlighting
+syntax on
+" 256 colors terminal
+set t_Co=256
+" }}}
+
+" Spaces & Tabs {{{
+" number of spaces to display per <Tab>
+set tabstop=4
+" insert spaces instead of <Tab> when <Tab> key is pressed
+set expandtab
+" number of spaces to insert when <Tab> key is pressed
+set softtabstop=4
+" auto indent (handy when hitting <Enter>)
+set autoindent
+" number of spaces to insert for each step of indent
+set shiftwidth=4
+" indent style according to common file type
+filetype indent on
+" indent style according to specific file type
+filetype plugin on
+" }}}
+
+" UI settings {{{
+" view line number
+set number
+" relative line numbering
+set relativenumber
+" use visual bell instead of beeping
+set visualbell
+" split below, more natural
+set splitbelow
+" split right, more natural
+set splitright
+" highlight current line
+set cursorline
+" show at least 4 lines above/below the cursor
+set scrolloff=4
+" show whitespace characters
+set list listchars=tab:»─,trail:•,nbsp:⍽
+" set a 'warning' to the column 80
+let &colorcolumn=join(range(81,999),",")
+" set a 'danger' zone to the column 120
+let &colorcolumn="80,".join(range(120,999),",")
+" }}}
+
+" Searching {{{
+" ignore case when searching
+set ignorecase
+" search as characters are entered
+set incsearch
+" highlight all matches
+set hlsearch
+" }}}
+
+" Folding {{{
+" set default folding method
+set foldmethod=indent
+" }}}
+
+" Key mapping {{{
 " remap leader key
 let mapleader = ","
 " go to the next buffer
 nmap <leader>l :bnext<cr>
-
 " go to the previous buffer
 nmap <leader>h :bprevious<cr>
-
 " close buffer
 nmap <leader>bq :bp <bar> bd #<cr>
-
-" Toggle tagbar
+" toggle tagbar
 nmap <F8> :TagbarToggle<CR>
-
-" Disable Arrow keys in Escape mode
+" disable Arrow keys in Escape mode
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
-
-" Disable Arrow keys in Insert mode
+" disable Arrow keys in Insert mode
 imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
-
 " next and previous buffer
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
-
 " next and previous tabs
 map <C-L> :tabn<CR>
 map <C-H> :tabp<CR>
-" ### end key mapping
+" Ctrl+n to toggle to open/close NERDTree
+map <C-n> :NERDTreeToggle<CR>
+" }}}
 
+" Commands {{{
 " grant root access to edit the current file
 command! W w !sudo tee % > /dev/null
+" }}}
 
-" syntax highlighting
-syntax on
-
-" indentation options
-set tabstop=4
-set expandtab
-set shiftwidth=4
-set autoindent
-set smartindent
-
-" show whitespace characters
-set list listchars=tab:»─,trail:•,nbsp:⍽
-
-" view line number
-set number
-
-" Relative line numbering
-set relativenumber
-
-" Use visual bell instead of beeping
-set visualbell
-
-" Split below, more natural
-set splitbelow
-
-" Split right, more natural
-set splitright
-
-" Highlight current line
-set cursorline
-
-" Show at least 4 lines above/below the cursor
-set scrolloff=4
-
-" 256 colors terminal
-set t_Co=256
-
-" set a 'warning' to the column 80
-let &colorcolumn=join(range(81,999),",")
-
-" set a 'danger' zone to the column 120
-let &colorcolumn="80,".join(range(120,999),",")
-
-filetype plugin indent on
-
-" pathogen VIM plugin manager
+" Plugins {{{
+" pathogen.vim {{{
 runtime bundle/pathogen.vim/autoload/pathogen.vim
 execute pathogen#infect()
 execute pathogen#helptags()
+" }}}
 
-" force shell because vim doesn't seem to work well with fishshell
-set shell=/bin/sh
-
-" ctrlp.vim fuzzyfinder plugin
+" ctrlp.vim {{{
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_show_hidden = 1
+" }}}
 
-" Ctrl+n to toggle to open/close NERDTree
-map <C-n> :NERDTreeToggle<CR>
-
-" molokai colorscheme
-colorscheme molokai
-
-" vim-airline
+" vim-airline {{{
 set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme='powerlineish'
 let g:airline#extensions#tabline#enabled = 1
+" }}}
 
-" tmuxline.vim
+" tmuxline.vim {{{
 " To see the updates, run ':w | :source ~/.vimrc | Tmuxline'.
 " Once finished, run ':TmuxlineSnapshot! ~/.tmuxline.vim.conf' to save the
 " changes.
@@ -122,8 +132,9 @@ let g:tmuxline_preset = {
         \'z'    : '%R'}
 " do not let Airline override Tmuxline conf
 let g:airline#extensions#tmuxline#enabled = 0
+" }}}
 
-" promptline.vim
+" promptline.vim {{{
 " To see the updates, run ':w | source ~/.vimrc | PromptlineSnapshot! ~/.shell_prompt.sh' in vim, then run 'source ~/.config/fish/shell_prompt.sh' in a bash prompt, or 'source .config/fish/config.fish' in a fish prompt
 let g:promptline_theme = 'powerlineclone'
 "let g:promptline_preset = 'full'
@@ -136,8 +147,15 @@ let g:promptline_preset = {
         \'y'    : [ '$(date "+%H:%M:%S")' ],
         \'z'    : [ ],
         \'warn' : [ promptline#slices#last_exit_code() ]}
+" }}}
+" }}}
 
+" Miscellaneous {{{
+" force shell because vim doesn't seem to work well with fishshell
+set shell=/bin/sh
+
+" include ~/.vimrc_local
 if filereadable(glob("~/.vimrc_local"))
     source ~/.vimrc_local
 endif
-
+" }}}
