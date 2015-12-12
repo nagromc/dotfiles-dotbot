@@ -58,7 +58,7 @@ set hlsearch
 
 " Folding {{{
 " set default folding method
-set foldmethod=indent
+set foldmethod=syntax
 " }}}
 
 " Key mapping {{{
