@@ -47,6 +47,11 @@ let &colorcolumn=join(range(81,999),",")
 let &colorcolumn="80,".join(range(120,999),",")
 " }}}
 
+" Buffers, tabs, windows {{{
+" allow switching away from current buffer without saving
+set hidden
+" }}}
+
 " Searching {{{
 " ignore case when searching
 set ignorecase
