@@ -66,6 +66,9 @@
     ~/.vim/colors/molokai.vim:
         create: true
         path: vim/colors/molokai/colors/molokai.vim
+    ~/.vim/ftdetect:
+        create: true
+        path: vim/ftdetect
     ~/.vim/ftplugin:
         create: true
         path: vim/ftplugin
