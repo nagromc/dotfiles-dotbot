@@ -93,6 +93,9 @@ map <C-K> :bprev<CR>
 " next and previous tabs
 map <C-L> :tabn<CR>
 map <C-H> :tabp<CR>
+" next and previous buffers
+map œ :bnext<CR>
+map Œ :bprev<CR>
 " Ctrl+n to toggle to open/close NERDTree
 map <C-n> :NERDTreeToggle<CR>
 " }}}
