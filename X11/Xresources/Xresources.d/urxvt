@@ -1,0 +1,4 @@
+URxvt.font: xft:DejaVu Sans Mono for Powerline:size=6
+URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:bold:size=6
+
+URxvt.geometry: 120x42
