@@ -73,6 +73,8 @@
         create: true
         path: vim/ftplugin
     ~/.vimrc: vim/vimrc
+    ~/.Xresources: X11/Xresources/Xresources
+    ~/.Xresources.d: X11/Xresources/Xresources.d
 
 - shell:
     - ["mkdir -p ~/opt/ ~/opt/bin/ ~/opt/etc/ ~/opt/include/ ~/opt/lib/ ~/opt/share/", Creating ~/opt folder where you can install extra packages]

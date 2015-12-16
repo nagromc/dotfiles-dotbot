@@ -56,3 +56,6 @@
 [submodule "vim/colors/molokai"]
     path = vim/colors/molokai
     url = https://github.com/tomasr/molokai.git
+[submodule "X11/Xresources/Xresources.d/solarized"]
+    path = X11/Xresources/Xresources.d/solarized
+    url = https://github.com/solarized/xresources.git
