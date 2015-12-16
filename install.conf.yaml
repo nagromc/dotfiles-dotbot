@@ -73,6 +73,7 @@
         create: true
         path: vim/ftplugin
     ~/.vimrc: vim/vimrc
+    ~/.Xmodmap: X11/Xmodmap
     ~/.Xresources: X11/Xresources/Xresources
     ~/.Xresources.d: X11/Xresources/Xresources.d
 
