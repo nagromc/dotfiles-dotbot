@@ -4,6 +4,9 @@
 [submodule "fonts"]
     path = fonts
     url = https://github.com/powerline/fonts.git
+[submodule "mintty/minttyrc.d/solarized"]
+    path = mintty/minttyrc.d/solarized
+    url = https://github.com/mavnn/mintty-colors-solarized.git
 [submodule "tmux/plugins/tmux-resurrect"]
     path = tmux/plugins/tmux-resurrect
     url = https://github.com/tmux-plugins/tmux-resurrect.git
