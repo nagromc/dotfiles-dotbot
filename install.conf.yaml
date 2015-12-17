@@ -6,6 +6,7 @@
     - '~/.config/fish/functions'
     - '~/.ssh'
     - '~/.vim'
+    - '~/.Xresources.d'
 
 - shell:
     - git submodule update --init --recursive
