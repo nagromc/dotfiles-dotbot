@@ -91,9 +91,12 @@ noremap <C-K> :bprev<CR>
 " next and previous tabs
 noremap <C-L> :tabn<CR>
 noremap <C-H> :tabp<CR>
-" next and previous buffers
+" next and previous buffers on AZERTY keyboard
+" on default fr_FR Unix
 noremap œ :bnext<CR>
 noremap Œ :bprev<CR>
+" on default fr_FR Windows
+noremap ² :bnext<CR>
 " toggle tagbar
 nnoremap <F8> :TagbarToggle<CR>
 " Ctrl+n to toggle to open/close NERDTree
