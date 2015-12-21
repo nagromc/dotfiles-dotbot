@@ -79,6 +79,12 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+" screen movements
+nnoremap j gj
+nnoremap k gk
+nnoremap 0 g0
+nnoremap ^ g^
+nnoremap $ g$
 " go to the next buffer
 nnoremap <leader>l :bnext<cr>
 " go to the previous buffer
