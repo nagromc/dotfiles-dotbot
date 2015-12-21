@@ -29,6 +29,9 @@
     path = vim/bundle/promptline.vim
     url = https://github.com/nagromc/promptline.vim.git
     branch = slices-git-status-color
+[submodule "vim/bundle/syntastic"]
+    path = vim/bundle/syntastic
+    url = https://github.com/scrooloose/syntastic.git
 [submodule "vim/bundle/tagbar"]
     path = vim/bundle/tagbar
     url = https://github.com/majutsushi/tagbar.git
