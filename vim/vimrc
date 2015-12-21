@@ -45,6 +45,9 @@ set list listchars=tab:»─,trail:•,nbsp:⍽
 let &colorcolumn=join(range(81,999),",")
 " set a 'danger' zone to the column 120
 let &colorcolumn="80,".join(range(120,999),",")
+" command line completion: first tab shows matching strings, next tabs complete
+" the next occurrence and cycle through the results
+set wildmode=longest:full,full
 " }}}
 
 " Buffers, tabs, windows {{{
