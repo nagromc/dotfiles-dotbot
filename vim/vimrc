@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 " Colors {{{
 " molokai colorscheme
 colorscheme molokai
@@ -42,9 +44,9 @@ set scrolloff=4
 " show whitespace characters
 set list listchars=tab:»─,trail:•,nbsp:⍽
 " set a 'warning' to the column 80
-let &colorcolumn=join(range(81,999),",")
+let &colorcolumn=join(range(81,999),',')
 " set a 'danger' zone to the column 120
-let &colorcolumn="80,".join(range(120,999),",")
+let &colorcolumn='80,'.join(range(120,999),',')
 " command line completion: first tab shows matching strings, next tabs complete
 " the next occurrence and cycle through the results
 set wildmode=longest:full,full
@@ -71,7 +73,7 @@ set foldmethod=syntax
 
 " Key mapping {{{
 " remap leader key
-let mapleader = ","
+let g:mapleader = ','
 " disable Arrow keys in Escape mode
 map <up> <nop>
 map <down> <nop>
@@ -120,8 +122,8 @@ command! W w !sudo tee % > /dev/null
 " Plugins {{{
 " pathogen.vim {{{
 runtime bundle/pathogen.vim/autoload/pathogen.vim
-execute pathogen#infect()
-execute pathogen#helptags()
+execute g:pathogen#infect()
+execute g:pathogen#helptags()
 " }}}
 
 " ctrlp.vim {{{
@@ -160,13 +162,13 @@ let g:promptline_theme = 'powerlineclone'
 "let g:promptline_preset = 'full'
 "unlet g:promptline_preset
 let g:promptline_preset = {
-        \'a'    : [ promptline#slices#host(), promptline#slices#user() ],
-        \'b'    : [ promptline#slices#cwd() ],
+        \'a'    : [ g:promptline#slices#host(), g:promptline#slices#user() ],
+        \'b'    : [ g:promptline#slices#cwd() ],
         \'c'    : [ ],
-        \'x'    : [ promptline#slices#git_status(), promptline#slices#vcs_branch() ],
+        \'x'    : [ g:promptline#slices#git_status(), g:promptline#slices#vcs_branch() ],
         \'y'    : [ '$(date "+%H:%M:%S")' ],
         \'z'    : [ ],
-        \'warn' : [ promptline#slices#last_exit_code() ]}
+        \'warn' : [ g:promptline#slices#last_exit_code() ]}
 " }}}
 
 " Syntastic {{{
@@ -188,7 +190,7 @@ let g:syntastic_vim_checkers = ['vint']
 set shell=/bin/sh
 
 " include ~/.vimrc_local
-if filereadable(glob("~/.vimrc_local"))
+if filereadable(glob('~/.vimrc_local'))
     source ~/.vimrc_local
 endif
 " }}}
