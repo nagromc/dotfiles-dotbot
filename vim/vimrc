@@ -185,6 +185,7 @@ let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
 
 let g:syntastic_vim_checkers = ['vint']
+let g:syntastic_xml_checkers = ['xmllint']
 " }}}
 " }}}
 
