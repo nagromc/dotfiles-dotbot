@@ -44,6 +44,9 @@
         create: true
         path: fish/shell_prompt.sh
     ~/.config/dotfiles: ''
+    ~/.config/mc/ini:
+        create: true
+        path: mc/ini
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.npmrc: npm/npmrc
