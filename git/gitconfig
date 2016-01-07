@@ -64,7 +64,7 @@
     smur = submodule update --init --recursive --remote
     ssa = "!sh -c 'git stash apply --index stash@{${1}}' -"
     # show stash diff for tracked files
-    ssdif = "!sh -c 'git stash show -p stash@{${1}}' -"
+    ssdif = "!sh -c 'git stash show --patch --color=always --word-diff=color stash@{${1}} | less' -"
     # show stash diff for *UN*tracked files
     ssdifu = "!sh -c 'git show -p stash@{${1}}^3' -"
     ssls = stash list
@@ -79,6 +79,7 @@
     # explicitly set requireForce to true to avoid accidents
     requireForce = true
 [color]
+    diff = auto
     ui = auto
 [color "status"]
     added = green
