@@ -34,6 +34,8 @@
     flrf = flow release finish
     lg = log --graph --abbrev-commit --decorate
     lga = "!sh -c 'git lg --branches --remotes --tags' -"
+    lgd = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset)%n          %C(blue)<%an>%C(reset)%n              %s'
+    lgda = "!sh -c 'git lgd --branches --remotes --tags' -"
     mt = mergetool
     patch = diff --patch --no-color
     pl = pull
