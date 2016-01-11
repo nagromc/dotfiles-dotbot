@@ -87,3 +87,4 @@ Those files can be added to extend the dotfiles:
 | `~/.ssh/config_local`  | `~/.ssh/config`              |
 | `~/.gitconfig_local`   | `~/.gitconfig`               |
 | `~/.config/fish/extra` | `~/.config/fish/config.fish` |
+| `~/.tmux_local.conf`   | `~/.tmux.conf`               |
