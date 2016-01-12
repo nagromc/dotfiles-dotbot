@@ -3,7 +3,7 @@ URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:bold:size=6
 
 URxvt.geometry: 120x42
 
-# recongnized Home and End keys
+! recognized Home and End keys
 URxvt.keysym.Home: \033[1~
 URxvt.keysym.End: \033[4~
 URxvt.keysym.KP_Home: \033[1~
