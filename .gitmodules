@@ -16,6 +16,9 @@
 [submodule "vim/bundle/ctrlp.vim"]
     path = vim/bundle/ctrlp.vim
     url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/bundle/molokai"]
+    path = vim/bundle/molokai
+    url = https://github.com/tomasr/molokai
 [submodule "vim/bundle/nerdcommenter"]
     path = vim/bundle/nerdcommenter
     url = https://github.com/scrooloose/nerdcommenter.git
@@ -62,9 +65,6 @@
 [submodule "vim/bundle/vim-surround"]
     path = vim/bundle/vim-surround
     url = https://github.com/tpope/vim-surround.git
-[submodule "vim/colors/molokai"]
-    path = vim/colors/molokai
-    url = https://github.com/tomasr/molokai.git
 [submodule "X11/Xresources.d/solarized"]
     path = X11/Xresources.d/solarized
     url = https://github.com/solarized/xresources.git

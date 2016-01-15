@@ -1,4 +1,12 @@
+" Init {{{
 scriptencoding utf-8
+" pathogen.vim {{{
+" include pathogen at the very beginning so we can import stuff right now
+runtime bundle/pathogen.vim/autoload/pathogen.vim
+execute g:pathogen#infect()
+execute g:pathogen#helptags()
+" }}}
+" }}}
 
 " Colors {{{
 " molokai colorscheme
@@ -120,11 +128,6 @@ command! W w !sudo tee % > /dev/null
 " }}}
 
 " Plugins {{{
-" pathogen.vim {{{
-runtime bundle/pathogen.vim/autoload/pathogen.vim
-execute g:pathogen#infect()
-execute g:pathogen#helptags()
-" }}}
 
 " ctrlp.vim {{{
 set runtimepath^=~/.vim/bundle/ctrlp.vim
