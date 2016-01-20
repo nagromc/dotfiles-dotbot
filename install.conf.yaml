@@ -30,6 +30,10 @@
     ~/.config/fish/aliases:
         create: true
         path: fish/aliases
+    ~/.config/fish/completions: fish/completions/
+    ~/.config/fish/completions/git.fish:
+        create: false
+        path: git/git-flow-completion/git.fish
     ~/.config/fish/config.fish:
         create: true
         path: fish/config.fish
