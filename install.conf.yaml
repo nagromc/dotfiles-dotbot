@@ -11,6 +11,10 @@
 - shell:
     - git submodule update --init --recursive
 
+# allows to create ~/.config/fish/completions/ before linking files
+- link:
+    ~/.config/fish/completions: fish/completions/
+
 - link:
     ~/.atom/.apmrc:
         create: true
@@ -30,7 +34,6 @@
     ~/.config/fish/aliases:
         create: true
         path: fish/aliases
-    ~/.config/fish/completions: fish/completions/
     ~/.config/fish/completions/git.fish:
         create: false
         path: git/git-flow-completion/git.fish
