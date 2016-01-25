@@ -1,6 +1,11 @@
 [alias]
     ads = "!sh -c 'git add ${@} && git st' -"
     amd = commit --amend
+    bi = bisect
+    bib = bisect bad
+    big = bisect good
+    bir = bisect reset
+    bis = bisect start
     br = branch
     brd = branch -d
     brls = branch -vv
