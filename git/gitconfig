@@ -38,6 +38,8 @@
     lgavv = "!sh -c 'git lgvv --branches --remotes --tags' -"
     lgv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset)%n          %C(blue)<%an>%C(reset)%n               %s'
     lgvv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD [A]%C(reset) %C(green)(%cr)%C(reset) - %C(magenta)%cD [C]%C(reset) %C(green)(%cr)%C(reset) %C(auto)%d%C(reset)%n          %C(blue)<%an> [A]%C(reset) - %C(yellow)<%an> [C]%C(reset)%n              %s'
+    me = merge
+    mea = merge --abort
     mt = mergetool
     patch = diff --patch --no-color
     pl = pull
