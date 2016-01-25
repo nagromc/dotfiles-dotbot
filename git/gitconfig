@@ -105,6 +105,8 @@
     #proxy = http://<user>:<password>@<host_name>:<host_port>
 [log]
     date = relative
+[merge]
+    tool = vimdiff
 [pager]
     stash = false
 [pull]
