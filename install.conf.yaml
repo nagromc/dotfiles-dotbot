@@ -54,6 +54,9 @@
     ~/.config/mc/ini:
         create: true
         path: mc/ini
+    ~/.config/pip/pip.conf:
+        create: true
+        path: pip/pip.conf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.npmrc: npm/npmrc
