@@ -59,6 +59,8 @@
     rbi = rebase --interactive
     rbs = rebase --skip
     rem = remote
+    # add a remote forked repo (e.g. `git remau https://github.com/user/forked-repo.git`)
+    remau = remote add upstream
     # delete a branch on the repo
     remdbr = push origin --delete
     # remove the deleted remote branches existing on the local repo
