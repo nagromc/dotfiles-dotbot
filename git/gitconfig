@@ -48,6 +48,7 @@
     mt = mergetool
     patch = diff --patch --no-color
     pl = pull
+    plum = pull upstream master
     ps = push
     psa = push --all
     psf = push --force
