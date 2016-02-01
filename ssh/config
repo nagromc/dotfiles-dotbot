@@ -1,3 +1,11 @@
+# Host host-name
+#     ProxyCommand /usr/bin/corkscrew proxy-hostname proxy-port %h %p ~/.ssh/auth
+#     IdentityFile ~/.ssh/id_rsa
+#     ServerAliveInterval 120
+#     User username
+#     DynamicForward 3128
+#     LogLevel ERROR
+
 Host h
     Port 443
 
