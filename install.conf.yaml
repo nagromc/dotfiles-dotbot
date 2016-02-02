@@ -50,7 +50,7 @@
     ~/.config/fish/shell_prompt.sh:
         create: true
         path: fish/shell_prompt.sh
-    ~/.config/dotfiles: ''
+    ~/.dotfiles: ''
     ~/.config/mc/ini:
         create: true
         path: mc/ini
