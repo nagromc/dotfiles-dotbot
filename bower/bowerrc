@@ -1,17 +1,2 @@
-/*
- * This file should be edited instead of the file ~/.bowerrc, then run:
- *
- *     $ ~/.config/dotfiles/install
- *
- * The comments in this file will be removed to make a JSON-compliant file (~/.bowerrc)
- */
-
 {
-  /* proxy settings */
-  /*
-  "proxy": "http://<domain>%5C<user>:<password>@<proxy-host>:<proxy-port>",
-  "registry": "http://bower.herokuapp.com",
-  "strict-ssl": false
-  */
 }
-
