@@ -37,6 +37,7 @@
     flr = flow release
     flrs = flow release start
     flrf = flow release finish
+    ignore = update-index --assume-unchanged
     lg = log --graph --abbrev-commit --decorate
     lga = "!sh -c 'git lg --branches --remotes --tags' -"
     lgav = "!sh -c 'git lgv --branches --remotes --tags' -"
