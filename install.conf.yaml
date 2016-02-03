@@ -32,6 +32,9 @@
         create: true
         path: atom/snippets.cson
     ~/.bowerrc: bower/bowerrc
+    ~/.config/fish/abbrs:
+        create: true
+        path: fish/abbrs
     ~/.config/fish/aliases:
         create: true
         path: fish/aliases
