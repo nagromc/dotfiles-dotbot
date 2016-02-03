@@ -10,6 +10,7 @@ linter
 linter-bootlint
 linter-csslint
 linter-htmlhint
+linter-jscs
 linter-jshint
 linter-jsonlint
 linter-shellcheck
