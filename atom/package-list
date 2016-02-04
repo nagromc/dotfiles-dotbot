@@ -5,6 +5,7 @@ file-icons
 git-blame
 git-history
 git-plus
+highlight-line
 highlight-selected
 linter
 linter-bootlint
@@ -24,4 +25,5 @@ minimap-split-diff
 monokai
 project-manager
 split-diff
+symbols-tree-view
 tabs-to-spaces
