@@ -32,6 +32,9 @@
         create: true
         path: atom/snippets.cson
     ~/.bowerrc: bower/bowerrc
+    ~/.config/Brackets/brackets.json:
+        create: true
+        path: brackets/brackets.json
     ~/.config/fish/abbrs:
         create: true
         path: fish/abbrs

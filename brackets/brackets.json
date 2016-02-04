@@ -1,0 +1,6 @@
+{
+    "fonts.fontSize": "12px",
+    "fonts.fontFamily": "'SourceCodePro-Medium'",
+    "themes.theme": "monokai-theme",
+    "useTabChar": false
+}
