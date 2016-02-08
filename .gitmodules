@@ -19,6 +19,9 @@
 [submodule "vim/bundle/ctrlp.vim"]
     path = vim/bundle/ctrlp.vim
     url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/bundle/MatchTag"]
+    path = vim/bundle/MatchTag
+    url = https://github.com/gregsexton/MatchTag.git
 [submodule "vim/bundle/molokai"]
     path = vim/bundle/molokai
     url = https://github.com/tomasr/molokai
