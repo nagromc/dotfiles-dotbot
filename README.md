@@ -36,7 +36,7 @@ My dotfiles uses the following awesomeness:
 - [Git](http://git-scm.com/), and these impressive softs:
     - [`git-flow` (AVH Edition)](https://github.com/petervanderdoes/gitflow-avh)
     - [Tig](http://jonas.nitro.dk/tig/)
-- [Atom](https://atom.io/), and these [magnificent packages](https://raw.githubusercontent.com/nagromc/dotfiles/fish/atom/package-list)
+- [Atom](https://atom.io/), and these [magnificent packages](https://raw.githubusercontent.com/nagromc/dotfiles/master/atom/package-list)
 - [`npm`](https://www.npmjs.com/), and these amazing packages:
     - [`apm`](https://github.com/atom/apm)
     - [Bower](http://bower.io/)
