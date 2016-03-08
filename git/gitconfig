@@ -73,6 +73,7 @@
     rs = reset
     rsh = reset --hard
     sh = show
+    shv = show --pretty=fuller --date=iso
     sm = submodule
     sms = submodule sync
     smu = submodule update --init --recursive
