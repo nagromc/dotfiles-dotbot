@@ -5,3 +5,9 @@ set PATH /opt/nodejs/bin $PATH
 
 set -x PATH $PATH
 
+set MANPATH $MANPATH
+set MANPATH /usr/share/man/ $MANPATH
+set MANPATH ~/opt/share/man $MANPATH
+
+set -x MANPATH $MANPATH
+
