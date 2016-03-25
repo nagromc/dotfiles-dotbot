@@ -1,5 +1,7 @@
 [alias]
+    ada = add .
     ads = "!sh -c 'git add ${@} && git st' -"
+    adsa = "!sh -c 'git ads .' -"
     amd = commit --amend
     bi = bisect
     bib = bisect bad
