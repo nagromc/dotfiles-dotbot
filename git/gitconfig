@@ -3,6 +3,7 @@
     ads = "!sh -c 'git add ${@} && git st' -"
     adsa = "!sh -c 'git ads .' -"
     amd = commit --amend
+    amdn = commit --amend --no-edit
     bi = bisect
     bib = bisect bad
     big = bisect good
