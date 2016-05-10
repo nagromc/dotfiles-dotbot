@@ -20,6 +20,8 @@
     cia = commmit --all
     ciam = commit --all -m
     cim = commit -m
+    # undo the previous commit keeping the changes
+    ciundo = reset --soft HEAD^
     cl = clean -d --dry-run
     clf = clean -d --force
     cli = clean -d --interactive
