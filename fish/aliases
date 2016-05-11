@@ -17,11 +17,6 @@ alias bak='backup'
 
 alias cpp='cp --parent'
 
-# concat public and private .ssh/config (as ssh doesn't provide an include feature)
-alias concat_ssh_config='cat ~/.ssh/config_local ~/.ssh/config | psub'
-alias ssh='ssh -F (concat_ssh_config)'
-alias scp='scp -F (concat_ssh_config)'
-
 # human readable size for several commands
 alias df='df --human-readable'
 alias du='du --human-readable'
