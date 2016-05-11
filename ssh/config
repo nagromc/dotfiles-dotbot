@@ -6,6 +6,9 @@
 #     DynamicForward 3128
 #     LogLevel ERROR
 
+Host github.com
+    Hostname ssh.github.com
+
 Host h
     Port 443
 
