@@ -5,29 +5,20 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 # not compatible with fish
 #alias ~="cd ~"
-
-alias rmrf='rm -rf'
-
-# using user aliases when sudoing (does not work for functions; only aliases)
-alias sudo='sudo '
-
-alias shutdown='sudo shutdown -h -P now'
-
 alias bak='backup'
-
 alias cpp='cp --parent'
-
-# human readable size for several commands
 alias df='df --human-readable'
 alias du='du --human-readable'
 alias free='free --human'
-
-# ls
-alias ls='ls -CF --human-readable --color=auto'
-alias ll='ls -l'
-alias la='ls -A'
-alias lsa='la'
-alias lla='ls -lA'
-
 alias h='history'
 alias hg='history | grep'
+alias la='ls -A'
+alias ll='ls -l'
+alias lla='ls -lA'
+alias ls='ls -CF --human-readable --color=auto'
+alias lsa='la'
+alias rmrf='rm -rf'
+alias shutdown='sudo shutdown -h -P now'
+# using user aliases when sudoing (does not work for functions; only aliases)
+alias sudo='sudo '
+
