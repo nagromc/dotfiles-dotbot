@@ -29,3 +29,5 @@ alias la='ls -A'
 alias lsa='la'
 alias lla='ls -lA'
 
+alias h='history'
+alias hg='history | grep'
