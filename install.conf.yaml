@@ -66,6 +66,9 @@
         path: pip/pip.conf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
+    ~/.highlight/langDefs:
+        create: true
+        path: syntaxhighlight/highlight/langDefs/
     ~/.npmrc: npm/npmrc
     ~/.ssh/authorized_keys:
         create: true
