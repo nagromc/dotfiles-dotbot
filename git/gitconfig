@@ -7,8 +7,11 @@
     bi = bisect
     bib = bisect bad
     big = bisect good
+    bil = bisect log
     bir = bisect reset
-    bis = bisect start
+    bisk = bisect skip
+    bist = bisect start
+    biv = bisect visualize
     br = branch
     brd = branch -d
     brls = branch -vv
