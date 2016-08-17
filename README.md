@@ -74,6 +74,19 @@ Installation
 
 4. Welcome to your new, pretty, smooth, fast, powerful, awesome terminal.
 
+### Optional installations
+
+#### Rust toolchain
+
+    $ mkdir -p ~/opt/
+    $ wget -O /tmp/rust-installation https://static.rust-lang.org/dist/rust-x.x.x-arch.tar.gz
+    $ cd /tmp/
+    $ tar xzf rust-installation
+    $ cd rust-installation
+    $ ./install.sh --prefix=~/opt/ --libdir=~/opt/lib/ --mandir=~/opt/share/man/
+
+Rust is now ready.
+
 Local configuration
 -------------------
 
