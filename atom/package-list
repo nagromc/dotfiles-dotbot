@@ -1,4 +1,5 @@
 atom-beautify
+atom-language-rust
 color-picker
 emmet
 file-icons
@@ -14,6 +15,7 @@ linter-htmlhint
 linter-jscs
 linter-jshint
 linter-jsonlint
+linter-rust
 linter-shellcheck
 linter-xmllint
 merge-conflicts
