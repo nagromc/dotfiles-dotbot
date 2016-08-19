@@ -21,3 +21,6 @@ end
 # template to define http_proxy variable (do it in the extra file)
 #set -x http_proxy http://<domain>%5C<user>:<password>@<proxy-host>:<proxy-port>
 #set -x https_proxy $http_proxy
+#set -x HTTP_PROXY $http_proxy
+#set -x HTTPS_PROXY $http_proxy
+#set -x no_proxy example.org example.net
