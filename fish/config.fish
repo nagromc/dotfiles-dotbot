@@ -25,4 +25,4 @@ end
 if test -f /usr/share/autojump/autojump.fish; . /usr/share/autojump/autojump.fish; end
 
 # thefuck alias requirement
-eval (thefuck --alias | tr '\n' ';')
+if type -q thefuck; eval (thefuck --alias | tr '\n' ';'); end
