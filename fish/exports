@@ -1,4 +1,4 @@
-set -x LESSOPEN "| /usr/bin/highlight --out-format=xterm256 --style=molokai %s"
+set -x LESSOPEN "| /usr/bin/highlight --quiet --out-format=xterm256 --style=molokai %s"
 set -x LESS ' -R -F -X --ignore-case --jump-target=5 --shift .2'
 
 if [ ! "$TERM" = ""  ]
