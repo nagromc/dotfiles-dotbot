@@ -38,6 +38,7 @@
     ~/.dotfiles: ''
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
+    ~/.fonts: fonts
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.highlight/langDefs: syntaxhighlight/highlight/langDefs/
