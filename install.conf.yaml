@@ -1,3 +1,7 @@
+- defaults:
+    link:
+        create: true
+
 - clean:
     - '~'
     - '~/.atom'
@@ -16,76 +20,36 @@
     ~/.config/fish/completions: fish/completions/
 
 - link:
-    ~/.atom/.apmrc:
-        create: true
-        path: atom/apmrc
-    ~/.atom/config.cson:
-        create: true
-        path: atom/config.cson
-    ~/.atom/init.coffee:
-        create: true
-        path: atom/init.coffee
-    ~/.atom/keymap.cson:
-        create: true
-        path: atom/keymap.cson
-    ~/.atom/snippets.cson:
-        create: true
-        path: atom/snippets.cson
+    ~/.atom/.apmrc: atom/apmrc
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/init.coffee: atom/init.coffee
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
     ~/.bowerrc: bower/bowerrc
-    ~/.config/Brackets/brackets.json:
-        create: true
-        path: brackets/brackets.json
-    ~/.config/fish/abbrs:
-        create: true
-        path: fish/abbrs
-    ~/.config/fish/aliases:
-        create: true
-        path: fish/aliases
-    ~/.config/fish/completions/git.fish:
-        create: false
-        path: git/git-flow-completion/git.fish
-    ~/.config/fish/config.fish:
-        create: true
-        path: fish/config.fish
+    ~/.config/Brackets/brackets.json: brackets/brackets.json
+    ~/.config/fish/abbrs: fish/abbrs
+    ~/.config/fish/aliases: fish/aliases
+    ~/.config/fish/completions/git.fish: git/git-flow-completion/git.fish
+    ~/.config/fish/config.fish: fish/config.fish
     ~/.config/fish/functions: fish/functions/
-    ~/.config/fish/exports:
-        create: true
-        path: fish/exports
-    ~/.config/fish/path:
-        create: true
-        path: fish/path
-    ~/.config/fish/shell_prompt.sh:
-        create: true
-        path: fish/shell_prompt.sh
+    ~/.config/fish/exports: fish/exports
+    ~/.config/fish/path: fish/path
+    ~/.config/fish/shell_prompt.sh: fish/shell_prompt.sh
     ~/.dotfiles: ''
-    ~/.config/mc/ini:
-        create: true
-        path: mc/ini
-    ~/.config/pip/pip.conf:
-        create: true
-        path: pip/pip.conf
+    ~/.config/mc/ini: mc/ini
+    ~/.config/pip/pip.conf: pip/pip.conf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
-    ~/.highlight/langDefs:
-        create: true
-        path: syntaxhighlight/highlight/langDefs/
+    ~/.highlight/langDefs: syntaxhighlight/highlight/langDefs/
     ~/.npmrc: npm/npmrc
-    ~/.ssh/authorized_keys:
-        create: true
-        path: ssh/authorized_keys
+    ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.tigrc: tig/tigrc
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmuxline.vim.conf: tmux/tmuxline.vim.conf
-    ~/.vim/bundle:
-        create: true
-        path: vim/bundle
-    ~/.vim/ftdetect:
-        create: true
-        path: vim/ftdetect
-    ~/.vim/ftplugin:
-        create: true
-        path: vim/ftplugin
+    ~/.vim/bundle: vim/bundle
+    ~/.vim/ftdetect: vim/ftdetect
+    ~/.vim/ftplugin: vim/ftplugin
     ~/.vimrc: vim/vimrc
     ~/.Xmodmap: X11/Xmodmap
     ~/.Xresources: X11/Xresources
