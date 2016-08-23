@@ -12,6 +12,6 @@ Host github.com
 Host h
     Port 443
 
-Host s
+Host git s
     Port 4222
 
