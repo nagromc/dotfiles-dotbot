@@ -1,3 +1,5 @@
+set -x VISUAL vim
+set -x SUDO_EDITOR $VISUAL
 set -x LESSOPEN "| /usr/bin/highlight --quiet --out-format=xterm256 --style=molokai %s"
 set -x LESS ' -R -F -X --ignore-case --jump-target=5 --shift .2'
 
