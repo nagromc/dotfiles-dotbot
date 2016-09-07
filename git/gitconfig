@@ -55,7 +55,7 @@
     lgrv = "!sh -c 'git lgv origin/$(git branch-name) $(git branch-name)' -"
     lgrvv = "!sh -c 'git lgvv origin/$(git branch-name) $(git branch-name)' -"
     lgv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset)%n          %C(blue)<%an>%C(reset)%n               %s'
-    lgvv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD [A]%C(reset) %C(green)(%ar)%C(reset) - %C(magenta)%cD [C]%C(reset) %C(green)(%cr)%C(reset) %C(auto)%d%C(reset)%n          %C(blue)<%an> [A]%C(reset) - %C(yellow)<%an> [C]%C(reset)%n              %s'
+    lgvv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD [A]%C(reset) %C(green)(%ar)%C(reset) - %C(magenta)%cD [C]%C(reset) %C(green)(%cr)%C(reset) %C(auto)%d%C(reset)%n          %C(blue)<%an> [A]%C(reset) - %C(yellow)<%cn> [C]%C(reset)%n              %s'
     me = merge --no-ff
     mea = merge --abort
     mt = mergetool
