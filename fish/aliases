@@ -21,4 +21,4 @@ alias rmrf='rm -rf'
 alias shutdown='sudo shutdown -h -P now'
 # using user aliases when sudoing (does not work for functions; only aliases)
 alias sudo='sudo '
-
+alias x='exit'
