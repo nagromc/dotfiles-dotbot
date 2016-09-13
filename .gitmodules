@@ -1,6 +1,9 @@
 [submodule "dotbot"]
     path = dotbot
     url = https://github.com/anishathalye/dotbot
+[submodule "fish/fisher"]
+    path = fish/fisher
+    url = https://github.com/fisherman/fisherman.git
 [submodule "fonts"]
     path = fonts
     url = https://github.com/powerline/fonts.git
