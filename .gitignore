@@ -1,5 +1,6 @@
 .gitconfig_local
 ssh_config_local
+fish/completions/fisher.fish
 fish/extra
 fish/functions/fish_user_key_bindings.fish
 fish/functions/fzf_key_bindings.fish
