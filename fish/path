@@ -1,10 +1,8 @@
-set PATH $PATH
 set PATH /opt/bin $PATH
 set PATH ~/opt/bin $PATH
 
 set -x PATH $PATH
 
-set MANPATH $MANPATH
 set MANPATH /usr/share/man/ $MANPATH
 set MANPATH ~/opt/share/man $MANPATH
 
