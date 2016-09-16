@@ -32,6 +32,8 @@
     cob = checkout -b
     confed = "! vim ~/.gitconfig"
     cp = cherry-pick
+    cpa = cherry-pick --abort
+    cpc = cherry-pick --continue
     df = diff --word-diff=color
     dfs = "!sh -c 'git df --cached' -"
     fe = fetch
