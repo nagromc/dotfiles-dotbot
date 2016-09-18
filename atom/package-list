@@ -8,6 +8,7 @@ git-history
 git-plus
 highlight-line
 highlight-selected
+language-latex
 linter
 linter-bootlint
 linter-csslint
