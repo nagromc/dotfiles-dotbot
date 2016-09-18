@@ -4,6 +4,7 @@ set -x SUDO_EDITOR $VISUAL
 set -x LESSOPEN "| /usr/bin/highlight --quiet --out-format=xterm256 --style=molokai %s"
 set -x LESS ' -R -F -X --ignore-case --jump-target=5 --shift .2'
 set -x PAGER less
+set -x TEXMFHOME ~/.texmf
 
 if [ ! "$TERM" = ""  ]
     # LESS_TERMCAP to get colors in manpages
