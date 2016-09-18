@@ -6,6 +6,7 @@ file-icons
 git-blame
 git-history
 git-plus
+git-time-machine
 highlight-line
 highlight-selected
 language-latex
