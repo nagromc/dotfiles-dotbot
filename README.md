@@ -57,6 +57,7 @@ Installation
         $ npm install -g npm bower grunt grunt-cli gulp tldr yo
         $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf; and ~/dev/fzf/install
         $ sudo pip install thefuck
+        $ apm install --packages-file atom\package-list
 
 2. Change the default shell:
 
