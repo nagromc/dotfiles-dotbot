@@ -52,7 +52,7 @@ Installation
 
 1. Install the [required softwares](#dependencies) that will not be installed by `dotbot`:
 
-        $ sudo apt-get install autojump fish git-flow highlight python-dev python-pip rxvt-unicode-256color tig tmux vim
+        $ sudo apt-get install aspell-en aspell-fr autojump fish git-flow highlight python-dev python-pip rxvt-unicode-256color tig tmux vim
         $ mkdir -p ~/opt/ && wget https://nodejs.org/dist/latest/node-vx.x.x-linux-x64.tar.gz -O - | tar -xz -C ~/opt/ --strip-components=1
         $ npm install -g npm bower grunt grunt-cli gulp tldr yo
         $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf; and ~/dev/fzf/install

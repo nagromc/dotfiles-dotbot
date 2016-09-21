@@ -130,6 +130,8 @@
     pretty = %C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)
 [http]
     #proxy = http://<user>:<password>@<host_name>:<host_port>
+[init]
+    templatedir = ~/.git_template
 [log]
     date = relative
 [merge]

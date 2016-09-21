@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# This example catches duplicate Signed-off-by lines.
+
+test "" = "$(grep '^Signed-off-by: ' "$1" |
+    sort | uniq -c | sed -e '/^[ 	]*1[ 	]/d')" || {
+    echo >&2 Duplicate Signed-off-by lines.
+    exit 1
+}
+
+# Spell check
+
+ASPELL=$(which aspell)
+if [ $? -ne 0 ]; then
+    echo "Aspell not installed - unable to check spelling" >&2
+    exit
+else
+    ASPELL_W_OPTS="$ASPELL --mode=email --add-email-quote=# --lang=en_US,fr_FR"
+    WORDS=$($ASPELL_W_OPTS list < "$1" | sort -u)
+fi
+if [ -n "$WORDS" ]; then
+    printf "Possible spelling errors found in commit message:\n%s\nUse \`git commit --amend\` to change the message.\n\n" "$WORDS" >&2
+fi
