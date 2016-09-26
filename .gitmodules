@@ -1,11 +1,11 @@
 [submodule "dotbot"]
-    path = dotbot
+    path = bin/dotbot
     url = https://github.com/anishathalye/dotbot
 [submodule "fish/fisher"]
     path = fish/fisher
     url = https://github.com/fisherman/fisherman.git
 [submodule "fonts"]
-    path = fonts
+    path = bin/fonts
     url = https://github.com/powerline/fonts.git
 [submodule "git/git-flow-completion"]
     path = git/git-flow-completion
@@ -14,7 +14,7 @@
     path = mintty/minttyrc.d/solarized
     url = https://github.com/mavnn/mintty-colors-solarized.git
 [submodule "syntaxhighlight"]
-    path = syntaxhighlight
+    path = bin/syntaxhighlight
     url = https://github.com/nagromc/syntaxhighlight.git
 [submodule "tmux/plugins/tmux-resurrect"]
     path = tmux/plugins/tmux-resurrect

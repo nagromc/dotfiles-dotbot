@@ -39,11 +39,11 @@
     ~/.dotfiles: ''
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
-    ~/.fonts: fonts
+    ~/.fonts: bin/fonts
     ~/.git_template: git/template/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
-    ~/.highlight/langDefs: syntaxhighlight/highlight/langDefs/
+    ~/.highlight/langDefs: bin/syntaxhighlight/highlight/langDefs/
     ~/.npmrc: npm/npmrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.texmf: texmf/
