@@ -1,4 +1,7 @@
 prefix = ~/opt
+; on POSIX systems, npm will split the installation up into {prefix}/bin, {prefix}/lib and {prefix}/share/man
+; on Windows, all of these are mixed up into {prefix}, so you should append `\bin` to the prefix variable
+; for instance: prefix = C:\path\to\cygwin\home\user\opt\bin
 
 ; proxy settings
 ;proxy=http://<domain>%5C<user>:<password>@<proxy-host>:<proxy-port>
