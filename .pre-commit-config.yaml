@@ -12,3 +12,7 @@
         - '--autofix'
         - '--no-sort-keys'
     - id: trailing-whitespace
+- repo: https://github.com/nagromc/dotbot-autobot
+  sha: f9098acc5bee56d6c9cd116f3c1262c5b26f850a
+  hooks:
+    - id: autobot
