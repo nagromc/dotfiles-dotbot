@@ -58,6 +58,8 @@ Installation
         $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf; and ~/dev/fzf/install
         $ sudo pip install pre-commit pre-commit-hooks thefuck
         $ apm install --packages-file atom\package-list
+        $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 && curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
+        $ rvm install 2.1.5 && gem install overcommit
 
 2. Change the default shell:
 
