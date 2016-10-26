@@ -1,4 +1,5 @@
 set -x EDITOR vi
+set -x fish_path ~/.config/fish/fisherman
 set -x VISUAL vim
 set -x SUDO_EDITOR $VISUAL
 set -x LESSOPEN "| /usr/bin/highlight --quiet --out-format=xterm256 --style=molokai %s"
