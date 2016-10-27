@@ -1,6 +1,9 @@
 [submodule "dotbot"]
     path = bin/dotbot
     url = https://github.com/anishathalye/dotbot
+[submodule "dotbot-apt-get"]
+    path = bin/dotbot-apt-get
+    url = https://github.com/rubenvereecken/dotbot-apt-get.git
 [submodule "fish/fisher"]
     path = fish/fisher
     url = https://github.com/fisherman/fisherman.git

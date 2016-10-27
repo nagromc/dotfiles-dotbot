@@ -1,0 +1,13 @@
+- apt-get:
+    - aspell-en
+    - aspell-fr
+    - autojump
+    - fish
+    - git-flow
+    - highlight
+    - python-dev
+    - python-pip
+    - rxvt-unicode-256color
+    - tig
+    - tmux
+    - vim
