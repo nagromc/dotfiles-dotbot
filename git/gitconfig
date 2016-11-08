@@ -30,6 +30,8 @@
     cli = clean -d --interactive
     co = checkout
     cob = checkout -b
+    # checkout latest tag
+    colt = "!sh -c 'git fetch --tags && git checkout $(git latest-tag)' -"
     confed = "! vim ~/.gitconfig"
     confedloc = "! vim ~/.gitconfig_local"
     cp = cherry-pick
@@ -50,6 +52,8 @@
     flrf = flow release finish
     ignore = update-index --assume-unchanged
     ignoreinv = update-index --no-assume-unchanged
+    # useful for other aliases
+    latest-tag = "!sh -c 'git describe --tags $(git rev-list --tags --max-count=1)' -"
     lg = log --graph --abbrev-commit --decorate
     lga = "!sh -c 'git lg --branches --remotes --tags' -"
     lgav = "!sh -c 'git lgv --branches --remotes --tags' -"
