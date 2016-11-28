@@ -84,6 +84,8 @@
     remau = remote add upstream
     # delete a branch on the repo
     remdbr = push --delete origin
+    # delete a tag on the repo. Yeah, this is the same alias for deleting a branch but my brain works like that okay?
+    remdt = push --delete origin
     # remove the deleted remote branches existing on the local repo
     remsyncbr = remote prune origin
     remv = remote -v
@@ -109,6 +111,8 @@
     sss = stash save --include-untracked
     st = status
     sti = status --ignored
+    tg = tag
+    tgd = tag --delete
     # unstage changes
     uns = reset HEAD
 [clean]
