@@ -92,6 +92,9 @@
 [submodule "vim/bundle/vim-surround"]
     path = vim/bundle/vim-surround
     url = https://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/vim-syntax-lighttpd"]
+    path = vim/bundle/vim-syntax-lighttpd
+    url = https://github.com/glensc/vim-syntax-lighttpd.git
 [submodule "X11/Xresources.d/solarized"]
     path = X11/Xresources.d/solarized
     url = https://github.com/solarized/xresources.git
