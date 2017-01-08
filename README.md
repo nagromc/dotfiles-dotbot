@@ -56,8 +56,8 @@ Installation
         $ mkdir -p ~/opt/ && wget https://nodejs.org/dist/latest/node-vx.x.x-linux-x64.tar.gz -O - | tar -xz -C ~/opt/ --strip-components=1
         $ npm install -g npm dirty-git bower grunt grunt-cli gulp-cli tldr yarn yo
         $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf; and ~/dev/fzf/install
-        $ sudo pip install pre-commit pre-commit-hooks thefuck
-        $ apm install --packages-file atom\package-list
+        $ sudo pip install pre-commit pre-commit-hooks thefuck && sudo pip install --upgrade pip enum34
+        $ apm install --packages-file ~/.dotfiles/atom/package-list
         $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 && curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
         $ rvm install 2.1.5 && gem install overcommit
 
