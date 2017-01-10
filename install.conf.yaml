@@ -43,6 +43,7 @@
     ~/.git_template: git/template/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
+    ~/.gnupg/gpg.conf: gnupg/gpg.conf
     ~/.highlight/langDefs: bin/syntaxhighlight/highlight/langDefs/
     ~/.npmrc: npm/npmrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
