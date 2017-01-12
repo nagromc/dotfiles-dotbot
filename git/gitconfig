@@ -54,15 +54,22 @@
     ignoreinv = update-index --no-assume-unchanged
     # useful for other aliases
     latest-tag = "!sh -c 'git describe --tags $(git rev-list --tags --max-count=1)' -"
-    lg = log --graph --abbrev-commit --decorate
-    lga = "!sh -c 'git lg --branches --remotes --tags' -"
-    lgav = "!sh -c 'git lgv --branches --remotes --tags' -"
-    lgavv = "!sh -c 'git lgvv --branches --remotes --tags' -"
-    lgr = "!sh -c 'git lg origin/$(git branch-name) $(git branch-name)' -"
-    lgrv = "!sh -c 'git lgv origin/$(git branch-name) $(git branch-name)' -"
-    lgrvv = "!sh -c 'git lgvv origin/$(git branch-name) $(git branch-name)' -"
-    lgv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset)%n          %C(blue)<%an>%C(reset)%n               %s'
-    lgvv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD [A]%C(reset) %C(green)(%ar)%C(reset) - %C(magenta)%cD [C]%C(reset) %C(green)(%cr)%C(reset) %C(auto)%d%C(reset)%n          %C(blue)<%an> [A]%C(reset) - %C(yellow)<%cn> [C]%C(reset)%n              %s'
+    # log including remote
+    lg = "!sh -c 'git logg origin/$(git branch-name) $(git branch-name)' -"
+    lgv = "!sh -c 'git loggv origin/$(git branch-name) $(git branch-name)' -"
+    lgvv = "!sh -c 'git loggvv origin/$(git branch-name) $(git branch-name)' -"
+    # log including every known branch (local or remote)
+    lga = "!sh -c 'git logg --branches --remotes --tags' -"
+    lgav = "!sh -c 'git loggv --branches --remotes --tags' -"
+    lgavv = "!sh -c 'git loggvv --branches --remotes --tags' -"
+    # log only the local branch
+    lgl = "!sh -c 'git logg' -"
+    lglv = "!sh -c 'git loggv' -"
+    lglvv = "!sh -c 'git loggvv' -"
+    # base log graph command
+    logg = log --graph --abbrev-commit --decorate
+    loggv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset)%n          %C(blue)<%an>%C(reset)%n               %s'
+    loggvv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD [A]%C(reset) %C(green)(%ar)%C(reset) - %C(magenta)%cD [C]%C(reset) %C(green)(%cr)%C(reset) %C(auto)%d%C(reset)%n          %C(blue)<%an> [A]%C(reset) - %C(yellow)<%cn> [C]%C(reset)%n              %s'
     me = merge --no-ff
     mea = merge --abort
     mt = mergetool
