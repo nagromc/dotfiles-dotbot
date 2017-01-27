@@ -55,17 +55,17 @@
     # useful for other aliases
     latest-tag = "!sh -c 'git describe --tags $(git rev-list --tags --max-count=1)' -"
     # log including remote
-    lg = "!sh -c 'git logg origin/$(git branch-name) $(git branch-name)' -"
-    lgv = "!sh -c 'git loggv origin/$(git branch-name) $(git branch-name)' -"
-    lgvv = "!sh -c 'git loggvv origin/$(git branch-name) $(git branch-name)' -"
+    lg = "!sh -c 'git logg origin/$(git branch-name) $(git branch-name) ${@}' -"
+    lgv = "!sh -c 'git loggv origin/$(git branch-name) $(git branch-name) ${@}' -"
+    lgvv = "!sh -c 'git loggvv origin/$(git branch-name) $(git branch-name) ${@}' -"
     # log including every known branch (local or remote)
-    lga = "!sh -c 'git logg --branches --remotes --tags' -"
-    lgav = "!sh -c 'git loggv --branches --remotes --tags' -"
-    lgavv = "!sh -c 'git loggvv --branches --remotes --tags' -"
+    lga = "!sh -c 'git logg --branches --remotes --tags ${@}' -"
+    lgav = "!sh -c 'git loggv --branches --remotes --tags ${@}' -"
+    lgavv = "!sh -c 'git loggvv --branches --remotes --tags ${@}' -"
     # log only the local branch
-    lgl = "!sh -c 'git logg' -"
-    lglv = "!sh -c 'git loggv' -"
-    lglvv = "!sh -c 'git loggvv' -"
+    lgl = "!sh -c 'git logg ${@}' -"
+    lglv = "!sh -c 'git loggv ${@}' -"
+    lglvv = "!sh -c 'git loggvv ${@}' -"
     # base log graph command
     logg = log --graph --abbrev-commit --decorate
     loggv = log --graph --abbrev-commit --decorate --format=format:'%C(red)%h%C(reset) - %C(cyan)%aD%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset)%n          %C(blue)<%an>%C(reset)%n               %s'
