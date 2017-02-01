@@ -101,6 +101,9 @@
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
     rs = reset
     rsh = reset --hard
+    sb = show-branch
+    sbc = show-branch --current
+    sbt = show-branch --topic
     sh = show
     shv = show --pretty=fuller --date=iso
     sm = submodule
