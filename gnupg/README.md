@@ -60,3 +60,27 @@ Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-p
   - Generate the QR code
 
           ./gpg2paper.py export --keyid YOURKEYID --png --out /tmp/secret-key-qr-code.png
+
+### Importing the private key
+
+So you have lost your private key… Ouch.
+
+#### From a QR code
+
+Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, and your punched card? Glad you printed your private key on a QR code!
+
+- Install the required softwares
+
+        # apt-get install zbar-tools
+
+- Scan your QR code. It's not a good idea to use your phone as it may be copied in the paperclip of the phone or saved in the app's data and then be leaked.
+
+- Import the scanned QR code with `zbarimg` and `paperclip`
+
+        $ # to handle GPG 2.1 keyring format change for paperkey
+        $ gpg2 --export > /tmp/pubring.gpg
+        $ zbarimg --raw qr-code.pdf | head -c -1 | base64 -d | paperkey --pubring=/tmp/pubring.gpg | gpg --import
+
+#### From the printed text file
+
+OMG, I hope you have time to entering it in a file. Or use an OCR software.
