@@ -71,9 +71,13 @@ Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, a
 
 - Install the required softwares
 
-        # apt-get install zbar-tools
+        # apt-get install libsane-extras sane-utils simple-scan zbar-tools
 
 - Scan your QR code. It's not a good idea to use your phone as it may be copied in the paperclip of the phone or saved in the app's data and then be leaked.
+  - To use a [Brother DSmobile 720d](https://www.brother-usa.com/Scanners/ModelDetail/24/DS720D/Overview) on your system, install the [required official driver](http://support.brother.com/g/b/downloadend.aspx?c=us&lang=en&prod=ds720d_all&os=128&dlid=dlf100976_000&flang=4&type3=566).
+  - run Simple Scan
+          $ simple-scan
+  - Choose a definition of at least 300dpi. If the following importation fails, increase the value.
 
 - Import the scanned QR code with `zbarimg` and `paperclip`
 
