@@ -36,13 +36,8 @@ GnuPG quick personal guide
 Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-paper`](https://github.com/cojomojo/easy-gpg-to-paper).
 
 - Using shell
-  - In EPS
 
-          $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | qrencode --level=H --type=EPS --output=/tmp/paperkey-qrcode.eps
-
-  - In PDF
-
-          $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | qrencode --level=H --type=EPS --output=- | ps2pdf - /tmp/paperkey-qrcode.pdf
+        $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | split --bytes=1k -d --filter='qrencode --level=H --type=EPS --output=- | ps2pdf -dEPSCrop -dPDFSETTINGS=/prepress - /tmp/$FILE.pdf' - qr-code- && pdfunite /tmp/qr-code-* /tmp/qr-code.pdf
 
 - Using `easy-gpg-to-paper`
   - Install the dependencies as it is described on the [project page](https://github.com/cojomojo/easy-gpg-to-paper/blob/45801fafab2213cb77b60ce6a22f938a3d983be0/README.md#dependencies)
