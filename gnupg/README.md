@@ -23,13 +23,11 @@ GnuPG quick personal guide
 
 ### [`paperkey`](http://www.jabberwocky.com/software/paperkey/)
 
-- You can just use `paperkey` as it is described in the home page:
+You can just use `paperkey` as it is described in the home page:
 
-        $ gpg --export-secret-keys KEYID | paperkey --output-type=base16 | enscript -o /tmp/paperkey-txt.ps
+      $ gpg --export-secret-keys KEYID  | paperkey --output-type=base16 --output-width=90 | enscript -f Courier10 -o - | ps2pdf - /tmp/paperkey-txt.pdf
 
-- Or in PDF:
-
-        $ gpg --export-secret-keys KEYID | paperkey --output-type=base16 | enscript -o - | ps2pdf - /tmp/paperkey-txt.pdf
+This should generate a PDF file of two pages for a 4096-bit key.
 
 ### QR code
 
