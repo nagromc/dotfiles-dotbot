@@ -1,56 +1,52 @@
 GnuPG quick personal guide
 ==========================
 
-## Installation requirements
+## Requirements
 
-### Smart cards
+- Install the required packages:
 
-To be able to use smart cards, install `scdaemon`, `pcscd`, and `pcsc-tools`:
+        # apt-get install enscript git haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools qrencode sane-utils simple-scan zbar-tools
 
-    # apt-get install scdaemon pcscd pcsc-tools
+- Run this to change your keyboard layout
 
-You may need to restart `scdaemon` if the card is not recognized:
+        $ setxkbmap fr
 
-    $ killall scdaemon
+- You may need to restart `scdaemon` if your smart card is not recognized
 
-### Printing the private part of the key
+        $ killall scdaemon
 
-#### `paperkey`
+## Generate a key
 
-- Install [`paperkey`](http://www.jabberwocky.com/software/paperkey/), and the required software to print in PostScript or PDF
+(Well, I already have got one…)
 
-        # apt-get install paperkey enscript
+## Printing the private part of the key
 
-  - You can just use `paperkey` as it is described in the home page:
+### [`paperkey`](http://www.jabberwocky.com/software/paperkey/)
 
-          $ gpg --export-secret-keys KEYID | paperkey --output-type=base16 | enscript -o paperkey-txt.ps
+- You can just use `paperkey` as it is described in the home page:
 
-  - Or in PDF:
+        $ gpg --export-secret-keys KEYID | paperkey --output-type=base16 | enscript -o /tmp/paperkey-txt.ps
 
-          $ gpg --export-secret-keys KEYID | paperkey --output-type=base16 | enscript -o - | ps2pdf - paperkey-txt.pdf
+- Or in PDF:
 
-#### QR code
+        $ gpg --export-secret-keys KEYID | paperkey --output-type=base16 | enscript -o - | ps2pdf - /tmp/paperkey-txt.pdf
+
+### QR code
 
 Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-paper`](https://github.com/cojomojo/easy-gpg-to-paper).
 
 - Using shell
-  - Install the dependencies
+  - In EPS
 
-          # apt-get install qrencode
+          $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | qrencode --level=H --type=EPS --output=/tmp/paperkey-qrcode.eps
 
-  - Create the QR code
-    - In EPS
+  - In PDF
 
-            $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | qrencode --level=H --type=EPS --output=paperkey-qrcode.eps
-
-    - In PDF
-
-            $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | qrencode --level=H --type=EPS --output=- | ps2pdf - paperkey-qrcode.pdf
+          $ gpg --export-secret-keys KEYID | paperkey --output-type=raw | base64 | qrencode --level=H --type=EPS --output=- | ps2pdf - /tmp/paperkey-qrcode.pdf
 
 - Using `easy-gpg-to-paper`
   - Install the dependencies as it is described on the [project page](https://github.com/cojomojo/easy-gpg-to-paper/blob/45801fafab2213cb77b60ce6a22f938a3d983be0/README.md#dependencies)
 
-          # apt-get install libqrencode-dev zbar-tools
           $ git clone https://github.com/cojomojo/pyqrencode.git
           $ pip install --user -e pyqrencode/
           $ git clone https://github.com/cojomojo/easy-gpg-to-paper.git
@@ -61,23 +57,21 @@ Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-p
 
           ./gpg2paper.py export --keyid YOURKEYID --png --out /tmp/secret-key-qr-code.png
 
-### Importing the private key
+## Importing the private key
 
 So you have lost your private key… Ouch.
 
-#### From a QR code
+### From a QR code
 
 Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, and your punched card? Glad you printed your private key on a QR code!
 
-- Install the required softwares
-
-        # apt-get install libsane-extras sane-utils simple-scan zbar-tools
-
 - Scan your QR code. It's not a good idea to use your phone as it may be copied in the paperclip of the phone or saved in the app's data and then be leaked.
   - To use a [Brother DSmobile 720d](https://www.brother-usa.com/Scanners/ModelDetail/24/DS720D/Overview) on your system, install the [required official driver](http://support.brother.com/g/b/downloadend.aspx?c=us&lang=en&prod=ds720d_all&os=128&dlid=dlf100976_000&flang=4&type3=566).
-  - run Simple Scan
+  - Run Simple Scan
+
           $ simple-scan
-  - Choose a definition of at least 300dpi. If the following importation fails, increase the value.
+
+  - Choose a definition of at least 300 dpi. If the following importation fails, increase the value.
 
 - Import the scanned QR code with `zbarimg` and `paperclip`
 
@@ -85,6 +79,6 @@ Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, a
         $ gpg2 --export > /tmp/pubring.gpg
         $ zbarimg --raw qr-code.pdf | head -c -1 | base64 -d | paperkey --pubring=/tmp/pubring.gpg | gpg --import
 
-#### From the printed text file
+### From the printed text file
 
 OMG, I hope you have time to entering it in a file. Or use an OCR software.
