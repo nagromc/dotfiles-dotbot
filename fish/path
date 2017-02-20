@@ -1,5 +1,6 @@
 set PATH /opt/bin $PATH
 set PATH ~/.local/bin $PATH
+set PATH ~/.local/sbin $PATH
 
 set -x PATH $PATH
 
