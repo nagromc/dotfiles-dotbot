@@ -166,7 +166,7 @@
     short = true
 [user]
     name = Morgan Courbet
-    email = nagromc@users.noreply.github.com
+    email = ping@morgan.ploki.fr
     signingkey = 24A21B24
 # local customization
 [include]
