@@ -73,7 +73,7 @@
     me = merge --no-ff
     mea = merge --abort
     mt = mergetool
-    patch = diff --patch --no-color
+    patch = format-patch --output-directory /tmp
     pl = pull
     plum = pull upstream master
     ps = push
