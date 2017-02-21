@@ -167,6 +167,7 @@
 [user]
     name = Morgan Courbet
     email = nagromc@users.noreply.github.com
+    signingkey = 24A21B24
 # local customization
 [include]
     path = ~/.gitconfig_local
