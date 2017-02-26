@@ -15,3 +15,6 @@ Host h
 Host git s
     Port 4222
 
+Host h s
+    RemoteForward /home/morgan/.gnupg/S.gpg-agent /home/morgan/.gnupg/S.gpg-agent.extra
+    ExitOnForwardFailure yes
