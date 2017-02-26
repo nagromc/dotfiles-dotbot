@@ -45,6 +45,8 @@
     ~/.gitignore_global: git/gitignore_global
     ~/.gnupg/gpg-agent.conf: gnupg/gpg-agent.conf
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
+    ~/.gnupg/dirmngr.conf: gnupg/dirmngr.conf
+    ~/.gnupg/sks-keyservers.netCA.pem: gnupg/sks-keyservers.netCA.pem
     ~/.highlight/langDefs: bin/syntaxhighlight/highlight/langDefs/
     ~/.npmrc: npm/npmrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
