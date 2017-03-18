@@ -55,7 +55,7 @@ Installation
         $ sudo apt-get install aspell-en aspell-fr autojump fish git-flow gnupg2 highlight libxml2-utils pcscd pcsc-tools python-dev python-pip rxvt-unicode-256color scdaemon shellcheck tig tmux vim
         $ mkdir -p ~/.local/ && wget https://nodejs.org/dist/latest/node-vx.x.x-linux-x64.tar.gz -O - | tar -xz -C ~/.local/ --strip-components=1
         $ npm install -g npm dirty-git bower grunt grunt-cli gulp-cli tldr yarn yo
-        $ git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf; and ~/dev/fzf/install
+        $ git clone https://github.com/junegunn/fzf.git ~/dev/fzf && cd ~/dev/fzf && git colt && ~/dev/fzf/install
         $ sudo pip install pre-commit pre-commit-hooks thefuck && sudo pip install --upgrade pip enum34
         $ apm install --packages-file ~/.dotfiles/atom/package-list
         $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 && curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
