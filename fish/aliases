@@ -17,6 +17,7 @@ alias ll='ls -l --time-style="+%F %a %T"'
 alias lla='ll -A'
 alias ls='ls -CF --human-readable --color=auto'
 alias lsa='la'
+alias mkcdtmp='cd (mktemp -d)'
 alias rmrf='rm -rf'
 alias shutdown='sudo shutdown -h -P now'
 # using user aliases when sudoing (does not work for functions; only aliases)
