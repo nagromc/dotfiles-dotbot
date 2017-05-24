@@ -5,7 +5,7 @@ GnuPG quick personal guide
 
 - Install the required packages:
 
-        # apt-get install enscript git haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools qrencode sane-utils simple-scan zbar-tools
+        # apt-get install curl enscript git gnupg2 haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools qrencode sane-utils simple-scan zbar-tools
 
 - Run this to change your keyboard layout
 
