@@ -9,6 +9,7 @@ git-plus
 git-time-machine
 highlight-line
 highlight-selected
+language-docker
 language-latex
 linter
 linter-bootlint
