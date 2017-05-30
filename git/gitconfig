@@ -22,7 +22,13 @@
     ci = commit
     cia = commmit --all
     ciam = commit --all --message
+    ciams = commit --all --gpg-sign --message
+    ciamns = commit --all --no-gpg-sign --message
+    cias = commit --all --gpg-sign
+    cians = commit --all --no-gpg-sign
     cim = commit --message
+    cims = commit --gpg-sign --message
+    cimns = commit --no-gpg-sign --message
     # undo the previous commit keeping the changes
     ciundo = reset --soft HEAD^
     cl = clean -d --dry-run
@@ -139,6 +145,8 @@
     changed = blue
     untracked = magenta
     updated = green
+[commit]
+    gpgSign = true
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
@@ -164,6 +172,7 @@
     rebase = preserve
 [push]
     default = simple
+    gpgSign = if-asked
 [status]
     branch = true
     short = true
