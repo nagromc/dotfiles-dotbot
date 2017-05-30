@@ -101,6 +101,9 @@
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
     rs = reset
     rsh = reset --hard
+    rv = revert
+    rva = revert --abort
+    rvc = revert --continue
     sb = show-branch
     sbc = show-branch --current
     sbt = show-branch --topic
