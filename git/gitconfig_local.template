@@ -1,0 +1,25 @@
+# This is a template for the most common options to change in a ~/.gitconfig_local file.
+# To use this template, just copy the file to ~/.gitconfig_local and uncomment the desired options.
+#[commit]
+    #gpgSign = false
+#[core]
+    #autocrlf = false
+#[credential]
+    # the agent will keep the credentials during 7 days
+    #helper = cache --timeout=604800
+#[credential "http://your-git-server"]
+    #username =
+#[http]
+    #proxy = http://username:password@proxy-hostname:proxy-port
+    #sslVerify = false
+#[http "http://your-git-server"]
+    # no proxy for your local Git server
+    #proxy =
+#[push]
+    #gpgSign = false
+#[url "https://"]
+    # if your proxy doesn't allow to use the Git protocol, use the HTTPS protocol
+    #insteadOf = git://
+#[user]
+    #email =
+    #name =
