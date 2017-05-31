@@ -40,6 +40,7 @@
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
     ~/.fonts: bin/fonts
+    ~/.gemrc: gem/gemrc
     ~/.git_template: git/template/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
