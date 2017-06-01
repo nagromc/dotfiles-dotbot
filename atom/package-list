@@ -1,6 +1,7 @@
 atom-beautify
 atom-language-rust
 color-picker
+editorconfig
 emmet
 file-icons
 git-blame
