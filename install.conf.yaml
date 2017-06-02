@@ -39,6 +39,7 @@
     ~/.dotfiles: ''
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
+    ~/.editorconfig: editorconfig/editorconfig
     ~/.fonts: bin/fonts
     ~/.gemrc: gem/gemrc
     ~/.git_template: git/template/
