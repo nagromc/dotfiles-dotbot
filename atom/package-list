@@ -11,6 +11,7 @@ git-time-machine
 highlight-line
 highlight-selected
 language-docker
+language-fish-shell
 language-latex
 linter
 linter-bootlint
