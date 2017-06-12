@@ -27,6 +27,7 @@
     ~/.atom/snippets.cson: atom/snippets.cson
     ~/.bowerrc: bower/bowerrc
     ~/.config/Brackets/brackets.json: brackets/brackets.json
+    ~/.config/Code/User/settings.json: code/settings.json
     ~/.config/fish/abbrs: fish/abbrs
     ~/.config/fish/aliases: fish/aliases
     ~/.config/fish/completions/git.fish: git/git-flow-completion/git.fish
