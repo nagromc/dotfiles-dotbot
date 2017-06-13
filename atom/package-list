@@ -16,6 +16,7 @@ language-latex
 linter
 linter-bootlint
 linter-csslint
+linter-flake8
 linter-htmlhint
 linter-jscs
 linter-jshint
@@ -36,3 +37,4 @@ split-diff
 symbols-tree-view
 synced-sidebar
 tabs-to-spaces
+terminal-plus
