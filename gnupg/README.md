@@ -3,13 +3,14 @@ GnuPG quick personal guide
 
 ## Requirements
 
-- Install the required packages:
-
-        # apt-get install curl enscript git gnupg2 haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools qrencode sane-utils simple-scan zbar-tools
-
 - Run this to change your keyboard layout
 
         $ setxkbmap fr
+
+- Install the required packages:
+
+        # apt-get update
+        # apt-get install curl enscript git gnupg2 haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools poppler-utils qrencode sane-utils simple-scan zbar-tools
 
 - You may need to restart `scdaemon` if your smart card is not recognized
 
@@ -54,6 +55,12 @@ Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-p
 
 So you have lost your private key… Ouch.
 
+### Import your public key
+
+First, you need to import your public key:
+
+      $ curl <key-url> | gpg --import
+
 ### From a QR code
 
 Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, and your punched card? Glad you printed your private key on a QR code!
@@ -70,6 +77,7 @@ Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, a
 
         $ # to handle GPG 2.1 keyring format change for paperkey
         $ gpg2 --export > /tmp/pubring.gpg
+        $ killall scdaemon
         $ zbarimg --raw qr-code.pdf | head -c -1 | base64 -d | paperkey --pubring=/tmp/pubring.gpg | gpg --import
 
 ### From the printed text file
