@@ -4,6 +4,8 @@
     #gpgSign = false
 #[core]
     #autocrlf = false
+    # Check out symlinks as small text files containing the link text. Useful on Windows
+    #symlinks = false
 #[credential]
     # the agent will keep the credentials during 7 days
     #helper = cache --timeout=604800
