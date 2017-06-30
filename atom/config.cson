@@ -20,7 +20,8 @@
     userId: "23ada2c0-fd77-9a33-be9f-827bf3a2849e"
   "file-icons":
     coloured: false
-  linter: {}
+  linter:
+    lintOnChange: false
   minimap:
     plugins:
       "find-and-replace": true
