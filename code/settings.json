@@ -1,3 +1,6 @@
 {
-  "workbench.colorTheme": "Monokai"
+  "editor.fontSize": 12,
+  "editor.renderWhitespace": "boundary",
+  "workbench.colorTheme": "Monokai",
+  "workbench.welcome.enabled": false
 }
