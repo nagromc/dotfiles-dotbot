@@ -38,7 +38,7 @@
     cob = checkout -b
     # checkout latest tag
     colt = "!sh -c 'git fetch --tags && git checkout $(git latest-tag)' -"
-    confed = "! vim ~/.gitconfig"
+    confed = config --global --edit
     confedloc = "! vim ~/.gitconfig_local"
     cp = cherry-pick
     cpa = cherry-pick --abort
