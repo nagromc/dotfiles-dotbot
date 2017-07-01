@@ -50,6 +50,8 @@ You will need a terminal emulator that supports 256 colors such as [`gnome-termi
 Installation
 ------------
 
+### POSIX systems
+
 1. Install the [required softwares](#dependencies) that will not be installed by `dotbot`:
 
         $ sudo apt-get install aspell-en aspell-fr autojump fish git-flow gnupg2 highlight libxml2-utils pcscd pcsc-tools python-dev python-pip rxvt-unicode-256color scdaemon shellcheck tig tmux vim
@@ -76,6 +78,16 @@ Installation
         $ ./install
 
 4. Welcome to your new, pretty, smooth, fast, powerful, awesome terminal.
+
+### Windows
+
+Please note only a part of the dotfiles is used on Windows.
+
+Execute the script either by double-clicking on it, or running:
+
+```
+.\install.batrc
+```
 
 ### Optional installations
 

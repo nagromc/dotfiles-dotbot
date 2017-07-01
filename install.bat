@@ -1,0 +1,17 @@
+@echo off
+
+call:link %USERPROFILE%\.atom\apmrc %CD%\atom\apmrc
+call:link %USERPROFILE%\.atom\config.cson %CD%\atom\config.cson
+call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee
+call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson
+call:link %USERPROFILE%\.atom\snippets.cson %CD%\atom\snippets.cson
+call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json
+call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig
+call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig
+
+pause & goto:eof
+
+:link
+del %~1
+mklink %~1 %~2
+goto:eof
