@@ -7,7 +7,7 @@
     ]
   editor:
     autoIndent: true
-    fontSize: 10
+    fontSize: 12
     invisibles:
       cr: "␍"
       space: "•"
