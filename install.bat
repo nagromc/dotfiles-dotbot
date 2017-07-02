@@ -9,6 +9,12 @@ call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig
 call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig
 
+
+echo N | copy /-Y %CD%\git\gitconfig_local.template %USERPROFILE%\.gitconfig_local
+echo. & echo. & echo.
+echo Please edit "%USERPROFILE%\.gitconfig_local" to adapt Git's behaviour to Windows (especially to disable GPG signing commits).
+echo.
+
 pause & goto:eof
 
 :link
