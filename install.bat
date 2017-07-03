@@ -12,7 +12,6 @@ if not [%arg%]==[--link] if not [%arg%]==[--copy]  (
     goto:eof
 )
 
-call:link %USERPROFILE%\.atom\apmrc %CD%\atom\apmrc %arg%
 call:link %USERPROFILE%\.atom\config.cson %CD%\atom\config.cson %arg%
 call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
 call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson %arg%
