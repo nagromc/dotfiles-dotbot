@@ -20,7 +20,7 @@
     # useful for other aliases
     branch-name = "!sh -c 'git rev-parse --abbrev-ref HEAD' -"
     ci = commit
-    cia = commmit --all
+    cia = commit --all
     ciam = commit --all --message
     ciams = commit --all --gpg-sign --message
     ciamns = commit --all --no-gpg-sign --message
