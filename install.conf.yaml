@@ -53,6 +53,7 @@
     ~/.gnupg/sks-keyservers.netCA.pem: gnupg/sks-keyservers.netCA.pem
     ~/.highlight/langDefs: bin/syntaxhighlight/highlight/langDefs/
     ~/.npmrc: npm/npmrc
+    ~/.pdbrc: pdb/pdbrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.texmf: texmf/
     ~/.tigrc: tig/tigrc
