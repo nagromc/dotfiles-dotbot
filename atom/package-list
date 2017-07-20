@@ -24,7 +24,6 @@ linter-jsonlint
 linter-rust
 linter-shellcheck
 linter-xmllint
-merge-conflicts
 minimap
 minimap-find-and-replace
 minimap-git-diff
