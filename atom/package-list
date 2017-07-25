@@ -1,5 +1,6 @@
 atom-beautify
 atom-language-rust
+collapse-then-reveal
 color-picker
 editorconfig
 emmet
@@ -39,6 +40,5 @@ project-manager
 split-diff
 ssh-config
 symbols-tree-view
-synced-sidebar
 tabs-to-spaces
 terminal-plus
