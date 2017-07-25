@@ -10,5 +10,4 @@ command -v $APM_CMD >/dev/null 2>&1 || {
     exit 1;
 }
 
-apm install --packages-file "$PACKAGES_LIST_PATH"
-
+apm install --production --packages-file "$PACKAGES_LIST_PATH"
