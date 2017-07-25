@@ -1,5 +1,21 @@
 "*":
   core:
+    customFileTypes:
+      "source.git-config": [
+        "gitconfig"
+        "gitconfig_local"
+        "gitconfig_local.template"
+      ]
+      "source.json": [
+        "bowerrc"
+      ]
+      "source.ssh-config": [
+        "~/.ssh/config_local"
+        "ssh/config"
+      ]
+      "source.tmux": [
+        "tmux.conf"
+      ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"

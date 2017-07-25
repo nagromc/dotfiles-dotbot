@@ -10,9 +10,13 @@ git-plus
 git-time-machine
 highlight-line
 highlight-selected
+language-autohotkey2
+language-batchfile
 language-docker
 language-fish-shell
 language-latex
+language-tmux
+language-viml
 linter
 linter-bootlint
 linter-csslint
@@ -33,6 +37,7 @@ monokai
 pdf-view
 project-manager
 split-diff
+ssh-config
 symbols-tree-view
 synced-sidebar
 tabs-to-spaces
