@@ -19,6 +19,8 @@ call:link %USERPROFILE%\.atom\snippets.cson %CD%\atom\snippets.cson %arg%
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
+:: Git for Windows will look for .gitconfig in "%HOMEDRIVE%%HOMEPATH%" if `HOME` is not set. We force `HOME` to "%USERPROFILE%"
+setx HOME ~USERPROFILE~
 call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig %arg%
 
 
