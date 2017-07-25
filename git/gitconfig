@@ -116,6 +116,10 @@
     sbt = show-branch --topic
     sh = show
     shv = show --pretty=fuller --date=iso
+    # usage:
+    # * to sign the 3 last commits: git sign-commits HEAD~3..HEAD
+    # * or from commit a1b2c3d: git sign-commits a1b2c3d..HEAD
+    sign-commits = filter-branch -f --commit-filter 'git commit-tree -S "$@"'
     sm = submodule
     sms = submodule sync
     smu = submodule update --init --recursive
