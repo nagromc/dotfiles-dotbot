@@ -7,3 +7,4 @@ SET APM_CMD=apm
 
 apm install --packages-file %PACKAGES_LIST_PATH%
 
+pause
