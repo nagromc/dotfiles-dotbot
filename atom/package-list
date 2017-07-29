@@ -13,6 +13,7 @@ highlight-line
 highlight-selected
 language-autohotkey2
 language-batchfile
+language-crontab
 language-docker
 language-fish-shell
 language-latex
