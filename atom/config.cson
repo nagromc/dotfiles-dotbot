@@ -29,6 +29,7 @@
       space: "•"
       tab: "─"
     normalizeIndentOnPaste: true
+    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     showLineNumbers: true
