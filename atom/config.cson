@@ -16,6 +16,9 @@
       "source.tmux": [
         "tmux.conf"
       ]
+    disabledPackages: [
+      "whitespace"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
