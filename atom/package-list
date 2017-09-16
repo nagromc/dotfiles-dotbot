@@ -14,6 +14,7 @@ language-autohotkey2
 language-batchfile
 language-crontab
 language-docker
+language-dotenv
 language-fish-shell
 language-latex
 language-tmux
