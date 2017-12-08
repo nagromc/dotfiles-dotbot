@@ -6,6 +6,7 @@ set -x LESSOPEN "| /usr/bin/highlight --quiet --out-format=xterm256 --style=molo
 set -x LESS ' -R -F -X --ignore-case --jump-target=5 --shift .2'
 set -x PAGER less
 set -x TEXMFHOME ~/.texmf
+set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 
 if [ ! "$TERM" = ""  ]
     # LESS_TERMCAP to get colors in manpages
