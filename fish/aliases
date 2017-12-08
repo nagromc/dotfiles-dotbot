@@ -5,6 +5,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 # not compatible with fish
 #alias ~="cd ~"
+alias ag='ag --pager $PAGER'
 alias bak='backup'
 alias cpp='cp --parent'
 alias df='df --human-readable'
