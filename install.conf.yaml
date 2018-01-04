@@ -37,9 +37,9 @@
     ~/.config/fish/exports: fish/exports
     ~/.config/fish/path: fish/path
     ~/.config/fish/shell_prompt.sh: fish/shell_prompt.sh
-    ~/.dotfiles: ''
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
+    ~/.dotfiles: ''
     ~/.editorconfig: editorconfig/editorconfig
     ~/.eslintrc.yaml: eslint/eslintrc.yaml
     ~/.fonts: bin/fonts
