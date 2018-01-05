@@ -54,6 +54,8 @@
     ~/.gnupg/sks-keyservers.netCA.pem: gnupg/sks-keyservers.netCA.pem
     ~/.highlight/langDefs: bin/syntaxhighlight/highlight/langDefs/
     ~/.local/bin/lessvim: /usr/share/vim/vim80/macros/less.sh
+    ~/.mozilla/firefox/profiles.ini: firefox/profiles.ini
+    ~/.mozilla/firefox/default/user.js: firefox/user.js
     ~/.npmrc: npm/npmrc
     ~/.pdbrc: pdb/pdbrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
