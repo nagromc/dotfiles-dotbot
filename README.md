@@ -56,9 +56,8 @@ Installation
 
         $ curl -L https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
         $ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-        $ sudo apt update && sudo apt install aspell-en aspell-fr atom autojump curl fish git-flow gnupg2 highlight libxml2-utils pcscd pcsc-tools python-dev python-pip rxvt-unicode-256color scdaemon shellcheck silversearcher-ag tig tmux vim
-        $ mkdir -p ~/.local/ && wget https://nodejs.org/dist/latest/node-vx.x.x-linux-x64.tar.gz -O - | tar -xz -C ~/.local/ --strip-components=1
-        $ npm install -g npm dirty-git bower grunt grunt-cli gulp-cli tldr yarn yo
+        $ sudo apt update && sudo apt install aspell-en aspell-fr atom autojump curl fish git-flow gnupg2 highlight libxml2-utils nodejs npm pcscd pcsc-tools python-dev python-pip rxvt-unicode-256color scdaemon shellcheck silversearcher-ag tig tmux vim
+        $ npm install -g npm && npm install -g dirty-git bower grunt grunt-cli gulp-cli tldr yarn yo
         $ git clone https://github.com/junegunn/fzf.git ~/dev/fzf && cd ~/dev/fzf && git colt && ~/dev/fzf/install
         $ sudo pip install ipdb pre-commit pre-commit-hooks thefuck && sudo pip install --upgrade pip enum34
         $ apm install --packages-file ~/.dotfiles/atom/package-list
