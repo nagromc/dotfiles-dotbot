@@ -177,6 +177,7 @@
     rebase = preserve
 [push]
     default = simple
+    followTags = true
     gpgSign = if-asked
 [status]
     branch = true
