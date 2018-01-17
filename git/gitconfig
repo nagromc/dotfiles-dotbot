@@ -132,7 +132,7 @@
     ssls = stash list
     ssp = stash pop
     ssrm = "!sh -c 'git stash drop stash@{${1}}' -"
-    sss = stash save --include-untracked
+    sss = stash save --all
     st = status
     sti = status --ignored
     tg = tag
