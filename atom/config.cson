@@ -24,6 +24,7 @@
       "one-dark-ui"
       "monokai"
     ]
+    uriHandlerRegistration: "always"
   editor:
     autoIndent: true
     fontSize: 12
