@@ -7,6 +7,9 @@
 [submodule "fonts"]
     path = bin/fonts
     url = https://github.com/powerline/fonts.git
+[submodule "git/gitflow-avh"]
+    path = git/gitflow-avh
+    url = https://github.com/petervanderdoes/gitflow-avh.git
 [submodule "git/git-flow-completion"]
     path = git/git-flow-completion
     url = https://github.com/petervanderdoes/git-flow-completion.git
