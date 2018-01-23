@@ -1,12 +1,12 @@
 .gitconfig_local
-ssh_config_local
+.vimrc_local
 fish/completions/fisher.fish
 fish/extra
 fish/functions/__ssh_agent_is_started.fish
 fish/functions/__ssh_agent_start.fish
 fish/functions/fish_user_key_bindings.fish
 fish/functions/fzf_key_bindings.fish
-.vimrc_local
+ssh_config_local
 texmf/tex/latex
 tmux/resurrect
 vim/colors/
