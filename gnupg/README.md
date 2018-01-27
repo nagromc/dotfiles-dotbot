@@ -5,7 +5,7 @@ GnuPG quick personal guide
 
 Run the following command:
 
-```
+```shell
 $ setxkbmap fr && \
 sudo apt update && \
 sudo apt install -y software-properties-common && \
@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/nagromc/dotfiles/master/gnupg/gpg.conf --
 
 You may need to restart `scdaemon` if your smart card is not recognized
 
-```
+``` shell
 $ killall scdaemon
 ```
 
@@ -32,7 +32,7 @@ $ killall scdaemon
 
 You can just use `paperkey` as it is described in the home page:
 
-```
+```shell
 $ gpg --export-secret-keys 3D5DDE26A0B55831 | paperkey --output-type=base16 --output-width=90 | enscript -f Courier10 -o - | ps2pdf - /tmp/paperkey-txt.pdf
 ```
 
@@ -48,7 +48,7 @@ Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-p
 
 -->
 
-  ```
+  ```shell
   $ gpg --export-secret-keys 3D5DDE26A0B55831 | paperkey --output-type=raw | base64 | split --bytes=1k -d --filter='qrencode --level=H --type=EPS --output=- | ps2pdf -dEPSCrop -dPDFSETTINGS=/prepress - /tmp/$FILE.pdf' - qr-code- && pdfunite /tmp/qr-code-* /tmp/qr-code.pdf
   ```
 
@@ -56,7 +56,7 @@ Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-p
 - Using `easy-gpg-to-paper`
   - Install the dependencies as it is described on the [project page](https://github.com/cojomojo/easy-gpg-to-paper/blob/45801fafab2213cb77b60ce6a22f938a3d983be0/README.md#dependencies)
 
-    ```
+    ```shell
     $ git clone https://github.com/cojomojo/pyqrencode.git
     $ pip install --user -e pyqrencode/
     $ git clone https://github.com/cojomojo/easy-gpg-to-paper.git
@@ -66,7 +66,7 @@ Either pipe the `paperkey` output to a QR code generator, or use [`easy-gpg-to-p
 
   - Generate the QR code
 
-    ```
+    ```shell
     ./gpg2paper.py export --keyid 3D5DDE26A0B55831 --png --out /tmp/secret-key-qr-code.png
     ```
 -->
@@ -88,13 +88,13 @@ Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, a
 - Scan your QR code. It's not a good idea to use your phone as it may be copied in the paperclip of the phone or saved in the app's data and then be leaked.
   - To use a [Brother DSmobile 720d](https://www.brother-usa.com/Scanners/ModelDetail/24/DS720D/Overview) on your system, install the [required official driver](http://support.brother.com/g/b/downloadend.aspx?c=us&lang=en&prod=ds720d_all&os=128&dlid=dlf100976_000&flang=4&type3=566):
 
-    ```
+    ```shell
     $ URL='http://download.brother.com/welcome/dlf100976/libsane-dsseries_1.0.5-1_amd64.deb'; FILE=`mktemp`; wget "$URL" -qO $FILE && sudo dpkg -i $FILE; rm $FILE
     ```
 
   - Run Simple Scan
 
-    ```
+    ```shell
     $ simple-scan
     ```
 
@@ -102,7 +102,7 @@ Something went wrong with your USB stick, your burnt CD-ROM, your floppy disk, a
 
 - Import the scanned QR code with `zbarimg` and `paperclip`
 
-  ```
+  ```shell
   $ # to handle GPG 2.1 keyring format change for paperkey
   $ gpg2 --export > /tmp/pubring.gpg
   $ killall scdaemon
