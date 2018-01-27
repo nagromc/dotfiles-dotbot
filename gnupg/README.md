@@ -7,11 +7,11 @@ Run the following command:
 
 ```
 $ setxkbmap fr && \
-sudo apt-get update && \
-sudo apt-get install software-properties-common && \
+sudo apt update && \
+sudo apt install software-properties-common && \
 sudo add-apt-repository universe && \
-sudo apt-get update && \
-sudo apt-get install -y cups curl enscript git gnupg2 haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools poppler-utils qrencode sane-utils simple-scan zbar-tools && \
+sudo apt update && \
+sudo apt install -y cups curl enscript git gnupg2 haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools poppler-utils qrencode sane-utils simple-scan zbar-tools && \
 gpg --version && \
 curl https://raw.githubusercontent.com/nagromc/dotfiles/master/gnupg/gpg.conf --output ~/.gnupg/gpg.conf
 ```
