@@ -1,5 +1,6 @@
 .gitconfig_local
 .vimrc_local
+firefox/.user.js.bup
 fish/completions/fisher.fish
 fish/extra
 fish/functions/__ssh_agent_is_started.fish
