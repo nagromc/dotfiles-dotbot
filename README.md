@@ -60,7 +60,7 @@ Installation
     $ sudo apt update && sudo apt install aspell-en aspell-fr atom autojump curl fish git-flow gnupg2 highlight libxml2-utils nodejs npm pcscd pcsc-tools python-dev python-pip rxvt-unicode-256color scdaemon shellcheck silversearcher-ag tig tmux vim
     $ npm install -g npm && npm install -g dirty-git bower grunt grunt-cli gulp-cli tldr yarn yo
     $ git clone https://github.com/junegunn/fzf.git ~/dev/fzf && cd ~/dev/fzf && git colt && ~/dev/fzf/install
-    $ sudo pip install ipdb pre-commit pre-commit-hooks thefuck && sudo pip install --upgrade pip enum34
+    $ pip install ipdb pre-commit pre-commit-hooks thefuck && pip install --upgrade pip enum34
     $ apm install --packages-file ~/.dotfiles/atom/package-list
     $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 && curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
     $ rvm install 2.1.5 && gem install overcommit
