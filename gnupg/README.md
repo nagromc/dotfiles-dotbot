@@ -8,7 +8,7 @@ Run the following command:
 ```
 $ setxkbmap fr && \
 sudo apt update && \
-sudo apt install software-properties-common && \
+sudo apt install -y software-properties-common && \
 sudo add-apt-repository universe && \
 sudo apt update && \
 sudo apt install -y cups curl enscript git gnupg2 haveged libqrencode-dev libsane-extras scdaemon paperkey pcscd pcsc-tools poppler-utils qrencode sane-utils simple-scan zbar-tools && \
