@@ -28,3 +28,4 @@ user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.firstparty.isolate", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("security.webauth.u2f", true);
+user_pref("signon.rememberSignons", false);
