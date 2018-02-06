@@ -155,7 +155,9 @@
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
-    pager = less -F -S -R -X
+    # append to LESS envvar special less options for Git
+    # https://git-scm.com/docs/git-config#git-config-corepager
+    pager = less --chop-long-lines
     whitespace = blank-at-eol,space-before-tab,tab-in-indent,blank-at-eof
 [credential]
     helper = cache --timeout=28800
