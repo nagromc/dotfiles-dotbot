@@ -43,8 +43,10 @@
     cp = cherry-pick
     cpa = cherry-pick --abort
     cpc = cherry-pick --continue
-    df = diff --word-diff=color
-    dfs = "!sh -c 'git df --cached' -"
+    df = diff
+    dfws = diff--cached
+    dfw = diff --word-diff=color
+    dfws = "!sh -c 'git df --cached' -"
     fe = fetch
     fl = flow
     flf = flow feature
@@ -163,6 +165,18 @@
     helper = cache --timeout=28800
 [credential "https://github.com"]
     username = nagromc
+[diff]
+    colorMoved = dimmed_zebra
+[color "diff"]
+    newMoved = green bold
+    newMovedAlternative = cyan bold
+    newMovedAlternativeDimmed = cyan dim
+    newMovedDimmed = green dim
+    oldMoved = red bold
+    oldMovedAlternative = magenta bold
+    oldMovedAlternativeDimmed = magenta dim
+    oldMovedDimmed = red dim
+    whitespace = black magenta
 [format]
     pretty = %C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)
 [http]
