@@ -173,6 +173,7 @@
 [commit]
     gpgSign = true
 [core]
+    attributesFile = ~/.gitattributes_global
     editor = vim
     excludesfile = ~/.gitignore_global
     # append to LESS envvar special less options for Git
@@ -185,6 +186,9 @@
     username = nagromc
 [diff]
     colorMoved = dimmed_zebra
+[filter "tabspace"]
+    smudge = expand --tabs=2 --initial
+    clean = unexpand --tabs=2 --first-only
 [format]
     pretty = %C(red)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%ad)%C(reset) %C(blue)<%an>%C(reset)
 [http]
