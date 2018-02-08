@@ -32,7 +32,6 @@
     autoIndent: true
     fontSize: 12
     invisibles:
-      cr: "␍"
       space: "•"
       tab: "─"
     normalizeIndentOnPaste: true
