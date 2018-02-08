@@ -44,7 +44,7 @@
     cpa = cherry-pick --abort
     cpc = cherry-pick --continue
     df = diff
-    dfws = diff--cached
+    dfs = diff --cached
     dfw = diff --word-diff=color
     dfws = "!sh -c 'git df --cached' -"
     fe = fetch
