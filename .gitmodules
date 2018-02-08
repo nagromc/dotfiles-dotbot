@@ -1,3 +1,6 @@
+[submodule "diff-so-fancy"]
+    path = bin/diff-so-fancy
+    url = https://github.com/so-fancy/diff-so-fancy.git
 [submodule "dotbot"]
     path = bin/dotbot
     url = https://github.com/anishathalye/dotbot

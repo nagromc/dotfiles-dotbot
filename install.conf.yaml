@@ -52,6 +52,7 @@
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
     ~/.gnupg/dirmngr.conf: gnupg/dirmngr.conf
     ~/.highlight/langDefs: bin/syntaxhighlight/langDefs/
+    ~/.local/bin/diff-so-fancy: bin/diff-so-fancy/third_party/build_fatpack/diff-so-fancy
     ~/.local/bin/lessvim: /usr/share/vim/vim80/macros/less.sh
     ~/.mozilla/firefox/profiles.ini: firefox/profiles.ini
     ~/.mozilla/firefox/default/user.js: firefox/user.js
