@@ -2,15 +2,8 @@
 *.eps binary
 *.gif binary
 *.ico binary
-*.java filter=tabspace
 *.jpeg binary
 *.jpg binary
-*.js filter=tabspace
-*.json filter=tabspace
-*.md filter=tabspace
 *.png binary
-*.sh filter=tabspace
 *.tif binary
 *.tiff binary
-*.yaml filter=tabspace
-*.yml filter=tabspace
