@@ -81,3 +81,4 @@
     - [pre-commit install, Installing pre-commit hooks]
     - [sh gnupg/fix-socket-gpg-location.sh]
     - [chmod go-rwx ~/.gnupg/]
+    - ["curl https://keybase.io/mgn/pgp_keys.asc | gpg --import", Importing my own public key]
