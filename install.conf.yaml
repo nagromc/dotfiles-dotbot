@@ -27,6 +27,7 @@
     ~/.atom/keymap.cson: atom/keymap.cson
     ~/.atom/snippets.cson: atom/snippets.cson
     ~/.bowerrc: bower/bowerrc
+    ~/.bundle/config: bundler/config
     ~/.config/Brackets/brackets.json: brackets/brackets.json
     ~/.config/Code/User/settings.json: code/settings.json
     ~/.config/fish/abbrs: fish/abbrs
