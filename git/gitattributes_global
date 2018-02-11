@@ -1,9 +1,9 @@
 * text=auto
-*.eps binary
-*.gif binary
-*.ico binary
-*.jpeg binary
-*.jpg binary
-*.png binary
-*.tif binary
-*.tiff binary
+*.eps binary diff=exif
+*.gif binary diff=exif
+*.ico binary diff=exif
+*.jpeg binary diff=exif
+*.jpg binary diff=exif
+*.png binary diff=exif
+*.tif binary diff=exif
+*.tiff binary diff=exif

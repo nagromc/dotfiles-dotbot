@@ -186,6 +186,8 @@
     username = nagromc
 [diff]
     colorMoved = dimmed_zebra
+[diff "exif"]
+    textconv = exiftool
 [filter "tabspace"]
     smudge = expand --tabs=2 --initial
     clean = unexpand --tabs=2 --first-only
