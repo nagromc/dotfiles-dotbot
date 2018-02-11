@@ -46,7 +46,7 @@
     ~/.fonts: bin/fonts
     ~/.gemrc: gem/gemrc
     ~/.git_template: git/template/
-    ~/.gitattributes_global: git/gitattributes
+    ~/.gitattributes_global: git/gitattributes_global
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.gnupg/gpg-agent.conf: gnupg/gpg-agent.conf
