@@ -42,6 +42,7 @@
     ~/.config/keepassxc/keepassxc.ini: keepassxc/keepassxc.ini
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
+    ~/.curlrc: curl/curlrc
     ~/.dotfiles: ''
     ~/.editorconfig: editorconfig/editorconfig
     ~/.eslintrc.yaml: eslint/eslintrc.yaml
