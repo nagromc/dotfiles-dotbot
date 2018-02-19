@@ -171,6 +171,7 @@
     untracked = magenta
     updated = green
 [commit]
+    cleanup = scissors
     gpgSign = true
 [core]
     attributesFile = ~/.gitattributes_global
