@@ -26,6 +26,7 @@
     ~/.atom/init.coffee: atom/init.coffee
     ~/.atom/keymap.cson: atom/keymap.cson
     ~/.atom/snippets.cson: atom/snippets.cson
+    ~/.atom/styles.less: atom/styles.less
     ~/.bowerrc: bower/bowerrc
     ~/.bundle/config: bundler/config
     ~/.config/Brackets/brackets.json: brackets/brackets.json

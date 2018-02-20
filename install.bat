@@ -16,6 +16,7 @@ call:link %USERPROFILE%\.atom\config.cson %CD%\atom\config.cson %arg%
 call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
 call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson %arg%
 call:link %USERPROFILE%\.atom\snippets.cson %CD%\atom\snippets.cson %arg%
+call:link %USERPROFILE%\.atom\styles.less %CD%\atom\styles.less %arg%
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
