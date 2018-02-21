@@ -18,3 +18,5 @@ Host git s
 Host h s
     RemoteForward /home/morgan/.gnupg/S.gpg-agent /home/morgan/.gnupg/S.gpg-agent.extra
     ExitOnForwardFailure yes
+
+Include ~/.ssh/config.hostnames

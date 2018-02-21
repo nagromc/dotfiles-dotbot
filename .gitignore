@@ -9,6 +9,7 @@ fish/functions/fish_user_key_bindings.fish
 fish/functions/fzf_key_bindings.fish
 msdos/path-backup.txt
 ssh_config_local
+ssh/config.hostnames
 texmf/tex/latex
 tmux/resurrect
 vim/colors/

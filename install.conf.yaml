@@ -64,6 +64,7 @@
     ~/.npmrc: npm/npmrc
     ~/.pdbrc: pdb/pdbrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
+    ~/.ssh/config.hostnames: ssh/config.hostnames
     ~/.texmf: texmf/
     ~/.tigrc: tig/tigrc
     ~/.tmux: tmux/
