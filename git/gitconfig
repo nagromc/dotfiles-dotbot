@@ -117,7 +117,7 @@
     sbc = show-branch --current
     sbt = show-branch --topic
     sh = show
-    shv = show --pretty=fuller --date=iso
+    shv = show --pretty=fuller --date=iso --show-signature
     # usage:
     # * to sign the 3 last commits: git sign-commits HEAD~3..HEAD
     # * or from commit a1b2c3d: git sign-commits a1b2c3d..HEAD
