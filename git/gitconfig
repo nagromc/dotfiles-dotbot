@@ -191,6 +191,11 @@
     mnemonicprefix = true
 [diff "exif"]
     textconv = exiftool
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [filter "tabspace"]
     smudge = expand --tabs=2 --initial
     clean = unexpand --tabs=2 --first-only
