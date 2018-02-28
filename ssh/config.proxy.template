@@ -1,0 +1,11 @@
+# Here is a template to configure SSH through a proxy.
+# Copy the file in `~/.ssh/config.proxy`, change the relevant values, and you
+# are good to go.
+
+Host host-name
+    ProxyCommand /usr/bin/corkscrew proxy-hostname proxy-port %h %p ~/.ssh/auth
+    IdentityFile ~/.ssh/id_rsa
+    ServerAliveInterval 120
+    User username
+    DynamicForward 3128
+    LogLevel ERROR

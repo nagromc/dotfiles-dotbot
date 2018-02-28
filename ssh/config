@@ -1,10 +1,4 @@
-# Host host-name
-#     ProxyCommand /usr/bin/corkscrew proxy-hostname proxy-port %h %p ~/.ssh/auth
-#     IdentityFile ~/.ssh/id_rsa
-#     ServerAliveInterval 120
-#     User username
-#     DynamicForward 3128
-#     LogLevel ERROR
+Include ~/.ssh/config.proxy
 
 Host github.com
     Hostname ssh.github.com
