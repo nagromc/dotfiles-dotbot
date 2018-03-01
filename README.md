@@ -77,7 +77,7 @@ Installation
     - In Cygwin:
 
         ```shell
-        $ mkpasswd -c | awk -F: '{$7="/usr/bin/fish"}1' OFS=: >> /etc/passwd
+        $ echo "db_shell: /bin/fish" >> /etc/nsswitch.conf
         ```
 
 3. Then, run the `dotbot`'s installer:
