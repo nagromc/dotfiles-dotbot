@@ -36,6 +36,8 @@
     cli = clean -d --interactive
     co = checkout
     cob = checkout -b
+    # reset everything. Use it after changing .gitattributes file
+    co-from-scratch = "!sh -c 'git rm --cached -r . && git reset --hard' -"
     # checkout latest tag
     colt = "!sh -c 'git fetch --tags && git checkout $(git latest-tag)' -"
     confed = config --global --edit
