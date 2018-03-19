@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 addonsId=""
 
@@ -42,4 +42,5 @@ for id in $addonsId; do
     addonsUrlList="$addonsUrlList $addonsBaseUrl$id"
 done
 
+# shellcheck disable=SC2086
 "$firefoxPath" $addonsUrlList
