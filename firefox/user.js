@@ -7,7 +7,7 @@
 user_pref("browser.newtabpage.activity-stream.enabled", false);
 user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.shell.checkDefaultBrowser", true);
-user_pref("browser.startup.homepage", "https://duckduckgo.com/?k5=2&kae=d&kaj=m&kak=-1&kam=osm&kap=-1&kaq=-1&kax=-1&kp=-2");
+user_pref("browser.startup.homepage", "https://start.duckduckgo.com/?k5=2&kae=d&kaj=m&kak=-1&kam=osm&kap=-1&kaq=-1&kax=-1&kp=-2");
 user_pref("browser.startup.page", 3);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("devtools.cache.disabled", true);
