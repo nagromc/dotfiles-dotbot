@@ -27,6 +27,7 @@
     ~/.atom/keymap.cson: atom/keymap.cson
     ~/.atom/snippets.cson: atom/snippets.cson
     ~/.atom/styles.less: atom/styles.less
+    ~/.bash_aliases: bash/bash_aliases
     ~/.bowerrc: bower/bowerrc
     ~/.bundle/config: bundler/config
     ~/.config/Brackets/brackets.json: brackets/brackets.json
