@@ -31,14 +31,14 @@
     ~/.bundle/config: bundler/config
     ~/.config/Brackets/brackets.json: brackets/brackets.json
     ~/.config/Code/User/settings.json: code/settings.json
-    ~/.config/fish/abbrs: fish/abbrs
-    ~/.config/fish/aliases: fish/aliases
+    ~/.config/fish/abbrs.fish: fish/abbrs.fish
+    ~/.config/fish/aliases.fish: fish/aliases.fish
     ~/.config/fish/completions/git.fish: git/git-flow-completion/git.fish
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/fish/fisherman/fishfile: fish/fisherman/fishfile
     ~/.config/fish/functions: fish/functions/
-    ~/.config/fish/exports: fish/exports
-    ~/.config/fish/path: fish/path
+    ~/.config/fish/exports.fish: fish/exports.fish
+    ~/.config/fish/path.fish: fish/path.fish
     ~/.config/fish/shell_prompt.sh: fish/shell_prompt.sh
     ~/.config/keepassxc/keepassxc.ini: keepassxc/keepassxc.ini
     ~/.config/mc/ini: mc/ini

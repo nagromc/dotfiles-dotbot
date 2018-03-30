@@ -1,7 +1,7 @@
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.config/fish/{path,exports,aliases,abbrs,extra};
+for file in ~/.config/fish/{path,exports,aliases,abbrs,extra}.fish;
     [ -r "$file" ] ; and [ -f "$file" ]; and . "$file"
 end
 set -e file
