@@ -68,6 +68,7 @@
     ~/.ssh/config.hostnames: ssh/config.hostnames
     ~/.texmf: texmf/
     ~/.tigrc: tig/tigrc
+    ~/.tldrrc: tldr/tldrrc
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmuxline.vim.conf: tmux/tmuxline.vim.conf

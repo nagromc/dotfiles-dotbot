@@ -10,7 +10,8 @@
         "gitconfig_local.template"
       ]
       "source.json": [
-        "bowerrc"
+        "bowerrc",
+        "tldrrc"
       ]
       "source.ssh-config": [
         "~/.ssh/config_local"
