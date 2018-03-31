@@ -4,6 +4,8 @@
 // https://wiki.mozilla.org/Security/Cookies
 // https://wiki.mozilla.org/Security/Referrer
 
+user_pref("browser.fixup.alternate.prefix", "");
+user_pref("browser.fixup.alternate.suffix", "");
 user_pref("browser.newtabpage.activity-stream.enabled", false);
 user_pref("browser.newtabpage.enabled", false);
 user_pref("browser.shell.checkDefaultBrowser", true);
