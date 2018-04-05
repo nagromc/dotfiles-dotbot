@@ -1,6 +1,6 @@
 @echo off
 
-set "cygPkgList=aspell,corkscrew,curl,dos2unix,fish,git,git-svn,highlight,keychain,python3,python3-pip,recode,the_silver_searcher,tig,tmux,tree,unzip,vim,wget"
+set "cygPkgList=aspell,corkscrew,curl,dos2unix,fish,git,git-svn,highlight,keychain,openssl-perl,python3,python3-pip,recode,the_silver_searcher,tig,tmux,tree,unzip,vim,wget"
 
 set "cygMirrorSite=http://www.mirrorservice.org/sites/sourceware.org/pub/cygwin/"
 set "cygInstallerUrl=https://cygwin.com/setup-x86_64.exe"
