@@ -18,6 +18,7 @@ language-crontab
 language-docker
 language-dotenv
 language-fish-shell
+language-ini
 language-latex
 language-tmux
 language-viml
