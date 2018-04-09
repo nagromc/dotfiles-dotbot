@@ -2,6 +2,7 @@
   "editor.cursorBlinking": "smooth",
   "editor.fontSize": 12,
   "editor.renderWhitespace": "boundary",
+  "telemetry.enableTelemetry": false,
   "workbench.colorTheme": "Monokai",
   "workbench.welcome.enabled": false
 }
