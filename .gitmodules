@@ -1,57 +1,75 @@
 [submodule "diff-so-fancy"]
     path = bin/diff-so-fancy
     url = https://github.com/so-fancy/diff-so-fancy.git
+    ignore = all
 [submodule "dotbot"]
     path = bin/dotbot
     url = https://github.com/anishathalye/dotbot
+    ignore = all
 [submodule "fish/fisher"]
     path = fish/fisher
     url = https://github.com/fisherman/fisherman.git
+    ignore = all
 [submodule "fonts"]
     path = bin/fonts
     url = https://github.com/powerline/fonts.git
+    ignore = all
 [submodule "bin/syntaxhighlight"]
     path = bin/syntaxhighlight
     url = https://github.com/andre-simon/highlight.git
+    ignore = all
 [submodule "git/gitflow-avh"]
     path = git/gitflow-avh
     url = https://github.com/petervanderdoes/gitflow-avh.git
+    ignore = all
 [submodule "git/git-flow-completion"]
     path = git/git-flow-completion
     url = https://github.com/petervanderdoes/git-flow-completion.git
+    ignore = all
 [submodule "mintty/minttyrc.d/solarized"]
     path = mintty/minttyrc.d/solarized
     url = https://github.com/mavnn/mintty-colors-solarized.git
+    ignore = all
 [submodule "tmux/plugins/tmux-resurrect"]
     path = tmux/plugins/tmux-resurrect
     url = https://github.com/tmux-plugins/tmux-resurrect.git
+    ignore = all
 [submodule "vim/bundle/auto-pairs"]
     path = vim/bundle/auto-pairs
     url = https://github.com/jiangmiao/auto-pairs.git
+    ignore = all
 [submodule "vim/bundle/css.vim"]
     path = vim/bundle/css.vim
     url = https://github.com/JulesWang/css.vim
+    ignore = all
 [submodule "vim/bundle/ctrlp.vim"]
     path = vim/bundle/ctrlp.vim
     url = https://github.com/ctrlpvim/ctrlp.vim.git
+    ignore = all
 [submodule "vim/bundle/editorconfig-vim"]
     path = vim/bundle/editorconfig-vim
     url = https://github.com/editorconfig/editorconfig-vim.git
+    ignore = all
 [submodule "vim/bundle/MatchTag"]
     path = vim/bundle/MatchTag
     url = https://github.com/gregsexton/MatchTag.git
+    ignore = all
 [submodule "vim/bundle/molokai"]
     path = vim/bundle/molokai
     url = https://github.com/tomasr/molokai
+    ignore = all
 [submodule "vim/bundle/nerdcommenter"]
     path = vim/bundle/nerdcommenter
     url = https://github.com/scrooloose/nerdcommenter.git
+    ignore = all
 [submodule "vim/bundle/nerdtree"]
     path = vim/bundle/nerdtree
     url = https://github.com/scrooloose/nerdtree.git
+    ignore = all
 [submodule "vim/bundle/pathogen.vim"]
     path = vim/bundle/pathogen.vim
     url = https://github.com/tpope/vim-pathogen.git
+    ignore = all
 [submodule "vim/bundle/promptline.vim"]
     path = vim/bundle/promptline.vim
     url = https://github.com/nagromc/promptline.vim.git
@@ -59,48 +77,64 @@
 [submodule "vim/bundle/rust.vim"]
     path = vim/bundle/rust.vim
     url = https://github.com/rust-lang/rust.vim.git
+    ignore = all
 [submodule "vim/bundle/syntastic"]
     path = vim/bundle/syntastic
     url = https://github.com/scrooloose/syntastic.git
+    ignore = all
 [submodule "vim/bundle/tagbar"]
     path = vim/bundle/tagbar
     url = https://github.com/majutsushi/tagbar.git
+    ignore = all
 [submodule "vim/bundle/tmuxline.vim"]
     path = vim/bundle/tmuxline.vim
     url = https://github.com/edkolev/tmuxline.vim.git
+    ignore = all
 [submodule "vim/bundle/vim-airline"]
     path = vim/bundle/vim-airline
     url = https://github.com/vim-airline/vim-airline.git
+    ignore = all
 [submodule "vim/bundle/vim-airline-themes"]
     path = vim/bundle/vim-airline-themes
     url = https://github.com/vim-airline/vim-airline-themes.git
+    ignore = all
 [submodule "vim/bundle/vim-commentary"]
     path = vim/bundle/vim-commentary
     url = https://github.com/tpope/vim-commentary
+    ignore = all
 [submodule "vim/bundle/vim-fish"]
     path = vim/bundle/vim-fish
     url = https://github.com/kballard/vim-fish.git
+    ignore = all
 [submodule "vim/bundle/vim-fugitive"]
     path = vim/bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive.git
+    ignore = all
 [submodule "vim/bundle/vim-gitgutter"]
     path = vim/bundle/vim-gitgutter
     url = https://github.com/airblade/vim-gitgutter.git
+    ignore = all
 [submodule "vim/bundle/vim-joy"]
     path = vim/bundle/vim-joy
     url = https://github.com/rking/vim-joy
+    ignore = all
 [submodule "vim/bundle/vim-less"]
     path = vim/bundle/vim-less
     url = https://github.com/genoma/vim-less
+    ignore = all
 [submodule "vim/bundle/vim-sensible"]
     path = vim/bundle/vim-sensible
     url = https://github.com/tpope/vim-sensible.git
+    ignore = all
 [submodule "vim/bundle/vim-surround"]
     path = vim/bundle/vim-surround
     url = https://github.com/tpope/vim-surround.git
+    ignore = all
 [submodule "vim/bundle/vim-syntax-lighttpd"]
     path = vim/bundle/vim-syntax-lighttpd
     url = https://github.com/glensc/vim-syntax-lighttpd.git
+    ignore = all
 [submodule "X11/Xresources.d/solarized"]
     path = X11/Xresources.d/solarized
     url = https://github.com/solarized/xresources.git
+    ignore = all
