@@ -1,4 +1,6 @@
 * text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
 *.eps binary diff=exif
 *.gif binary diff=exif
 *.ico binary diff=exif
@@ -9,4 +11,3 @@
 *.tif binary diff=exif
 *.tiff binary diff=exif
 *.vim text eol=lf
-

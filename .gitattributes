@@ -1,8 +1,3 @@
-* text=auto
-*.bat text eol=crlf
-*.cmd text eol=crlf
-*.sh text eol=lf
-*.vim text eol=lf
 /fish/* text eol=lf
 /git/template/hooks/* text eol=lf
 /install text eol=lf
