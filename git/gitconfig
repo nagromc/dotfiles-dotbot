@@ -41,7 +41,7 @@
     # checkout latest tag
     colt = "!sh -c 'git fetch --tags && git checkout $(git latest-tag)' -"
     confed = config --global --edit
-    confedloc = "! vim ~/.gitconfig_local"
+    confedloc = "! vim ~/.config/git/gitconfig_local"
     cp = cherry-pick
     cpa = cherry-pick --abort
     cpc = cherry-pick --continue
@@ -176,9 +176,9 @@
     cleanup = scissors
     gpgSign = true
 [core]
-    attributesFile = ~/.gitattributes_global
+    attributesFile = ~/.config/git/gitattributes_global
     editor = vim
-    excludesfile = ~/.gitignore_global
+    excludesfile = ~/.config/git/gitignore_global
     # append to LESS envvar special less options for Git
     # https://git-scm.com/docs/git-config#git-config-corepager
     pager = diff-so-fancy | less --chop-long-lines
@@ -206,7 +206,7 @@
 [http]
     #proxy = http://<user>:<password>@<host_name>:<host_port>
 [init]
-    templatedir = ~/.git_template
+    templatedir = ~/.config/git/git_template
 [log]
     date = relative
 [merge]
@@ -230,4 +230,4 @@
     signingkey = 24A21B24
 # local customization
 [include]
-    path = ~/.gitconfig_local
+    path = ~/.config/git/gitconfig_local

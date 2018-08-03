@@ -1,5 +1,5 @@
-# This is a template for the most common options to change in a ~/.gitconfig_local file.
-# To use this template, just copy the file to ~/.gitconfig_local and uncomment the desired options.
+# This is a template for the most common options to change in a ~/.config/git/gitconfig_local file.
+# To use this template, just copy the file to ~/.config/git/gitconfig_local and uncomment the desired options.
 #[commit]
     #gpgSign = false
 #[core]

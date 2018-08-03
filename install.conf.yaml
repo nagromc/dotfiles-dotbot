@@ -41,6 +41,10 @@
     ~/.config/fish/exports.fish: fish/exports.fish
     ~/.config/fish/path.fish: fish/path.fish
     ~/.config/fish/shell_prompt.sh: fish/shell_prompt.sh
+    ~/.config/git/config: git/gitconfig
+    ~/.config/git/git_template: git/template/
+    ~/.config/git/gitattributes_global: git/gitattributes_global
+    ~/.config/git/gitignore_global: git/gitignore_global
     ~/.config/keepassxc/keepassxc.ini: keepassxc/keepassxc.ini
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
@@ -50,10 +54,6 @@
     ~/.eslintrc.yaml: eslint/eslintrc.yaml
     ~/.fonts: bin/fonts
     ~/.gemrc: gem/gemrc
-    ~/.git_template: git/template/
-    ~/.gitattributes_global: git/gitattributes_global
-    ~/.gitconfig: git/gitconfig
-    ~/.gitignore_global: git/gitignore_global
     ~/.gnupg/gpg-agent.conf: gnupg/gpg-agent.conf
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
     ~/.gnupg/dirmngr.conf: gnupg/dirmngr.conf
