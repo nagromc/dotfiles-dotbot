@@ -21,6 +21,8 @@ call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
 call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson %arg%
 call:link %USERPROFILE%\.atom\snippets.cson %CD%\atom\snippets.cson %arg%
 call:link %USERPROFILE%\.atom\styles.less %CD%\atom\styles.less %arg%
+mkdir %USERPROFILE%\.msdos
+call:link %USERPROFILE%\.msdos\aliases.cmd %CD%\msdos\aliases.cmd %arg%
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
@@ -37,6 +39,10 @@ echo N | copy /-Y %CD%\git\gitconfig_local.template %USERPROFILE%\.gitconfig_loc
 echo. & echo. & echo.
 echo Please edit "%USERPROFILE%\.gitconfig_local" to adapt Git's behaviour to Windows (especially to disable GPG signing commits).
 echo.
+
+
+reg import "%CD%\msdos\install-aliases.reg"
+
 
 pause & goto:eof
 
