@@ -13,8 +13,16 @@ if not [%arg%]==[--link] if not [%arg%]==[--hardlink] if not [%arg%]==[--copy]  
 )
 
 
+::==============================================================================
+:: Environment variables
+::==============================================================================
+
 setx ChocolateyToolsLocation "%%USERPROFILE%%\choco-tools"
 
+
+::==============================================================================
+:: Links
+::==============================================================================
 
 call:link %USERPROFILE%\.atom\config.cson %CD%\atom\config.cson %arg%
 call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
@@ -40,6 +48,10 @@ echo. & echo. & echo.
 echo Please edit "%USERPROFILE%\.gitconfig_local" to adapt Git's behaviour to Windows (especially to disable GPG signing commits).
 echo.
 
+
+::==============================================================================
+:: Commands
+::==============================================================================
 
 reg import "%CD%\msdos\install-aliases.reg"
 
