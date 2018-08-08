@@ -10,6 +10,8 @@ addonsId="$addonsId 872069"
 addonsId="$addonsId 792833"
 # KeePassXC-Browser - https://addons.mozilla.org/firefox/addon/keepassxc-browser/
 addonsId="$addonsId 881663"
+# Kimetrak - https://addons.mozilla.org/firefox/addon/kimetrak/
+addonsId="$addonsId 941867"
 # HTTPS Everywhere - https://addons.mozilla.org/firefox/addon/https-everywhere/
 addonsId="$addonsId 875902"
 # Privacy Badger - https://addons.mozilla.org/firefox/addon/privacy-badger17/
