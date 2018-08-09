@@ -29,6 +29,8 @@ call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
 call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson %arg%
 call:link %USERPROFILE%\.atom\snippets.cson %CD%\atom\snippets.cson %arg%
 call:link %USERPROFILE%\.atom\styles.less %CD%\atom\styles.less %arg%
+mkdir %USERPROFILE%\.local\bin
+call:link %USERPROFILE%\.local\bin\diff-so-fancy %CD%\bin\diff-so-fancy\third_party\build_fatpack\diff-so-fancy %arg%
 mkdir %USERPROFILE%\.msdos
 call:link %USERPROFILE%\.msdos\aliases.cmd %CD%\msdos\aliases.cmd %arg%
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
@@ -54,6 +56,7 @@ echo.
 ::==============================================================================
 
 reg import "%CD%\msdos\install-aliases.reg"
+call msdos/add-to-path.cmd %%%%USERPROFILE%%%%\.local\bin
 
 
 pause & goto:eof
