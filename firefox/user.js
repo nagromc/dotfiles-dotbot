@@ -28,6 +28,7 @@ user_pref("network.http.sendRefererHeader", 1);
 user_pref("network.http.sendSecureXSiteReferrer", false);
 user_pref("privacy.donottrackheader.enabled", true);
 user_pref("privacy.firstparty.isolate", true);
+user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("security.webauth.u2f", true);
 user_pref("signon.rememberSignons", false);
