@@ -33,6 +33,8 @@ mkdir %USERPROFILE%\.local\bin
 call:link %USERPROFILE%\.local\bin\diff-so-fancy %CD%\bin\diff-so-fancy\third_party\build_fatpack\diff-so-fancy %arg%
 mkdir %USERPROFILE%\.msdos
 call:link %USERPROFILE%\.msdos\aliases.cmd %CD%\msdos\aliases.cmd %arg%
+mkdir %USERPROFILE%\.ssh
+call:link %USERPROFILE%\.ssh\config %CD%\ssh\config %arg%
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
