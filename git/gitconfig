@@ -227,7 +227,7 @@
 [user]
     name = Morgan Courbet
     email = ping@morgan.ploki.fr
-    signingkey = 24A21B24
+    signingkey = 0x5917B5B44024C890
 # local customization
 [include]
     path = ~/.config/git/gitconfig_local
