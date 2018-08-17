@@ -38,6 +38,7 @@ call:link %USERPROFILE%\.ssh\config %CD%\ssh\config %arg%
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
+call:link %APPDATA%\gnupg\gpg-agent.conf %CD%\gnupg\gpg-agent.conf.windows %arg%
 mkdir %APPDATA%\Mozilla\Firefox\default\ %APPDATA%\Mozilla\Firefox\dev-edition-default
 :: Firefox on Windows seems to need a hard link
 call:link %APPDATA%\Mozilla\Firefox\profiles.ini %CD%\firefox\profiles.ini --hardlink
