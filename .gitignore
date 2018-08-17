@@ -8,6 +8,7 @@ fish/functions/fish_user_key_bindings.fish
 fish/functions/fzf_key_bindings.fish
 msdos/path-backup.txt
 path-backup.txt
+putty/http-proxied-connection.reg
 ssh_config_local
 ssh/config.hostnames
 texmf/tex/latex

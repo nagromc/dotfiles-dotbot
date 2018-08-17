@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\http-proxied]
+"ProxyHost"="proxy.example.org"
+; proxy type: HTTP
+"ProxyMethod"=dword:3
+; value in hexadecimal. 0x1f90 is 8080
+"ProxyPort"=dword:1f90
