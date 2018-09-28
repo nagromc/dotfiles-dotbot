@@ -18,6 +18,8 @@ addonsId="$addonsId 875902"
 addonsId="$addonsId 855336"
 # Proxy SwitchyOmega - https://addons.mozilla.org/firefox/addon/switchyomega/
 addonsId="$addonsId 848109"
+# Mailvelope - https://addons.mozilla.org/firefox/addon/mailvelope/
+addonsId="$addonsId 956348"
 
 
 # by default, we assume firefox is in PATH
