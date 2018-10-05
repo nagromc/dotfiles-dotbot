@@ -24,6 +24,7 @@ setx ChocolateyToolsLocation "%%USERPROFILE%%\choco-tools"
 :: Links
 ::==============================================================================
 
+mkdir %USERPROFILE%\.atom
 call:link %USERPROFILE%\.atom\config.cson %CD%\atom\config.cson %arg%
 call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
 call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson %arg%
@@ -35,7 +36,9 @@ mkdir %USERPROFILE%\.msdos
 call:link %USERPROFILE%\.msdos\aliases.cmd %CD%\msdos\aliases.cmd %arg%
 mkdir %USERPROFILE%\.ssh
 call:link %USERPROFILE%\.ssh\config %CD%\ssh\config %arg%
+mkdir %APPDATA%\Brackets
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
+mkdir %APPDATA%\Code\User
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
 call:link %APPDATA%\gnupg\gpg-agent.conf %CD%\gnupg\gpg-agent.conf.windows %arg%
