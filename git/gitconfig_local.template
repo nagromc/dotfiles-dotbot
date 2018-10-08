@@ -8,11 +8,18 @@
     #symlinks = false
     # Do not use filemode. Useful on Windows
     #fileMode = false
+    # On Windows, override diff-so-fancy usage
+    #pager = less --chop-long-lines
 #[credential]
     # the agent will keep the credentials during 7 days
     #helper = cache --timeout=604800
+    # use this on windows. You need `git-credential-manager-for-windows` choco package to be installed
+    #helper = manager
 #[credential "http://your-git-server"]
     #username =
+#[gpg]
+    # On Windows, use explicitely Gpg4win instead of GPG that come with Git
+    #program = "C:/Program Files (x86)/GnuPG/bin/gpg.exe"
 #[http]
     #proxy = http://username:password@proxy-hostname:proxy-port
     #sslVerify = false
