@@ -14,3 +14,4 @@ Host h s
     ExitOnForwardFailure yes
 
 Include ~/.ssh/config.hostnames
+Include ~/.ssh/config.local
