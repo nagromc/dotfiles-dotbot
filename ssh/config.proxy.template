@@ -2,6 +2,7 @@
 # Copy the file in `~/.ssh/config.proxy`, change the relevant values, and you
 # are good to go.
 
+# with OpenSSH for Cygwin
 Host host-name
     ProxyCommand /usr/bin/corkscrew proxy-hostname proxy-port %h %p ~/.ssh/auth
     IdentityFile ~/.ssh/id_rsa
@@ -9,3 +10,7 @@ Host host-name
     User username
     DynamicForward 3128
     LogLevel ERROR
+
+# with Win32-OpenSSH (https://github.com/PowerShell/Win32-OpenSSH)
+Host host-name
+	ProxyCommand "C:/Program Files/Git/mingw64/bin/connect.exe" -H proxy-hostname:proxy-port %h %p
