@@ -52,17 +52,17 @@
     fe = fetch
     fl = flow
     flb = flow bugfix
-    flbs = flow bugfix start
     flbf = flow bugfix finish
+    flbs = flow bugfix start
     flf = flow feature
-    flfs = flow feature start
     flff = flow feature finish
+    flfs = flow feature start
     flh = flow hotfix
-    flhs = flow hotfix start
     flhf = flow hotfix finish
+    flhs = flow hotfix start
     flr = flow release
-    flrs = flow release start
     flrf = flow release finish
+    flrs = flow release start
     ignore = update-index --assume-unchanged
     ignoreinv = update-index --no-assume-unchanged
     # useful for other aliases
