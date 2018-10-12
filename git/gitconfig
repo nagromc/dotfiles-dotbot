@@ -51,6 +51,9 @@
     dfws = "!sh -c 'git df --cached' -"
     fe = fetch
     fl = flow
+    flb = flow bugfix
+    flbs = flow bugfix start
+    flbf = flow bugfix finish
     flf = flow feature
     flfs = flow feature start
     flff = flow feature finish
