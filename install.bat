@@ -46,6 +46,8 @@ mkdir %APPDATA%\Mozilla\Firefox\default\ %APPDATA%\Mozilla\Firefox\dev-edition-d
 :: Firefox on Windows seems to need a hard link
 call:link %APPDATA%\Mozilla\Firefox\profiles.ini %CD%\firefox\profiles.ini --hardlink
 call:link %APPDATA%\Mozilla\Firefox\default\user.js %CD%\firefox\user.js %arg%
+mkdir %APPDATA%\Notepad++\themes
+call:link %APPDATA%\Notepad++\themes\Monokai.xml %CD%\notepad++\themes\scheme.mg.monokai.git\notepad++\Monokai.xml --link
 :: Git for Windows will look for .gitconfig in "%HOMEDRIVE%%HOMEPATH%" if `HOME` is not set. We force `HOME` to "%USERPROFILE%"
 setx HOME ~USERPROFILE~
 call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig %arg%

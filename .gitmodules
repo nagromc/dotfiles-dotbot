@@ -138,3 +138,6 @@
     path = X11/Xresources.d/solarized
     url = https://github.com/solarized/xresources.git
     ignore = all
+[submodule "notepad++\\themes\\scheme.mg.monokai.git"]
+    path = notepad++\\themes\\scheme.mg.monokai.git
+    url = https://github.com/mgcrea/scheme.mg.monokai.git
