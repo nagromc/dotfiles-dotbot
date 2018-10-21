@@ -46,6 +46,7 @@ call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
 mkdir %APPDATA%\gnupg
 call:link %APPDATA%\gnupg\gpg.conf %CD%\gnupg\gpg.conf %arg%
 call:link %APPDATA%\gnupg\gpg-agent.conf %CD%\gnupg\gpg-agent.conf.windows %arg%
+call:link %APPDATA%\gnupg\gpg.conf %CD%\gnupg\gpg.conf %arg%
 mkdir %APPDATA%\Mozilla\Firefox\default\ %APPDATA%\Mozilla\Firefox\dev-edition-default
 :: Firefox on Windows seems to need a hard link
 call:link %APPDATA%\Mozilla\Firefox\profiles.ini %CD%\firefox\profiles.ini --hardlink
