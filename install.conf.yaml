@@ -49,6 +49,7 @@
     ~/.config/keepassxc/keepassxc.ini: keepassxc/keepassxc.ini
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
+    ~/.config/tig/config: tig/tigrc
     ~/.curlrc: curl/curlrc
     ~/.dotfiles: ''
     ~/.editorconfig: editorconfig/editorconfig
@@ -68,7 +69,6 @@
     ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.ssh/config.hostnames: ssh/config.hostnames
     ~/.texmf: texmf/
-    ~/.tigrc: tig/tigrc
     ~/.tldrrc: tldr/tldrrc
     ~/.tmux: tmux/
     ~/.tmux.conf: tmux/tmux.conf
