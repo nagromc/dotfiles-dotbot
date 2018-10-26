@@ -13,6 +13,7 @@ user_pref("browser.startup.homepage", "https://start.duckduckgo.com/?k5=2&kae=d&
 user_pref("browser.startup.page", 3);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("devtools.cache.disabled", true);
+user_pref("devtools.chrome.enabled", true);
 user_pref("devtools.theme", "dark");
 user_pref("devtools.webconsole.timestampMessages", true);
 user_pref("extensions.pocket.enabled", false);
