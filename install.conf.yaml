@@ -36,9 +36,9 @@
     ~/.config/fish/aliases.fish: fish/aliases.fish
     ~/.config/fish/completions/git.fish: git/git-flow-completion/git.fish
     ~/.config/fish/config.fish: fish/config.fish
+    ~/.config/fish/exports.fish: fish/exports.fish
     ~/.config/fish/fisherman/fishfile: fish/fisherman/fishfile
     ~/.config/fish/functions: fish/functions/
-    ~/.config/fish/exports.fish: fish/exports.fish
     ~/.config/fish/path.fish: fish/path.fish
     ~/.config/fish/shell_prompt.sh: fish/shell_prompt.sh
     ~/.config/fonts: bin/fonts
@@ -54,15 +54,15 @@
     ~/.editorconfig: editorconfig/editorconfig
     ~/.eslintrc.yaml: eslint/eslintrc.yaml
     ~/.gemrc: gem/gemrc
+    ~/.gnupg/dirmngr.conf: gnupg/dirmngr.conf
     ~/.gnupg/gpg-agent.conf: gnupg/gpg-agent.conf
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
-    ~/.gnupg/dirmngr.conf: gnupg/dirmngr.conf
     ~/.gnupg/sshcontrol: gnupg/sshcontrol
     ~/.highlight/langDefs: bin/syntaxhighlight/langDefs/
     ~/.local/bin/diff-so-fancy: bin/diff-so-fancy/third_party/build_fatpack/diff-so-fancy
     ~/.local/bin/lessvim: /usr/share/vim/vim80/macros/less.sh
-    ~/.mozilla/firefox/profiles.ini: firefox/profiles.ini
     ~/.mozilla/firefox/default/user.js: firefox/user.js
+    ~/.mozilla/firefox/profiles.ini: firefox/profiles.ini
     ~/.npmrc: npm/npmrc
     ~/.pdbrc: pdb/pdbrc
     ~/.ssh/authorized_keys: ssh/authorized_keys
