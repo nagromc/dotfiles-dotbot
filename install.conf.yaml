@@ -41,6 +41,7 @@
     ~/.config/fish/exports.fish: fish/exports.fish
     ~/.config/fish/path.fish: fish/path.fish
     ~/.config/fish/shell_prompt.sh: fish/shell_prompt.sh
+    ~/.config/fonts: bin/fonts
     ~/.config/git/config: git/gitconfig
     ~/.config/git/git_template: git/template/
     ~/.config/git/gitattributes_global: git/gitattributes_global
@@ -52,7 +53,6 @@
     ~/.dotfiles: ''
     ~/.editorconfig: editorconfig/editorconfig
     ~/.eslintrc.yaml: eslint/eslintrc.yaml
-    ~/.fonts: bin/fonts
     ~/.gemrc: gem/gemrc
     ~/.gnupg/gpg-agent.conf: gnupg/gpg-agent.conf
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
