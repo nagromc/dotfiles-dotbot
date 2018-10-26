@@ -76,7 +76,7 @@
     ~/.vim/bundle: vim/bundle
     ~/.vim/ftdetect: vim/ftdetect
     ~/.vim/ftplugin: vim/ftplugin
-    ~/.vimrc: vim/vimrc
+    ~/.vim/vimrc: vim/vimrc
     ~/.wgetrc: wget/wgetrc
     ~/.Xmodmap: X11/Xmodmap
     ~/.Xresources: X11/Xresources
