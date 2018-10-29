@@ -169,6 +169,7 @@
     sti = status --ignored
     tg = tag
     tgd = tag --delete
+    tgs = tag --sign
     # unstage changes
     uns = reset HEAD
 [clean]
