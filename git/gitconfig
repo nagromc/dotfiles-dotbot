@@ -138,6 +138,8 @@
     restore = checkout --
     # to use after `git reflog'
     rewind = "!sh -c 'git reset --hard HEAD@{${1}}' -"
+    rl = reflog
+    rls = reflog show --date=iso
     rs = reset
     rsh = reset --hard
     rv = revert
