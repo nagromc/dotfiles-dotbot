@@ -142,6 +142,9 @@
     rls = reflog show --date=iso
     rs = reset
     rsh = reset --hard
+    rss = reset --soft
+    rsmi = reset --mixed
+    rsme = reset --merge
     rv = revert
     rva = revert --abort
     rvc = revert --continue
