@@ -51,6 +51,7 @@ call:link %APPDATA%\Notepad++\themes\Monokai.xml %CD%\notepad++\themes\scheme.mg
 :: Git for Windows will look for .gitconfig in "%HOMEDRIVE%%HOMEPATH%" if `HOME` is not set. We force `HOME` to "%USERPROFILE%"
 setx HOME ~USERPROFILE~
 call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig %arg%
+call:link %USERPROFILE%\.config\git\gitignore_global %CD%\git\gitignore_global %arg%
 mklink /D %USERPROFILE%\.config\git\git_template %CD%\git\template
 
 
