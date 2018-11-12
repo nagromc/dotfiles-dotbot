@@ -41,6 +41,8 @@ call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 mkdir %APPDATA%\Code\User
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
+mkdir %APPDATA%\gnupg
+call:link %APPDATA%\gnupg\gpg.conf %CD%\gnupg\gpg.conf %arg%
 call:link %APPDATA%\gnupg\gpg-agent.conf %CD%\gnupg\gpg-agent.conf.windows %arg%
 mkdir %APPDATA%\Mozilla\Firefox\default\ %APPDATA%\Mozilla\Firefox\dev-edition-default
 :: Firefox on Windows seems to need a hard link
