@@ -3,7 +3,7 @@ keystate = ""
 
 *Capslock::
   WinGetClass, classname, A
-  if (classname = "mintty")
+  if (classname in "mintty","VirtualConsoleClass","ConsoleWindowClass","PuTTY")
   {
     SetCapsLockState, Off
     Send, {ESC}
