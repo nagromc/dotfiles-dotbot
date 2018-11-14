@@ -18,6 +18,7 @@ if not [%arg%]==[--link] if not [%arg%]==[--hardlink] if not [%arg%]==[--copy]  
 ::==============================================================================
 
 setx ChocolateyToolsLocation "%%USERPROFILE%%\choco-tools"
+setx LC_ALL "C.UTF-8"
 
 
 ::==============================================================================
