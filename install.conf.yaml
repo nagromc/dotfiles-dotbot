@@ -93,3 +93,4 @@
     - ["sh gnupg/fix-socket-gpg-location.sh"]
     - ["sh -c 'curl --output - https://keybase.io/mgn/pgp_keys.asc | gpg --import'", Importing my own public key]
     - ["chmod go-rwx ~/.gnupg/", Fix ~/.gnupg permissions]
+    - ["sh firefox/install-addons-prefs.sh", Install Firefox addon preferences]
