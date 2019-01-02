@@ -16,10 +16,14 @@ addonsId="$addonsId 941867"
 addonsId="$addonsId 875902"
 # Mailvelope - https://addons.mozilla.org/firefox/addon/mailvelope/
 addonsId="$addonsId 956348"
+# Markdown Here - https://addons.mozilla.org/firefox/addon/markdown-here/
+addonsId="$addonsId 654719"
 # Privacy Badger - https://addons.mozilla.org/firefox/addon/privacy-badger17/
 addonsId="$addonsId 855336"
 # Proxy SwitchyOmega - https://addons.mozilla.org/firefox/addon/switchyomega/
 addonsId="$addonsId 848109"
+# Url to QrCode - https://addons.mozilla.org/firefox/addon/url-to-qrcode/
+addonsId="$addonsId 796807"
 
 
 # by default, we assume firefox is in PATH
