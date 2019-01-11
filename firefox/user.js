@@ -25,6 +25,7 @@ user_pref("network.cookie.thirdparty.sessionOnly", true);
 user_pref("network.http.referer.trimmingPolicy", 1);
 user_pref("network.http.referer.XOriginPolicy", 2);
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
+// 2 for login.aliexpress.com
 user_pref("network.http.sendRefererHeader", 1);
 user_pref("network.http.sendSecureXSiteReferrer", false);
 user_pref("privacy.donottrackheader.enabled", true);
