@@ -1,5 +1,9 @@
 # This is a template for the most common options to change in a ~/.config/git/gitconfig_local file.
 # To use this template, just copy the file to ~/.config/git/gitconfig_local and uncomment the desired options.
+
+# On Windows, make sure to use slashes instead of backslashes
+#[includeIf "gitdir:/path/to/work/repositories/"]
+#    path = /work/specific/path/work.gitconfig
 #[commit]
     #gpgSign = false
 #[core]
