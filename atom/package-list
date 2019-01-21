@@ -1,5 +1,4 @@
 atom-beautify
-atom-ide-ui
 atom-language-rust
 color-picker
 editorconfig
@@ -11,7 +10,6 @@ git-plus
 git-time-machine
 highlight-line
 highlight-selected
-ide-java
 language-autohotkey2
 language-batchfile
 language-crontab
