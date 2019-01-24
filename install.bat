@@ -40,6 +40,7 @@ call:link %USERPROFILE%\.ssh\config %CD%\ssh\config %arg%
 mkdir %APPDATA%\Brackets
 call:link %APPDATA%\Brackets\brackets.json %CD%\brackets\brackets.json %arg%
 mkdir %APPDATA%\Code\User
+call:link %APPDATA%\Code\User\keybindings.json %CD%\code\keybindings.json %arg%
 call:link %APPDATA%\Code\User\settings.json %CD%\code\settings.json %arg%
 call:link %USERPROFILE%\.editorconfig %CD%\editorconfig\editorconfig %arg%
 mkdir %APPDATA%\gnupg
