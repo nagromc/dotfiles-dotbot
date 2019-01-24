@@ -3,6 +3,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontSize": 12,
   "editor.renderWhitespace": "boundary",
+  "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "telemetry.enableTelemetry": false,
