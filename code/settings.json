@@ -1,8 +1,11 @@
 {
   "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.fontSize": 12,
   "editor.renderWhitespace": "boundary",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "telemetry.enableTelemetry": false,
   "workbench.colorTheme": "Monokai",
-  "workbench.welcome.enabled": false
+  "workbench.welcome.enabled": false,
 }
