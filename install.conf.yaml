@@ -68,6 +68,7 @@
     ~/.mozilla/firefox/profiles.ini: firefox/profiles.ini
     ~/.npmrc: npm/npmrc
     ~/.pdbrc: pdb/pdbrc
+    ~/.profile: posix/profile
     ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.ssh/config.hostnames: ssh/config.hostnames
     ~/.texmf: texmf/
