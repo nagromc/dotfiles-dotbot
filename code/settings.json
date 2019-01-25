@@ -1,6 +1,7 @@
 {
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "DejaVu Sans Mono, 'monospace', monospace",
   "editor.fontSize": 12,
   "editor.renderWhitespace": "boundary",
   "files.insertFinalNewline": true,
