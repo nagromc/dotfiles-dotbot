@@ -137,6 +137,9 @@
     path = vim/bundle/vim-syntax-lighttpd
     url = https://github.com/glensc/vim-syntax-lighttpd.git
     ignore = all
+[submodule "X11/Xresources.d/base16-xresources"]
+    path = X11/Xresources.d/base16-xresources
+    url = https://github.com/chriskempson/base16-xresources.git
 [submodule "X11/Xresources.d/solarized"]
     path = X11/Xresources.d/solarized
     url = https://github.com/solarized/xresources.git
