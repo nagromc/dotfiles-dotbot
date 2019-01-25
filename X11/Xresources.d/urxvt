@@ -3,6 +3,13 @@ URxvt.boldFont: xft:DejaVu Sans Mono for Powerline:bold:size=8
 
 URxvt.geometry: 120x42
 
+URxvt*saveLines: 10000
+URxvt*scrollBar: true
+URxvt*scrollBar_right: true
+URxvt*scrollColor: #49483e
+URxvt*scrollBar_floating: true
+URxvt*scrollstyle: plain
+
 ! recognized Home and End keys
 URxvt.keysym.Home: \033[1~
 URxvt.keysym.End: \033[4~
