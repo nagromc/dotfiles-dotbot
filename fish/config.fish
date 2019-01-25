@@ -7,7 +7,7 @@ end
 set -e file
 
 # TMUX
-tmux attach; or tmux new
+#tmux attach; or tmux new
 
 # promptline.vim
 function fish_prompt
