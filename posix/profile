@@ -1,4 +1,4 @@
 # non-standard variable used bu i3wm
 export TERMINAL=urxvt
 xrdb ~/.Xresources
-
+xmodmap ~/.Xmodmap
