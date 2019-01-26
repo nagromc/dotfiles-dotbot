@@ -182,3 +182,5 @@ bindsym $mod+Control+Right resize grow width 5 px or 5 ppt
 bar {
     status_command i3status
 }
+
+exec_always --no-startup-id numlockx on

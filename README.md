@@ -57,7 +57,7 @@ Installation
     ```shell
     $ curl -L https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
     $ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-    $ sudo apt update && sudo apt install aspell-en aspell-fr atom autojump curl dstat dtrx exiftool fish git-flow glances gnupg2 highlight httpie hunspell-fr i3 iftop keepassxc jq ldnsutils libxml2-utils locate moreutils mtr ncdu net-tools nodejs npm parcimonie pcscd pcsc-tools progress python-dev python-pip python3-dev python3-pip rxvt-unicode-256color ruby scdaemon shellcheck silversearcher-ag tig tmux tree vim wamerican wfrench whois
+    $ sudo apt update && sudo apt install aspell-en aspell-fr atom autojump curl dstat dtrx exiftool fish git-flow glances gnupg2 highlight httpie hunspell-fr i3 iftop keepassxc jq ldnsutils libxml2-utils locate moreutils mtr ncdu net-tools nodejs npm numlockx parcimonie pcscd pcsc-tools progress python-dev python-pip python3-dev python3-pip rxvt-unicode-256color ruby scdaemon shellcheck silversearcher-ag tig tmux tree vim wamerican wfrench whois
     $ npm install -g npm && npm install -g dirty-git bower grunt grunt-cli gulp-cli tldr yarn yo
     $ git clone https://github.com/junegunn/fzf.git ~/dev/fzf && cd ~/dev/fzf && git colt && ~/dev/fzf/install
     $ pip3 install glances ipdb pre-commit pre-commit-hooks thefuck && pip3 install --upgrade pip enum34
