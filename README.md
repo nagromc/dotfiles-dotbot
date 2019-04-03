@@ -92,10 +92,16 @@ Installation
 
 Please note only a part of the dotfiles is used on Windows.
 
-Execute the script either by double-clicking on it, or running:
+Execute the `install.bat` script either by double-clicking on it, or running:
 
 ```batchfile
 install.bat
+```
+
+Execute the `install-admin.bat` script as an administator:
+
+```batchfile
+install-admin.bat
 ```
 
 ### Optional installations

@@ -31,6 +31,7 @@ call:link %USERPROFILE%\.atom\init.coffee %CD%\atom\init.coffee %arg%
 call:link %USERPROFILE%\.atom\keymap.cson %CD%\atom\keymap.cson %arg%
 call:link %USERPROFILE%\.atom\snippets.cson %CD%\atom\snippets.cson %arg%
 call:link %USERPROFILE%\.atom\styles.less %CD%\atom\styles.less %arg%
+mklink /D %USERPROFILE%\.dotfiles %CD%
 mkdir %USERPROFILE%\.local\bin
 call:link %USERPROFILE%\.local\bin\diff-so-fancy %CD%\bin\diff-so-fancy\third_party\build_fatpack\diff-so-fancy %arg%
 mkdir %USERPROFILE%\.msdos
