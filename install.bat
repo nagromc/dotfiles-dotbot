@@ -56,16 +56,16 @@ mkdir %APPDATA%\Notepad++\themes
 call:link %APPDATA%\Notepad++\themes\Monokai.xml %CD%\notepad++\themes\scheme.mg.monokai.git\notepad++\Monokai.xml --link
 :: Git for Windows will look for .gitconfig in "%HOMEDRIVE%%HOMEPATH%" if `HOME` is not set. We force `HOME` to "%USERPROFILE%"
 setx HOME ~USERPROFILE~
-call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig %arg%
-call:link %USERPROFILE%\.config\git\gitignore_global %CD%\git\gitignore_global %arg%
 mklink /D %USERPROFILE%\.config\git\git_template %CD%\git\template
 mkdir %USERPROFILE%\.config\git
+call:link %USERPROFILE%\.config\git\config %CD%\git\gitconfig %arg%
+call:link %USERPROFILE%\.config\git\gitignore_global %CD%\git\gitignore_global %arg%
 call:link %USERPROFILE%\.config\git\gitconfig_windows %CD%\git\gitconfig_windows %arg%
 
 
-echo N | copy /-Y %CD%\git\gitconfig_local.template %USERPROFILE%\.gitconfig_local
+echo N | copy /-Y %CD%\git\gitconfig_local.template %USERPROFILE%\.config\git\gitconfig_local
 echo. & echo. & echo.
-echo Please edit "%USERPROFILE%\.gitconfig_local" to adapt Git's behaviour to Windows (especially to disable GPG signing commits).
+echo Please edit "%USERPROFILE%\.config\git\gitconfig_local" to adapt Git's behaviour to Windows (especially to disable GPG signing commits).
 echo.
 
 
