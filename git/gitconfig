@@ -267,6 +267,6 @@
     signingkey = 0x5917B5B44024C890
 [include]
     # specific on Windows
-    path = ~/.config/git/.gitconfig_windows
+    path = ~/.config/git/gitconfig_windows
     # local customization
     path = ~/.config/git/gitconfig_local

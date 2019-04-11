@@ -60,7 +60,7 @@ call:link %USERPROFILE%\.gitconfig %CD%\git\gitconfig %arg%
 call:link %USERPROFILE%\.config\git\gitignore_global %CD%\git\gitignore_global %arg%
 mklink /D %USERPROFILE%\.config\git\git_template %CD%\git\template
 mkdir %USERPROFILE%\.config\git
-call:link %USERPROFILE%\.config\git\.gitconfig_windows %CD%\git\gitconfig_windows %arg%
+call:link %USERPROFILE%\.config\git\gitconfig_windows %CD%\git\gitconfig_windows %arg%
 
 
 echo N | copy /-Y %CD%\git\gitconfig_local.template %USERPROFILE%\.gitconfig_local
