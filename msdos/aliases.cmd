@@ -1,6 +1,7 @@
 @echo off
 
 doskey cd=cd /d $*
+doskey envvar="C:\Windows\system32\rundll32.exe" sysdm.cpl,EditEnvironmentVariables
 doskey g=git $*
 doskey gpgcs=gpg --card-status
 doskey ls=dir /b $*
