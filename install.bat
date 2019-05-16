@@ -75,6 +75,7 @@ echo.
 
 reg import "%CD%\putty\default-settings.reg"
 reg import "%CD%\msdos\install-aliases.reg"
+reg import "%CD%\windows\prefs.reg"
 call msdos/add-to-path.cmd %%%%USERPROFILE%%%%\.local\bin
 
 
