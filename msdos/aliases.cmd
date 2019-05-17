@@ -1,5 +1,7 @@
 @echo off
 
+doskey base64enc=certutil -f -encode $1 %TEMP%\tmp.b64 ^&^& findstr /v /c:----- %TEMP%\tmp.b64 ^> $1.b64
+doskey base64dec=certutil -decode $1 $1.bin
 doskey cd=cd /d $*
 doskey d=docker $*
 doskey dcp=docker-compose $*
