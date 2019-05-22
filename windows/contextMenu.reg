@@ -1,0 +1,70 @@
+Windows Registry Editor Version 5.00
+
+; ===== VS Code =====
+
+; Open files
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with VS Code]
+@="Edit with VS Code (Scoop)"
+"Icon"="C:\\Users\\mcourbet\\scoop\\apps\\vscode\\current\\Code.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with VS Code\command]
+@="\"C:\\Users\\mcourbet\\scoop\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+; This will make it appear when you right click ON a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\vscode]
+@="Open Folder as VS Code Project (Scoop)"
+"Icon"="\"C:\\Users\\mcourbet\\scoop\\apps\\vscode\\current\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\vscode\command]
+@="\"C:\\Users\\mcourbet\\scoop\\apps\\vscode\\current\\Code.exe\" \"%1\""
+
+; This will make it appear when you right click INSIDE a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\vscode]
+@="Open Folder as VS Code Project (Scoop)"
+"Icon"="\"C:\\Users\\mcourbet\\scoop\\apps\\vscode\\current\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\vscode\command]
+@="\"C:\\Users\\mcourbet\\scoop\\apps\\vscode\\current\\Code.exe\" \"%V\""
+
+
+
+; ===== Notepad++ ======
+
+; Open files
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with Notepad++]
+@="Edit with Notepad++ (Scoop)"
+"Icon"="C:\\Users\\mcourbet\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with Notepad++\command]
+@="\"C:\\Users\\mcourbet\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\""
+
+
+
+; ===== RapidCRC-unicode ======
+
+; Open any files
+[HKEY_CURRENT_USER\Software\Classes\*\shell\rapidcrc]
+@="Open with RapidCRC"
+"Icon"="C:\\Users\\mcourbet\\.local\\bin\\RapidCRC.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\rapidcrc\command]
+@="\"C:\\Users\\mcourbet\\.local\\bin\\RapidCRC.exe\" \"%1\""
+
+; This will make it appear when you right click ON a folder
+; The "Icon" line can be removed if you don't want the icon to appear
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\rapidcrc]
+@="Open with RapidCRC"
+"Icon"="\"C:\\Users\\mcourbet\\.local\\bin\\RapidCRC.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\rapidcrc\command]
+@="\"C:\\Users\\mcourbet\\.local\\bin\\RapidCRC.exe\" \"%1\""
+
+; Open .md5 files
+[HKEY_CURRENT_USER\Software\Classes\.md5\shell\rapidcrc]
+@="Open with RapidCRC"
+"Icon"="C:\\Users\\mcourbet\\.local\\bin\\RapidCRC.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\.md5\shell\rapidcrc\command]
+@="\"C:\\Users\\mcourbet\\.local\\bin\\RapidCRC.exe\" \"%1\""
