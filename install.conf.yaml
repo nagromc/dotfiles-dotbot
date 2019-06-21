@@ -51,6 +51,7 @@
     ~/.config/keepassxc/keepassxc.ini: keepassxc/keepassxc.ini
     ~/.config/mc/ini: mc/ini
     ~/.config/pip/pip.conf: pip/pip.conf
+    ~/.config/ripgrep/ripgreprc: ripgrep/ripgreprc
     ~/.config/tig/config: tig/tigrc
     ~/.curlrc: curl/curlrc
     ~/.dotfiles: ''

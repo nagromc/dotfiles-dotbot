@@ -19,6 +19,7 @@ if not [%arg%]==[--link] if not [%arg%]==[--hardlink] if not [%arg%]==[--copy]  
 
 setx ChocolateyToolsLocation "%%USERPROFILE%%\choco-tools"
 setx LC_ALL "C.UTF-8"
+setx RIPGREP_CONFIG_PATH "%%USERPROFILE%%\.config\ripgrep\ripgreprc"
 
 
 ::==============================================================================
@@ -63,6 +64,8 @@ mkdir %USERPROFILE%\.config\git
 call:link %USERPROFILE%\.config\git\config %CD%\git\gitconfig %arg%
 call:link %USERPROFILE%\.config\git\gitignore_global %CD%\git\gitignore_global %arg%
 call:link %USERPROFILE%\.config\git\gitconfig_windows %CD%\git\gitconfig_windows %arg%
+mkdir %USERPROFILE%\.config\ripgrep
+call:link %USERPROFILE%\.config\ripgrep\ripgreprc %CD%\ripgrep\ripgreprc %arg%
 
 
 echo N | copy /-Y %CD%\git\gitconfig_local.template %USERPROFILE%\.config\git\gitconfig_local

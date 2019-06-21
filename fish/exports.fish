@@ -3,6 +3,7 @@ set -x fish_path ~/.config/fish/fisherman
 set -x LESS ' --RAW-CONTROL-CHARS --quit-if-one-screen --no-init --ignore-case --jump-target=5 --shift .2'
 set -x LESSOPEN "| /usr/bin/highlight --quiet --out-format=xterm256 --style=molokai %s"
 set -x PAGER less
+set -x RIPGREP_CONFIG_PATH ~/.config/ripgrep/ripgreprc
 set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 set -x SUDO_EDITOR vim
 set -x TEXMFHOME ~/.texmf
