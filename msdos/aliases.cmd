@@ -10,4 +10,5 @@ doskey ls=dir /b $*
 doskey nsl=nslookup $*
 doskey showaliases=doskey /m
 doskey showpath=@echo %%PATH:;= ^& echo.%%
+doskey t=tig $*
 doskey x=exit
