@@ -68,6 +68,8 @@ set hidden
 " Searching {{{
 " ignore case when searching
 set ignorecase
+" case sensitive only if there is a capital letter
+set smartcase
 " search as characters are entered
 set incsearch
 " highlight all matches
