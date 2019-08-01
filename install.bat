@@ -57,6 +57,8 @@ call:link %APPDATA%\Mozilla\Firefox\profiles.ini %CD%\firefox\profiles.ini --har
 call:link %APPDATA%\Mozilla\Firefox\default\user.js %CD%\firefox\user.js %arg%
 mkdir %APPDATA%\Notepad++\themes
 call:link %APPDATA%\Notepad++\themes\Monokai.xml %CD%\notepad++\themes\scheme.mg.monokai.git\notepad++\Monokai.xml --link
+mkdir %USERPROFILE%\.config\aria2
+call:link %USERPROFILE%\.config\aria2\aria2.conf %CD%\aria2\aria2.conf %arg%
 :: Git for Windows will look for .gitconfig in "%HOMEDRIVE%%HOMEPATH%" if `HOME` is not set. We force `HOME` to "%USERPROFILE%"
 setx HOME ~USERPROFILE~
 mklink /D %USERPROFILE%\.config\git\git_template %CD%\git\template

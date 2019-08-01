@@ -33,6 +33,7 @@
     ~/.config/Brackets/brackets.json: brackets/brackets.json
     ~/.config/Code/User/keybindings.json: code/keybindings.json
     ~/.config/Code/User/settings.json: code/settings.json
+    ~/.config/aria2/aria2.conf: aria2/aria2.conf
     ~/.config/fish/abbrs.fish: fish/abbrs.fish
     ~/.config/fish/aliases.fish: fish/aliases.fish
     ~/.config/fish/completions/git.fish: git/git-flow-completion/git.fish
