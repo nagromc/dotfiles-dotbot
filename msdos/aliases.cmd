@@ -10,6 +10,7 @@ doskey envvar="C:\Windows\system32\rundll32.exe" sysdm.cpl,EditEnvironmentVariab
 doskey g=git $*
 doskey gpgcs=taskkill.exe /T /F /IM gpg-agent.exe ^& gpg --card-status
 doskey ls=dir /b $*
+doskey mkcd=mkdir $1 ^&^& cd /d $1
 doskey nsl=nslookup $*
 doskey showaliases=doskey /m
 doskey showpath=@echo %%PATH:;= ^& echo.%%
